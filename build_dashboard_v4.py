@@ -1,0 +1,795 @@
+"""Build dashboard v3 with: ROAS by Asset chart, Per-Campaign optimization,
+Pause recommendations, all filtered to Sales+Active."""
+import json
+from pathlib import Path
+
+import os
+DATA_DIR = Path(os.environ.get("OUTPUT_DIR", "."))
+analysis = json.loads((DATA_DIR / "analysis.json").read_text())
+DATA_JSON = json.dumps(analysis, ensure_ascii=False).replace("</","<\\/")
+
+APPS_SCRIPT_URL = "https://script.google.com/a/macros/larroude.com/s/AKfycbxVWmk3Ee1DBu9vUAVvIiR0HN2Vwt_L5DNqYoSwd1wnEdFn-EgZ5V5ToPAByw-bQxTX/exec"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1GLgNjLzCqNdRyhB5V8lCh5LDT2VSiVnyXUJZQ0zpUss/edit"
+
+CSS = """
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;background:#f6f5f1;color:#1a1a1a;font-size:14px;line-height:1.5;padding:24px;max-width:1400px;margin:0 auto}
+h1{font-size:24px;font-weight:600;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:18px;font-weight:600;margin:0 0 12px;letter-spacing:-.01em}
+h3{font-size:16px;font-weight:600;margin:0 0 8px}
+.muted{color:#666;font-size:13px}
+.tiny{font-size:11px;color:#777}
+.card{background:#fff;border:1px solid #e7e3d8;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.03);padding:20px}
+.section{margin-bottom:20px}
+.grid{display:grid;gap:14px}
+.cols-7{grid-template-columns:repeat(7,1fr)}.cols-8{grid-template-columns:repeat(8,1fr)}
+.cols-2{grid-template-columns:repeat(2,1fr)}
+.cols-3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:1100px){.cols-7{grid-template-columns:repeat(4,1fr)}.cols-2{grid-template-columns:1fr}.cols-3{grid-template-columns:1fr}}
+@media(max-width:700px){.cols-7{grid-template-columns:repeat(2,1fr)}}
+.kpi-label{font-size:11px;color:#777;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.kpi-value{font-size:20px;font-weight:600;font-feature-settings:"tnum"}
+.kpi-sub{font-size:11px;color:#999;margin-top:4px}
+.flex{display:flex;align-items:center;gap:8px}
+.between{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.pill{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600}
+.pill-good{background:#dcfce7;color:#166534}
+.pill-bad{background:#fee2e2;color:#991b1b}
+.pill-warn{background:#fef3c7;color:#92400e}
+.pill-info{background:#dbeafe;color:#1e40af}
+.pill-neutral{background:#f3f4f6;color:#374151}
+.pill-pareto{background:#fce7f3;color:#9d174d}
+.pill-add{background:#dbeafe;color:#1e40af}
+.pill-refresh{background:#fef3c7;color:#92400e}
+.pill-pause{background:#fee2e2;color:#991b1b}
+.tabs-nav{display:flex;gap:4px;border-bottom:2px solid #e5e7eb;margin:0 30px 20px;padding-top:8px}.tab-btn{padding:10px 20px;background:none;border:none;border-bottom:3px solid transparent;font-weight:600;font-size:14px;cursor:pointer;color:#6b7280;transition:all .2s;margin-bottom:-2px}.tab-btn:hover{color:#111}.tab-btn.active{color:#111;border-bottom-color:#111}.tab-content{display:none}.tab-content.active{display:block}.copy-grade{display:inline-block;padding:4px 10px;border-radius:6px;font-weight:700;font-size:13px;font-family:ui-monospace,monospace}.grade-Aplus,.grade-A{background:#dcfce7;color:#166534}.grade-B{background:#fef3c7;color:#854d0e}.grade-C{background:#fed7aa;color:#9a3412}.grade-D,.grade-F{background:#fee2e2;color:#991b1b}.grade-NA{background:#f3f4f6;color:#6b7280}.copy-card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin-bottom:12px}.copy-card-title{font-weight:600;font-size:13px;margin-bottom:6px}.copy-card-body{font-size:13px;color:#374151;background:#f9fafb;padding:10px;border-radius:6px;white-space:pre-wrap;max-height:100px;overflow:auto;margin-bottom:8px}.editable-copy{width:100%;min-height:60px;padding:8px;border:1px solid #d1d5db;border-radius:6px;font-size:12px;font-family:inherit;resize:vertical;margin-top:4px}.priority-select{padding:6px 10px;border:1px solid #d1d5db;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer}.priority-select.priority-High{background:#fee2e2;color:#991b1b;border-color:#fca5a5}.priority-select.priority-Medium{background:#fef3c7;color:#854d0e;border-color:#fcd34d}.priority-select.priority-Low{background:#dbeafe;color:#1e40af;border-color:#93c5fd}table{border-collapse:collapse;width:100%;font-size:13px}
+th{text-align:left;padding:8px 10px;font-weight:600;background:#f9f7f1;border-bottom:1px solid #e7e3d8;color:#666;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+td{padding:8px 10px;border-bottom:1px solid #f0ede5;vertical-align:middle}
+tr:hover td{background:#fbfaf6}
+.num{font-feature-settings:"tnum";text-align:right;white-space:nowrap}
+.thumb{width:48px;height:48px;object-fit:cover;border-radius:6px;background:#eee;flex-shrink:0;border:1px solid #e7e3d8}
+.thumb-creative{width:72px;height:72px;object-fit:cover;border-radius:8px;background:#eee;flex-shrink:0;border:1px solid #e7e3d8;display:block}
+.btn{display:inline-block;padding:7px 14px;border-radius:8px;font-size:12px;font-weight:600;border:1px solid transparent;cursor:pointer;transition:all .15s;font-family:inherit}
+.btn-primary{background:#1a1a1a;color:#fff}.btn-primary:hover{background:#000}
+.btn-secondary{background:#fff;border-color:#d4d0c4;color:#1a1a1a}.btn-secondary:hover{background:#f6f5f1}
+.btn-success{background:#16a34a;color:#fff}
+.btn-danger{background:#fff;color:#dc2626;border-color:#fecaca}
+.truncate-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rec-card{transition:all .15s;padding:18px;border-radius:14px;background:#fff;border:1px solid #e7e3d8;border-left-width:4px}
+.rec-card.kind-add{border-left-color:#3b82f6}
+.rec-card.kind-refresh{border-left-color:#f59e0b}
+.rec-card.kind-pause{border-left-color:#dc2626}
+.rec-card.approved{border-color:#22c55e;background:#f0fdf4}
+.rec-card.rejected{opacity:.4;background:#fafafa}
+.rec-card .approve-btn{background:#fff;color:#15803d;border:1px solid #86efac}
+.rec-card .approve-btn:hover{background:#dcfce7}
+.rec-card.approved .approve-btn{background:#16a34a;color:#fff;border-color:#16a34a;cursor:default}
+.rec-card.approved .reject-btn{opacity:.35}
+.rec-card .reject-btn{background:#fff;color:#dc2626;border-color:#fecaca}
+.rec-card .reject-btn:hover{background:#fef2f2}
+.rec-card.rejected .reject-btn{background:#dc2626;color:#fff;border-color:#dc2626;cursor:default}
+.rec-card.rejected .approve-btn{opacity:.35}
+.bar-row{display:grid;grid-template-columns:160px 1fr 80px 80px;align-items:center;gap:10px;margin-bottom:8px;font-size:13px}
+.bar-bar{height:18px;background:#e7e3d8;border-radius:4px;overflow:hidden}
+.bar-fill{height:100%;background:#16a34a;border-radius:4px}
+.bar-fill.asset{background:#3b82f6}
+ul.insights{margin:0;padding:0;list-style:none}
+ul.insights li{padding:8px 0;border-bottom:1px solid #f0ede5}
+ul.insights li:last-child{border-bottom:none}
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;z-index:50;padding:20px}
+.modal-bg.open{display:flex}
+.modal{background:#fff;border-radius:14px;max-width:1000px;width:100%;max-height:90vh;overflow:auto;padding:24px}
+pre.tsv{background:#f9f7f1;border:1px solid #e7e3d8;border-radius:8px;padding:14px;font-size:11px;overflow:auto;white-space:pre;font-family:ui-monospace,Menlo,Consolas,monospace;max-height:60vh}
+details>summary{cursor:pointer;list-style:none;outline:none}
+details>summary::-webkit-details-marker{display:none}
+details[open]>summary .chev{transform:rotate(90deg)}
+.chev{display:inline-block;transition:transform .15s;width:14px}
+.kv-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;font-size:12px;margin:10px 0}
+.label-text{color:#777}
+.copy-pre{background:#f9f7f1;border-radius:6px;padding:8px;font-style:italic;font-size:12px;margin:4px 0}
+.empty-msg{padding:30px;text-align:center;color:#999;font-style:italic}
+.camp-card{padding:14px;border-radius:10px;border:1px solid #e7e3d8;background:#fff}
+.camp-stat{font-size:11px;color:#777}
+.camp-bar{display:flex;align-items:center;gap:4px;margin-top:8px}
+.slot{width:18px;height:18px;border-radius:4px;border:1px solid #d4d0c4;background:#f6f5f1}
+.slot.keep{background:#16a34a;border-color:#16a34a}
+.slot.refresh{background:#f59e0b;border-color:#f59e0b}
+.slot.pause{background:#dc2626;border-color:#dc2626}
+.slot.empty{background:#fff;border-style:dashed;border-color:#9ca3af}
+"""
+
+HTML = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Larroude · Creative Performance Dashboard · US</title>
+<style>__CSS__</style>
+</head>
+<body>
+
+<header class="between section">
+  <div>
+    <h1>Larroude · Creative Performance Dashboard</h1>
+    <p class="muted">Market: <b>US</b> · Filter: Sales (OUTCOME_SALES) + Active campaigns only · Period: <b id="period">last 7 days</b></p>
+  </div>
+  <div class="flex">
+    <button class="btn btn-secondary" onclick="document.getElementById('jsonViewer').classList.toggle('hidden')">📋 Raw data</button>
+    <button class="btn btn-primary" onclick="generateAllApproved()">🚀 Generate Approved Requests</button>
+  </div>
+</header>
+
+<nav class="tabs-nav">
+  <button class="tab-btn active" data-tab="performance">Performance</button>
+  <button class="tab-btn" data-tab="copy">Copy</button>
+</nav>
+
+<div id="tab-performance" class="tab-content active">
+
+<section class="section grid cols-7" id="kpis"></section>
+
+<section class="section card">
+  <h2>🔍 Automated diagnostic</h2>
+  <ul class="insights" id="insights"></ul>
+</section>
+
+<section class="section card">
+  <h2>🏆 Top creatives (Sales · spend ≥ $50)</h2>
+  <table id="tbl-top"><thead><tr><th>Creative</th><th class="num">Spend</th><th class="num">ROAS</th><th class="num">Purchases</th></tr></thead><tbody></tbody></table>
+</section>
+
+<section class="section card">
+  <h2>🔗 Top URLs (last 7d)</h2>
+  <p class="muted" style="margin-bottom:14px"><em>Ranqueado por score: ROAS (60%) + CVR (40%). URLs agregam todos os anúncios das contas US que apontam pra elas. Mínimo $1.000 de spend.</em></p>
+  <div id="topUrlsContainer"></div>
+</section>
+
+<section class="section grid cols-2">
+  <div class="card">
+    <h2>🎯 ROAS by creative angle</h2>
+    <div id="anglesChart"></div>
+  </div>
+  <div class="card">
+    <h2>🎬 ROAS by asset format</h2>
+    <div id="assetsChart"></div>
+    <p class="tiny" style="margin-top:14px">Tip: prioritize the format with highest ROAS.</p>
+  </div>
+</section>
+
+<section class="section card">
+  <h2>👟 Top 15 products (Shopify)</h2>
+  <table id="tbl-products"><thead><tr><th>Product</th><th class="num">Revenue</th><th class="num">Units</th><th>Status</th></tr></thead><tbody></tbody></table>
+</section>
+
+<section class="section card">
+  <h2>Performance by Destination</h2>
+  <p class="muted" style="margin-bottom:14px">Ads grouped by landing-page type detected from ad names (ProductPage, Collection, HomePage and Catalog variants). Useful to compare which destination converts better.</p>
+  <table id="tbl-dest"><thead><tr>
+    <th>Destination</th><th class="num">Ads</th><th class="num">Spend</th><th class="num">Revenue</th><th class="num">Purchases</th><th class="num">CTR</th><th class="num">ROAS</th><th class="num">CPA</th><th>Grade</th>
+  </tr></thead><tbody></tbody></table>
+</section>
+
+<section class="section card">
+  <h2>📦 Per-Campaign Optimization (max 5 ads/campaign)</h2>
+  <p class="muted" style="margin-bottom:12px">Each campaign can hold up to <b>5 active creatives</b>. Below: keep / refresh / pause / open slots per campaign.</p>
+  <div id="campOpt" class="grid cols-2"></div>
+</section>
+
+<details class="section card">
+  <summary class="flex"><span class="chev">▶</span><h2 style="margin:0">📈 Performance by campaign (click to expand)</h2></summary>
+  <table id="tbl-camp" style="margin-top:14px"><thead><tr><th>Campaign</th><th class="num">Spend</th><th class="num">Revenue</th><th class="num">ROAS</th><th class="num">Purchases</th><th class="num">Ads</th></tr></thead><tbody></tbody></table>
+</details>
+
+<section class="section">
+  <div class="between" style="margin-bottom:14px">
+    <h2 style="margin:0">💡 Creative recommendations (<span id="rec-count"></span>)</h2>
+    <div class="flex">
+      <button class="btn btn-secondary" onclick="approveAll()">✓ Approve all</button>
+      <button class="btn btn-secondary" onclick="resetAll()">↻ Reset</button>
+    </div>
+  </div>
+  <p class="muted" style="margin-bottom:12px">🆕 <b class="pill pill-add">ADD</b> = new creative for product without ad · 🩹 <b class="pill pill-refresh">REFRESH</b> = replace fatigued ad · ⏸️ <b class="pill pill-pause">PAUSE</b> = stop excess ads (>6 in campaign)</p>
+  <div id="recs" class="grid cols-2"></div>
+</section>
+
+<section class="section card">
+  <h2>⏸️ Ads to pause (campaigns over 5-ad limit)</h2>
+  <p class="muted" style="margin-bottom:12px">These ads are recommended for pause to keep campaigns at the 5-ad limit. They ranked at the bottom by combined ROAS × volume.</p>
+  <table id="tbl-pause"><thead><tr><th>Ad</th><th>Campaign</th><th class="num">Spend</th><th class="num">ROAS</th><th class="num">Purchases</th><th>Action</th></tr></thead><tbody></tbody></table>
+</section>
+
+</div><!-- /tab-performance -->
+
+<div id="tab-copy" class="tab-content">
+
+<section class="section card">
+  <h2>Copy Performance by Awareness Level</h2>
+  <p class="muted" style="margin-bottom:14px">Performance grouped by copy strategy detected in ad names. Grade compares each level to the account ROAS baseline.</p>
+  <table id="tbl-copy-perf"><thead><tr>
+    <th>Copy Level</th><th class="num">Ads</th><th class="num">Spend</th><th class="num">Revenue</th><th class="num">Purchases</th><th class="num">ROAS</th><th class="num">CPA</th><th>Grade</th>
+  </tr></thead><tbody></tbody></table>
+</section>
+
+<section class="section card">
+  <h2>Active Ads &mdash; Copy &amp; Performance</h2>
+  <p class="muted" style="margin-bottom:14px">All currently running ads (top 50 by spend) with their headline, body text, and KPIs.</p>
+  <div id="copy-ads-list"></div>
+</section>
+
+</div><!-- /tab-copy -->
+
+<div class="modal-bg" id="modal">
+  <div class="modal">
+    <div class="between" style="margin-bottom:12px">
+      <h3>📋 Approved requests — ready to send</h3>
+      <button class="btn btn-secondary" onclick="closeModal()">Close</button>
+    </div>
+    <p class="muted" style="margin-bottom:14px">Send the approved rows to the <a href="__SHEET_URL__" target="_blank">Creative Request_Larroude</a> spreadsheet (US Request tab).</p>
+    <div class="flex" style="margin-bottom:14px;flex-wrap:wrap">
+      <button class="btn btn-success" id="sendBtn" onclick="sendToSheet()">📤 Send to Sheet</button>
+      <button class="btn btn-secondary" onclick="copyTSV()">📋 Copy (TSV)</button>
+      <button class="btn btn-secondary" onclick="downloadCSV()">⬇️ Download CSV</button>
+      <span id="copyOk" class="pill pill-good" style="display:none">✓ Copied!</span>
+      <span id="sendStatus" class="pill" style="display:none"></span>
+    </div>
+    <pre class="tsv" id="tsvOut"></pre>
+  </div>
+</div>
+
+<details class="section card hidden" id="jsonViewer">
+  <summary class="muted">View raw JSON analysis</summary>
+  <pre class="tsv" id="jsonContent" style="margin-top:12px"></pre>
+</details>
+
+<footer class="muted" style="text-align:center;padding:20px 0">Auto-generated · <span id="genAt"></span></footer>
+
+<script>
+const DATA = __DATA__;
+const SHEET_URL = "__SHEET_URL__";
+const APPS_SCRIPT_URL = "__APPS_SCRIPT_URL__";
+const SHEET_HEADERS = ["Channel","Asset","Asset Type","Aspect Ratio","Dimensions","File Size","Objective","Funnel","Priority","Deliver status","Products/Collections","Key Highlight","Copy Level","Copy","Creative Angle","Notes","Link to Site","Creative Links","Request Date","Delivery Date","Active in Campaigns","Campaign Status"];
+
+const fmtUSD = n => "$" + (n||0).toLocaleString("en-US",{maximumFractionDigits:0});
+const fmtUSDc = n => "$" + (n||0).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtNum = n => (n||0).toLocaleString("en-US");
+const esc = s => String(s??"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+window.imgFallback = function(el) {
+  let urls;
+  try { urls = JSON.parse(el.dataset.urls || "[]"); } catch { urls = []; }
+  if (urls.length > 0) { el.src = urls.shift(); el.dataset.urls = JSON.stringify(urls); }
+  else { el.style.background = "#f3f4f6"; el.style.borderStyle = "dashed"; el.removeAttribute("src"); el.onerror = null; }
+};
+function adImg(a, size=72) {
+  const urls = [a.creative_image_url, a.thumbnail_url, a.matched_product_image].filter(Boolean);
+  if (!urls.length) return `<div class="thumb-creative" style="width:${size}px;height:${size}px;background:#f3f4f6;border-style:dashed"></div>`;
+  const remaining = urls.slice(1).map(esc);
+  return `<img src="${esc(urls[0])}" class="thumb-creative" style="width:${size}px;height:${size}px" loading="lazy" data-urls='${esc(JSON.stringify(remaining))}' onerror="window.imgFallback(this)">`;
+}
+function prodImg(p, size=48) {
+  if (p && p.image_url) return `<img src="${esc(p.image_url)}" class="thumb" style="width:${size}px;height:${size}px" loading="lazy" onerror="this.style.background='#f3f4f6';this.style.borderStyle='dashed';this.removeAttribute('src');this.onerror=null;">`;
+  return `<div class="thumb" style="width:${size}px;height:${size}px;background:#f3f4f6;border-style:dashed"></div>`;
+}
+
+try {
+  const k = DATA.kpis;
+  const par = DATA.pareto_50pct || {};
+  const cov_n = par.n_pareto_with_ads || 0;
+  const cov_t = par.n_pareto_products || 0;
+  const cov_pct = cov_t ? (cov_n/cov_t*100).toFixed(0) : 0;
+
+  document.getElementById("kpis").innerHTML = [
+    ["Sales Spend", fmtUSD(k.spend)],
+    ["Sales Revenue", fmtUSD(k.revenue_meta)],
+    ["Sales ROAS", k.account_roas.toFixed(2)+"x"],
+    ["Purchases", fmtNum(k.purchases)],
+    ["CPA", fmtUSDc(k.cpa)],
+    ["Active Campaigns", fmtNum(k.n_campaigns_active)],
+    ["Pareto 50% Coverage", `${cov_n}/${cov_t}`, `${cov_pct}% of top products have ad`]
+  ].map(([l,v,sub])=>`<div class="card"><div class="kpi-label">${l}</div><div class="kpi-value">${v}</div>${sub?`<div class="kpi-sub">${sub}</div>`:""}</div>`).join("");
+
+  // Insights
+  const insights=[];
+  insights.push(`<li>📌 <b>${par.n_pareto_products}</b> products generate <b>50% of revenue</b>. Only <b>${cov_n}</b> have an active ad. <b>${par.n_pareto_without_ads}</b> top-priority gaps.</li>`);
+  const ta=DATA.top_angles[0];
+  if (ta) insights.push(`<li>🎯 Highest-ROAS angle: <b>${esc(ta.angle)}</b> (${ta.roas}x in ${ta.n} ads).</li>`);
+  const topAsset = DATA.roas_by_asset[0];
+  if (topAsset) insights.push(`<li>🎬 Best asset format: <b>${esc(topAsset.asset)}</b> ROAS <b>${topAsset.roas}x</b> (${topAsset.n_ads} ads, ${fmtUSD(topAsset.spend)} spent).</li>`);
+  const totalPause = DATA.pause_recommendations.length;
+  const totalRefresh = DATA.recommendations.filter(r => r.kind==="refresh_existing").length;
+  const totalAdd = DATA.recommendations.filter(r => r.kind==="add_new_creative").length;
+  insights.push(`<li>📦 Per-campaign optimization: <b>${totalPause} ads to pause</b>, <b>${totalRefresh} to refresh</b>, <b>${totalAdd} new gap-fill creatives</b>.</li>`);
+  const bc=DATA.best_conversion_campaign;
+  if (bc) insights.push(`<li>🥇 Best Sales campaign by score: <b>${esc(bc.campaign_name)}</b> — ROAS <b>${bc.roas}x</b> with <b>${bc.purchases} purchases</b>.</li>`);
+  document.getElementById("insights").innerHTML = insights.join("");
+
+  // === Top destination URLs per account ===
+  function renderTopUrls() {
+    const container = document.getElementById("topUrlsContainer");
+    if (!container) return;
+    const accounts = DATA.top_destination_urls || [];
+    if (!accounts.length) { container.innerHTML = '<div class="empty-msg">No URL data</div>'; return; }
+    const html = accounts.map(acc => {
+      if (acc.error) {
+        return `<div style="margin-bottom:20px"><h3 style="font-size:14px;margin-bottom:8px">${esc(acc.label)}</h3><div class="empty-msg">Erro: ${esc(acc.error)}</div></div>`;
+      }
+      if (!acc.top || acc.top.length === 0) {
+        return `<div style="margin-bottom:20px"><h3 style="font-size:14px;margin-bottom:8px">${esc(acc.label)}</h3><div class="empty-msg">Nenhuma URL com dados suficientes</div></div>`;
+      }
+      const rows = acc.top.map((r, idx) => {
+        const path = (() => {
+          try { const u = new URL(r.url); return u.pathname + (u.search || ""); }
+          catch(e) { return r.url; }
+        })();
+        return `<tr>
+          <td class="num"><b>#${idx+1}</b></td>
+          <td><a href="${esc(r.url)}" target="_blank" style="color:#1d4ed8;font-family:monospace;font-size:12px">${esc(path)}</a></td>
+          <td class="num"><b>${r.roas.toFixed(2)}x</b></td>
+          <td class="num">${fmtUSD(r.spend)}</td>
+          <td class="num">${r.purchases}</td>
+          <td class="num">${fmtUSD(r.purchase_value)}</td>
+        </tr>`;
+      }).join("");
+      return `<table><thead><tr>
+        <th class="num">#</th><th>URL</th><th class="num">ROAS</th><th class="num">Spend</th><th class="num">Purchases</th><th class="num">Revenue</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+    }).join("");
+    container.innerHTML = html;
+  }
+  renderTopUrls();
+
+  // Top creatives
+  const topT = document.querySelector("#tbl-top tbody");
+  topT.innerHTML = DATA.top_creatives.map(a => `<tr>
+    <td><div class="flex" style="align-items:flex-start">${adImg(a, 60)}<div style="min-width:0;flex:1">
+      <div class="truncate-2 tiny" style="font-family:monospace;font-size:11px">${esc(a.ad_name)}</div>
+      ${a.matched_product_title?`<div class="tiny" style="color:#374151;margin-top:2px">${esc(a.matched_product_title)}</div>`:""}
+    </div></div></td>
+    <td class="num">${fmtUSD(a.spend)}</td>
+    <td class="num"><span class="pill ${a.roas>=3?'pill-good':a.roas>=2?'pill-warn':'pill-bad'}">${a.roas.toFixed(2)}x</span></td>
+    <td class="num">${a.purchases}</td>
+  </tr>`).join("") || `<tr><td colspan="4" class="empty-msg">No data</td></tr>`;
+
+  // Angles bar chart
+  const angles = DATA.top_angles.filter(a => a.spend >= 500 && a.n >= 2);
+  const maxR = Math.max(...angles.map(a => a.roas), 1);
+  document.getElementById("anglesChart").innerHTML = angles.map(a => `
+    <div class="bar-row"><div><b>${esc(a.angle)}</b> <span class="tiny">(${a.n} ads)</span></div>
+    <div class="bar-bar"><div class="bar-fill" style="width:${(a.roas/maxR*100).toFixed(0)}%"></div></div>
+    <div class="num"><b>${a.roas.toFixed(2)}x</b></div><div class="num tiny">${fmtUSD(a.spend)}</div></div>`).join("");
+
+  // Assets bar chart
+  const assets = (DATA.roas_by_asset||[]).filter(a => a.n_ads >= 2);
+  const maxRA = Math.max(...assets.map(a => a.roas), 1);
+  document.getElementById("assetsChart").innerHTML = assets.map(a => `
+    <div class="bar-row"><div><b>${esc(a.asset)}</b> <span class="tiny">(${a.n_ads} ads)</span></div>
+    <div class="bar-bar"><div class="bar-fill asset" style="width:${(a.roas/maxRA*100).toFixed(0)}%"></div></div>
+    <div class="num"><b>${a.roas.toFixed(2)}x</b></div><div class="num tiny">${fmtUSD(a.spend)}</div></div>`).join("");
+
+  // Top products
+  const prodT = document.querySelector("#tbl-products tbody");
+  const paretoIds = new Set((par.pareto_products||[]).map(p => p.product_id));
+  prodT.innerHTML = DATA.products_top20.slice(0,15).map(p => {
+    const adv = DATA.advertised_product_ids.includes(p.product_id);
+    const isP = paretoIds.has(p.product_id);
+    return `<tr>
+      <td><div class="flex">${prodImg(p)}<div class="tiny">${esc(p.title)}<div class="muted" style="font-size:10px">${esc(p.type||"")}${isP?' · <span class="pill pill-pareto">Pareto 50%</span>':''}</div></div></div></td>
+      <td class="num">${fmtUSD(p.total_sales)}</td>
+      <td class="num">${p.units_sold}</td>
+      <td>${adv?'<span class="pill pill-good">✓ has ad</span>':'<span class="pill pill-bad">no ad</span>'}</td>
+    </tr>`;
+  }).join("");
+
+  // Per-campaign optimization
+  const campOpt = document.getElementById("campOpt");
+  campOpt.innerHTML = DATA.campaign_optimization.map(co => {
+    const slots = [];
+    for (let i = 0; i < co.ads_keep_count; i++) slots.push('<div class="slot keep" title="Keep"></div>');
+    for (let i = 0; i < co.ads_refresh.length; i++) slots.push('<div class="slot refresh" title="Refresh"></div>');
+    for (let i = 0; i < co.ads_pause.length; i++) slots.push('<div class="slot pause" title="Pause"></div>');
+    for (let i = 0; i < co.slots_available; i++) slots.push('<div class="slot empty" title="Open slot"></div>');
+    const acctLabel = co.account_name || "—";
+    const acctPill = co.account_id === "act_929449929417505" ? "pill-warn" : "pill-info";
+    return `<div class="camp-card">
+      <div class="between" style="align-items:flex-start;gap:6px">
+        <div class="truncate-2" style="font-weight:600;font-size:13px;flex:1">${esc(co.campaign_name)}</div>
+        <span class="pill ${acctPill}" style="font-size:10px;flex-shrink:0">${esc(acctLabel)}</span>
+      </div>
+      <div class="tiny muted" style="margin-top:4px">${fmtUSD(co.spend)} · ROAS ${co.roas}x · ${co.purchases} pur · ${co.n_ads} ads</div>
+      <div class="camp-bar">${slots.join("")}</div>
+      <div class="tiny" style="margin-top:8px">
+        ${co.ads_keep_count?`<span class="pill pill-good">${co.ads_keep_count} keep</span> `:""}
+        ${co.ads_refresh.length?`<span class="pill pill-refresh">${co.ads_refresh.length} refresh</span> `:""}
+        ${co.ads_pause.length?`<span class="pill pill-pause">${co.ads_pause.length} pause</span> `:""}
+        ${co.slots_available?`<span class="pill pill-add">${co.slots_available} open slot${co.slots_available>1?"s":""}</span>`:""}
+      </div>
+    </div>`;
+  }).join("");
+
+  // All campaigns
+  const campT = document.querySelector("#tbl-camp tbody");
+  campT.innerHTML = DATA.campaigns.map(c => {
+    const cls = c.roas>=3?'pill-good':c.roas>=2?'pill-warn':c.roas>0?'pill-bad':'pill-neutral';
+    return `<tr><td><div class="truncate-2 tiny" style="max-width:340px">${esc(c.campaign_name)}</div></td>
+      <td class="num">${fmtUSD(c.spend)}</td>
+      <td class="num">${fmtUSD(c.revenue)}</td>
+      <td class="num"><span class="pill ${cls}">${c.roas}x</span></td>
+      <td class="num">${c.purchases}</td>
+      <td class="num">${c.n_ads}</td></tr>`;
+  }).join("");
+
+  // Pause table — link direct to Meta Ads Manager (manual pause)
+  const pauseT = document.querySelector("#tbl-pause tbody");
+  pauseT.innerHTML = DATA.pause_recommendations.map(r => {
+    const ad = r.underperforming_ad;
+    const acctRaw = (ad.account_id || "").replace("act_","");
+    const adManagerUrl = acctRaw && ad.ad_id
+      ? `https://adsmanager.facebook.com/adsmanager/manage/ads?act=${acctRaw}&selected_ad_ids=${ad.ad_id}`
+      : null;
+    return `<tr>
+      <td><div class="flex" style="align-items:flex-start">${adImg(ad, 48)}<div class="truncate-2 tiny" style="max-width:300px">${esc(ad.ad_name)}</div></div></td>
+      <td><div class="truncate-2 tiny muted" style="max-width:240px">${esc(r.campaign_target)}</div></td>
+      <td class="num">${fmtUSD(ad.spend)}</td>
+      <td class="num"><span class="pill pill-bad">${ad.roas.toFixed(2)}x</span></td>
+      <td class="num">${ad.purchases}</td>
+      <td>${adManagerUrl ? `<a href="${adManagerUrl}" target="_blank" class="btn btn-secondary" style="padding:6px 10px;font-size:11px;text-decoration:none;display:inline-flex;align-items:center;gap:4px">⏸️ Pause in Meta ↗</a>` : `<span class="tiny muted">—</span>`}</td>
+    </tr>`;
+  }).join("") || `<tr><td colspan="6" class="empty-msg">No pause recommendations</td></tr>`;
+
+  // Recommendations cards with persistent state via localStorage
+  // State shape: { state: "pending"|"approved"|"rejected"|"approved_sent", ts: ISO_timestamp, product_id: "..." }
+  const STORAGE_KEY = "recsState_v2";
+  const REJECT_TTL_MS = 5 * 24 * 3600 * 1000;     // 5 days for rejected
+  const SENT_TTL_MS   = 20 * 60 * 1000;            // 20 min after Send to Sheet
+  function loadStored() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); }
+    catch(e) { return {}; }
+  }
+  function saveStored(o) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(o)); } catch(e) {}
+  }
+  function isRejectedAndExcluded(rid, stored, advertisedSet) {
+    const e = stored[rid];
+    if (!e || e.state !== "rejected") return false;
+    const ageMs = Date.now() - new Date(e.ts).getTime();
+    if (ageMs >= REJECT_TTL_MS) {
+      // 5 days passed — only re-show if product still NOT advertised
+      if (e.product_id && advertisedSet.has(String(e.product_id))) {
+        return true; // still hide because product already has an active ad
+      }
+      // Expired the discard window AND no ad — release it
+      delete stored[rid];
+      saveStored(stored);
+      return false;
+    }
+    return true; // within 5-day window — hide
+  }
+  function isSentAndExpired(rid, stored) {
+    const e = stored[rid];
+    if (!e || e.state !== "approved_sent") return false;
+    const ageMs = Date.now() - new Date(e.ts).getTime();
+    return ageMs >= SENT_TTL_MS;
+  }
+  const stored = loadStored();
+  const advertisedSet = new Set((DATA.advertised_product_ids || []).map(String));
+  // Filter recommendations: skip rejected (within window) and skip approved_sent that expired
+  DATA.recommendations = DATA.recommendations.filter(r => {
+    if (isRejectedAndExcluded(r.rec_id, stored, advertisedSet)) return false;
+    if (isSentAndExpired(r.rec_id, stored))                    return false;
+    return true;
+  });
+  // Initialize in-memory state from storage
+  const recsState = {};
+  DATA.recommendations.forEach(r => {
+    const e = stored[r.rec_id];
+    recsState[r.rec_id] = (e && e.state) ? e.state : "pending";
+  });
+  function recCard(r) {
+    const isAdd = r.kind === "add_new_creative";
+    const isRefresh = r.kind === "refresh_existing";
+    const klass = isAdd ? "kind-add" : isRefresh ? "kind-refresh" : "kind-pause";
+    const badge = isAdd ? '🆕 ADD — new creative' : isRefresh ? '🩹 REFRESH — replace fatigued' : '⏸️ PAUSE';
+    const badgeColor = isAdd ? "color:#1d4ed8" : isRefresh ? "color:#b45309" : "color:#991b1b";
+    const p = r.product || {};
+    return `
+    <div class="rec-card ${klass}" id="rec-${esc(r.rec_id)}">
+      <div class="between" style="align-items:flex-start">
+        <div class="flex" style="align-items:flex-start">
+          ${prodImg(p, 72)}
+          <div>
+            <div class="tiny" style="font-weight:600;text-transform:uppercase;letter-spacing:.04em;${badgeColor}">${badge}</div>
+            <div style="font-weight:600;font-size:14px;margin-top:4px">${esc(p.title || r.underperforming_ad?.ad_name || "—")}</div>
+            ${p.total_sales?`<div class="tiny muted" style="margin-top:4px">${fmtUSD(p.total_sales)} · ${p.units_sold} units · ${esc(p.type||"")}</div>`:""}
+          </div>
+        </div>
+        <div class="flex" style="flex-direction:column;flex-shrink:0">
+          <button class="btn approve-btn" onclick="setState('${esc(r.rec_id)}','approved')">✓ Approve</button>
+          <button class="btn reject-btn" onclick="setState('${esc(r.rec_id)}','rejected')">✗ Discard</button>
+        </div>
+      </div>
+      <div class="copy-pre">${esc(r.diagnostic)}</div>
+      <div class="kv-grid">
+        <div><span class="label-text">Asset:</span> <b>${esc(r.asset)}</b></div>
+        <div><span class="label-text">Objective:</span> <b>${esc(r.objective)}</b></div>
+        <div><span class="label-text">Funnel:</span> <b>${esc(r.funnel)}</b></div>
+        <div><span class="label-text">Priority:</span> <select class="priority-select priority-${esc(r.priority)}" data-rid="${esc(r.rec_id)}" onchange="this.className=\'priority-select priority-\'+this.value"><option value="High" ${r.priority===\"High\"?\"selected\":\"\"}>High</option><option value="Medium" ${r.priority===\"Medium\"?\"selected\":\"\"}>Medium</option><option value="Low" ${r.priority===\"Low\"?\"selected\":\"\"}>Low</option></select></div>
+        <div><span class="label-text">Copy Level:</span> <b>${esc(r.suggested_copy_level || r.copy_level)}</b> <span class="tiny muted">(suggested)</span></div>
+        <div><span class="label-text">Angle:</span> <b>${esc(r.creative_angle)}</b></div>
+      </div>
+      <div style="margin-bottom:6px"><span class="label-text tiny">Copy (edit before approving):</span><textarea class="editable-copy" data-rid="${esc(r.rec_id)}">${esc(r.copy||"")}</textarea></div>
+      <div class="tiny" style="margin-bottom:4px"><span class="label-text">Target campaign:</span> <b>${esc(r.campaign_target)}</b> ${(() => {
+        const k = r.campaign_target_kind;
+        if (k === "reactivate")        return '<span class="pill" style="margin-left:6px;background:#f3e8ff;color:#6b21a8">🔄 Reactivate paused</span>';
+        if (k === "new_campaign")      return '<span class="pill pill-warn" style="margin-left:6px">⚠ Create new</span>';
+        if (k === "fallback_active")   return '<span class="pill pill-neutral" style="margin-left:6px">📌 Fallback active</span>';
+        if (k === "existing_active")   return '<span class="pill pill-good" style="margin-left:6px">✓ Existing active</span>';
+        return '';
+      })()}</div>
+      <div class="tiny"><span class="label-text">Account:</span> <b>${esc(r.suggested_account_name||"Larroude US")}</b> ${r.suggested_account_id === "act_929449929417505" ? '<span class="pill pill-warn" style="margin-left:6px">📦 PRE-ORDER US</span>' : '<span class="pill pill-info" style="margin-left:6px">Larroudé US</span>'}</div>
+      ${r.underperforming_ad?`<details class="tiny" style="margin-top:10px">
+        <summary style="color:#b45309">View fatigued creative ▾</summary>
+        <div class="flex" style="margin-top:8px;align-items:flex-start">
+          ${adImg(r.underperforming_ad, 56)}
+          <div>
+            <div style="font-family:monospace;font-size:10px">${esc(r.underperforming_ad.ad_name)}</div>
+            <div class="muted" style="margin-top:4px">${fmtUSD(r.underperforming_ad.spend)} · ROAS ${r.underperforming_ad.roas}x · ${r.underperforming_ad.purchases} purchases</div>
+          </div>
+        </div>
+      </details>`:""}
+    </div>`;
+  }
+  document.getElementById("recs").innerHTML = DATA.recommendations.map(recCard).join("") || `<div class="empty-msg">No recommendations</div>`;
+  document.getElementById("rec-count").textContent = DATA.recommendations.length;
+
+  window.setState = function(rid, state) {
+    recsState[rid] = state;
+    // Persist to localStorage with timestamp + product_id (for re-check after 5 days)
+    const stored2 = loadStored();
+    if (state === "pending") {
+      delete stored2[rid];
+    } else {
+      const rec = DATA.recommendations.find(x => x.rec_id === rid);
+      stored2[rid] = {
+        state: state,
+        ts: new Date().toISOString(),
+        product_id: rec?.product?.product_id || rec?.product?.id || ""
+      };
+    }
+    saveStored(stored2);
+    const c = document.getElementById("rec-"+rid);
+    if (!c) return;
+    c.classList.remove("approved","rejected");
+    const ab = c.querySelector(".approve-btn"), rb = c.querySelector(".reject-btn");
+    if (state === "approved") { c.classList.add("approved"); if(ab) ab.textContent = "✓ Approved"; if(rb) rb.textContent = "✗ Discard"; }
+    else if (state === "rejected") { c.classList.add("rejected"); if(ab) ab.textContent = "✓ Approve"; if(rb) rb.textContent = "✗ Discarded"; }
+    else { if(ab) ab.textContent = "✓ Approve"; if(rb) rb.textContent = "✗ Discard"; }
+  };
+  window.approveAll = () => DATA.recommendations.forEach(r => setState(r.rec_id,"approved"));
+  window.resetAll  = () => DATA.recommendations.forEach(r => setState(r.rec_id,"pending"));
+
+  function buildRow(r) {
+    const today = new Date(), pad = n => String(n).padStart(2,"0");
+    const card = document.getElementById("rec-"+r.rec_id);
+    const prioritySel = card ? card.querySelector(".priority-select") : null;
+    const copyTa = card ? card.querySelector(".editable-copy") : null;
+    const livePriority = prioritySel ? prioritySel.value : (r.priority||"");
+    const liveCopy = copyTa ? copyTa.value : (r.copy||"");
+    const liveCopyLevel = r.suggested_copy_level || r.copy_level || "";
+    // Map values to sheet's allowed data validation values; non-matching → ""
+    const objRaw = String(r.objective || "").toLowerCase();
+    const objMapped = /aware|brand|reach|engage|traffic|video|message/.test(objRaw) ? "Branding" : "Conversion";
+    const validHighlights = ["30% Off","40% Off","50% Off","Ready to Ship","New","Pre-Order","editorial","Best Seller","Coupon Code"];
+    const kh = String(r.key_highlight||"");
+    const khMapped = validHighlights.includes(kh) ? kh : "";
+    const validCopyLevels = ["Problem Aware","Solution Aware","Product Aware","Most Aware","No Copy"];
+    const clMapped = validCopyLevels.includes(liveCopyLevel) ? liveCopyLevel : "";
+    const validPriority = ["High","Medium","Low"];
+    const prMapped = validPriority.includes(livePriority) ? livePriority : "";
+    const validFunnel = ["TOF","MOF","BOF"];
+    const funMapped = validFunnel.includes(r.funnel) ? r.funnel : "";
+    return ["Meta Ads", r.asset, r.asset_type, r.aspect_ratio, r.dimensions, r.file_size,
+      objMapped, funMapped, prMapped, "",
+      r.product?.title || r.underperforming_ad?.ad_name || "",
+      khMapped, clMapped, liveCopy, r.creative_angle||"",
+      "", r.link_to_site||"", "",
+      `${pad(today.getDate())}/${pad(today.getMonth()+1)}/${today.getFullYear()}`,
+      "", r.campaign_target||"", ""];
+  }
+  const escTSV = v => String(v??"").replace(/\\t/g," ").replace(/\\r?\\n/g," | ");
+
+  window.generateAllApproved = function() {
+    // Filter to ADD + REFRESH (PAUSE doesn't go to spreadsheet)
+    const approved = DATA.recommendations.filter(r => recsState[r.rec_id]==="approved" && r.kind !== "pause_creative");
+    if (!approved.length) { alert("No approved recommendations to generate."); return; }
+    const rows = approved.map(buildRow);
+    const tsv = rows.map(r => r.map(escTSV).join("\\t")).join("\\n");
+    document.getElementById("tsvOut").textContent = tsv;
+    window._tsv = tsv;
+    window._csv = "\\uFEFF" + [SHEET_HEADERS, ...rows].map(r => r.map(c=>`"${String(c??"").replace(/"/g,'""')}"`).join(",")).join("\\n");
+    document.getElementById("modal").classList.add("open");
+  };
+  window.closeModal = () => document.getElementById("modal").classList.remove("open");
+  window.copyTSV = () => navigator.clipboard.writeText(window._tsv).then(()=>{
+    const o=document.getElementById("copyOk"); o.style.display="inline-flex"; setTimeout(()=>o.style.display="none",2000);
+  });
+  window.downloadCSV = () => {
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(new Blob([window._csv],{type:"text/csv;charset=utf-8"}));
+    a.download="creative_request_larroude_"+DATA.generated_at+".csv";
+    a.click();
+  };
+  window.pauseAdNow = function(btn) {
+    const adId = btn.getAttribute("data-ad-id");
+    const adName = btn.getAttribute("data-ad-name");
+    if (!adId) return;
+    if (!confirm(`Pausar este anuncio no Meta?\n\n${adName}\n\nEsta acao e irreversivel pelo dashboard — voce vai precisar reativar no Meta Ads Manager.`)) return;
+    btn.disabled = true;
+    btn.textContent = "Pausing...";
+    btn.style.opacity = "0.6";
+    // Apps Script /a/macros/larroude.com/ requires SameSite cookies — use popup (top-level navigation) instead of iframe
+    const popup = window.open("about:blank", "pauseWin_"+Date.now(), "width=480,height=360,left=200,top=200");
+    if (!popup) { alert("Permita popups deste site para usar Pause"); btn.disabled=false; btn.textContent="⏸️ Pause"; btn.style.opacity="1"; return; }
+    const form = popup.document.createElement("form");
+    form.action = APPS_SCRIPT_URL; form.method = "POST";
+    form.enctype = "application/x-www-form-urlencoded";
+    const inp = popup.document.createElement("input");
+    inp.type = "hidden"; inp.name = "payload";
+    inp.value = JSON.stringify({ action: "pause_ad", ad_id: adId });
+    form.appendChild(inp); popup.document.body.appendChild(form);
+    form.submit();
+    setTimeout(()=>{ try{ popup.close(); }catch(e){} }, 4000);
+    // Wait 3s for Apps Script + Meta API, then mark as paused
+    setTimeout(() => {
+      btn.textContent = "Paused";
+      btn.style.background = "#dcfce7";
+      btn.style.borderColor = "#86efac";
+      btn.style.color = "#166534";
+      btn.style.opacity = "1";
+      // Remove row from DOM after 2s
+      setTimeout(() => {
+        const row = document.getElementById("pause-row-" + adId);
+        if (row) row.style.opacity = "0.4";
+      }, 1500);
+    }, 3000);
+  };
+
+  window.sendToSheet = () => {
+    const approved = DATA.recommendations.filter(r => recsState[r.rec_id]==="approved" && r.kind !== "pause_creative");
+    if (!approved.length) { alert("No approved recommendations."); return; }
+    // Mark all approved as approved_sent (will auto-remove after 20 min unless reset)
+    const sentTs = new Date().toISOString();
+    const stored3 = loadStored();
+    approved.forEach(r => {
+      stored3[r.rec_id] = {
+        state: "approved_sent", ts: sentTs,
+        product_id: r.product?.product_id || r.product?.id || ""
+      };
+      recsState[r.rec_id] = "approved_sent";
+    });
+    saveStored(stored3);
+    // Schedule auto-removal of those cards after 20 minutes
+    setTimeout(() => {
+      approved.forEach(r => {
+        const cur = loadStored()[r.rec_id];
+        if (cur && cur.state === "approved_sent") {
+          const card = document.getElementById("rec-" + r.rec_id);
+          if (card) card.style.display = "none";
+        }
+      });
+    }, SENT_TTL_MS);
+    const rows = approved.map(buildRow);
+    const status = document.getElementById("sendStatus");
+    const btn = document.getElementById("sendBtn");
+    btn.disabled = true; btn.textContent = "Sending…";
+    status.style.display = "inline-flex";
+    status.className = "pill pill-warn";
+    status.textContent = "Sending " + rows.length + " row(s)...";
+    let iframe = document.getElementById("sendFrame");
+    if (!iframe) {
+      iframe = document.createElement("iframe");
+      iframe.name = "sendFrame"; iframe.id = "sendFrame";
+      iframe.style.display = "none"; document.body.appendChild(iframe);
+    }
+    const form = document.createElement("form");
+    form.action = APPS_SCRIPT_URL; form.method = "POST"; form.target = "sendFrame";
+    form.enctype = "application/x-www-form-urlencoded";
+    const inp = document.createElement("input");
+    inp.type = "hidden"; inp.name = "payload"; inp.value = JSON.stringify({ rows });
+    form.appendChild(inp); document.body.appendChild(form);
+    form.submit(); document.body.removeChild(form);
+    setTimeout(() => {
+      status.className = "pill pill-good";
+      status.innerHTML = "✓ Sent " + rows.length + " rows. <a href=\\"" + SHEET_URL + "\\" target=\\"_blank\\" style=\\"color:inherit;text-decoration:underline\\">Open Sheet to verify ↗</a>";
+      btn.disabled = false; btn.textContent = "📤 Send to Sheet";
+      window.open(SHEET_URL, "_blank");
+    }, 4000);
+  };
+
+  document.getElementById("genAt").textContent = "Period: " + DATA.period + " · Filter: " + DATA.filter + " · Generated: " + DATA.generated_at;
+  document.getElementById("period").textContent = "last 7 days (until " + DATA.generated_at + ")";
+
+  // === Render Destination Performance ===
+  const dp = DATA.destination_performance || {};
+  const destOrder = ["ProductPage","ProductPage_Catalog","Collection","Collection_Catalog","HomePage","Home_Catalog","Catalog","Other"];
+  const destRows = destOrder.filter(d => dp[d]).map(d => {
+    const p = dp[d];
+    const gKey = (p.grade||"NA").replace("+","plus").replace("/","");
+    return `<tr>
+      <td><b>${esc(d)}</b></td>
+      <td class="num">${p.n_ads}</td>
+      <td class="num">${fmtUSD(p.spend)}</td>
+      <td class="num">${fmtUSD(p.revenue)}</td>
+      <td class="num">${p.purchases}</td>
+      <td class="num">${p.ctr}%</td>
+      <td class="num"><b>${p.roas}x</b></td>
+      <td class="num">${p.cpa? fmtUSD(p.cpa):"—"}</td>
+      <td><span class="copy-grade grade-${gKey}">${esc(p.grade||"N/A")}</span></td>
+    </tr>`;
+  }).join("");
+  const destTbody = document.querySelector("#tbl-dest tbody");
+  if (destTbody) destTbody.innerHTML = destRows || `<tr><td colspan="9" class="empty-msg">No destination data</td></tr>`;
+
+  // === Tab switching ===
+  document.querySelectorAll(".tab-btn").forEach(b => {
+    b.addEventListener("click", () => {
+      const t = b.dataset.tab;
+      document.querySelectorAll(".tab-btn").forEach(x => x.classList.toggle("active", x === b));
+      document.querySelectorAll(".tab-content").forEach(x => x.classList.toggle("active", x.id === "tab-"+t));
+    });
+  });
+
+  // === Render Copy Performance tab ===
+  const cp = DATA.copy_performance || {};
+  const orderLevels = ["Problem Aware","Solution Aware","Product Aware","Most Aware","No Copy"];
+  const cpRows = orderLevels.filter(l => cp[l] && cp[l].n_ads > 0).map(l => {
+    const p = cp[l];
+    const gKey = (p.grade||"NA").replace("+","plus").replace("/","");
+    return `<tr>
+      <td><b>${esc(l)}</b></td>
+      <td class="num">${p.n_ads}</td>
+      <td class="num">${fmtUSD(p.spend)}</td>
+      <td class="num">${fmtUSD(p.revenue)}</td>
+      <td class="num">${p.purchases}</td>
+      <td class="num"><b>${p.roas}x</b></td>
+      <td class="num">${p.cpa? fmtUSD(p.cpa):"\u2014"}</td>
+      <td><span class="copy-grade grade-${gKey}">${esc(p.grade||"N/A")}</span></td>
+    </tr>`;
+  }).join("");
+  const cpTbody = document.querySelector("#tbl-copy-perf tbody");
+  if (cpTbody) cpTbody.innerHTML = cpRows || `<tr><td colspan="8" class="empty-msg">No copy data available</td></tr>`;
+
+  // Render copy ads list
+  const copyAds = DATA.copy_ads || [];
+  const adsHtml = copyAds.map((a, idx) => `
+    <div class="copy-card">
+      <div class="flex" style="align-items:flex-start;gap:14px">
+        ${a.thumbnail_url? `<img src="${esc(a.thumbnail_url)}" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0">`:`<div style="width:80px;height:80px;background:#f3f4f6;border-radius:8px;flex-shrink:0"></div>`}
+        <div style="flex:1;min-width:0">
+          <div class="between" style="margin-bottom:6px">
+            <div>
+              <span class="pill" style="background:#111;color:#fff;font-weight:700;margin-right:6px">#${idx+1}</span><span class="pill pill-info">${esc(a.copy_level||"No Copy")}</span>
+              <span class="tiny muted" style="margin-left:8px">${esc(a.campaign_name||"")}</span>
+            </div>
+            <div class="tiny"><b>${a.roas}x ROAS</b> &middot; ${a.purchases} purchases &middot; ${fmtUSD(a.spend)}</div>
+          </div>
+          <div class="copy-card-title">${esc(a.creative_title||"(no title)")}</div>
+          <div class="copy-card-body">${esc(a.creative_body||"(no body text)")}</div>
+          <div class="tiny muted" style="margin-top:6px;font-family:monospace">${esc(a.ad_name||"")}</div>
+        </div>
+      </div>
+    </div>
+  `).join("");
+  document.getElementById("copy-ads-list").innerHTML = adsHtml || `<div class="empty-msg">No active ads</div>`;
+  document.getElementById("jsonContent").textContent = JSON.stringify(DATA, null, 2);
+} catch (err) {
+  document.body.innerHTML = '<div style="padding:30px;background:#fee;color:#900;font-family:monospace;font-size:13px"><h2>Render error</h2><pre>'+(err.stack||err.message||err)+'</pre></div>';
+}
+</script>
+</body>
+</html>
+"""
+
+html = HTML.replace("__CSS__", CSS).replace("__DATA__", DATA_JSON).replace("__APPS_SCRIPT_URL__", APPS_SCRIPT_URL).replace("__SHEET_URL__", SHEET_URL)
+out = DATA_DIR / "dashboard.html"
+out.write_text(html, encoding="utf-8")
+print(f"Wrote: {out} ({out.stat().st_size:,} bytes)")
