@@ -6,17 +6,17 @@
   "pause_criteria": "spend≥$100 AND ROAS<2.0 AND days_active>=3",
   "min_cluster_for_new_campaign": 3,
   "kpis": {
-    "spend": 145230.43,
+    "spend": 145230.57,
     "revenue_meta": 471525.24,
     "purchases": 1480,
-    "impressions": 1933293,
+    "impressions": 1933295,
     "account_roas": 3.25,
     "cpa": 98.13,
     "ctr": 0.0,
     "clicks": 0,
-    "shop_revenue": 1002113.74,
-    "shop_units": 5917,
-    "n_products_sold": 442,
+    "shop_revenue": 1002263.72,
+    "shop_units": 5921,
+    "n_products_sold": 441,
     "n_ads_active": 22,
     "n_campaigns_active": 8
   },
@@ -33,7 +33,7 @@
       "ad_name": "Catalog_All_Video",
       "ad_status": "ACTIVE",
       "destination_url": "",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/699110913_1556220889433880_4438166100028362489_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=jXrHR1vNbYcQ7kNvwGFV1jp&_nc_oc=AdpguFy6s3ojPr3f6lBDtwx9RW4jpkIpyDVAbpgkHKIWYuI_MT0SbjH3KitlEZPAd_I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQELjkTDBThjfaorfy-4Sv8HDROblLqcy8BnaP3Sh6Zi5ZjPvwV--ifNnDq7ZpHQ9DT8kO9NsfaRQg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a86139&_nc_sid=58080a&oh=00_Af6SHfkb8gZJFv_xNa2_iexrztuas-wdK0UGb0hM-Gentw&oe=6A1290B4",
+      "thumbnail_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t15.5256-10/699110913_1556220889433880_4438166100028362489_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=jXrHR1vNbYcQ7kNvwGlBPqn&_nc_oc=AdoZmIboaLB8Q665BV6ticzJZi7UXC_R9Z61pJhQL8E53eoxhAU5IChLPD3q7KvMJKU&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH_q1DmqS6XeRqHjgQ4H6JmwOy3GHfb7FvpzxTDXEfPKBQKHjhXgbjYiVq94854GvooXSLtgqU1XQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a86139&_nc_sid=58080a&oh=00_Af5bycfvNpxguJ5HEIRKh-G7JNLKcXhUDAmbfQ9yowQfDg&oe=6A1290B4",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "Larroude",
@@ -77,7 +77,7 @@
       "ad_name": "L277-FIOR-BLAC-2761_Static_ProductPage_No-Copy_Product-focused_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/leather-fiore-sandal-black",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/689042507_947176764756889_8286223775503571514_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=hX8onPEnTvUQ7kNvwFYXOrw&_nc_oc=AdrqLuKiEsOsvU9et9-xLEHMBCY_IZ3VO9EIu7otddU0EEaMEcPEMhVG2-xB5ejFvJg&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFsROozwUOx_m55kPBDbGT_qjWoTEGXqkN6clqWAe4u4MokPVu2UK6bIWE8wGoIX2caTIYdHNc9dw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6J2YpM0A4UFw20L2ItO0LqqPj7xxhSNukrOFTwapIOhQ&oe=6A129C37",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t45.1600-4/689042507_947176764756889_8286223775503571514_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=hX8onPEnTvUQ7kNvwFSo5QK&_nc_oc=AdpY2x_bZ_xawjrd-3Le8YMnC0GPSQNmisQoise6lGFSDFBXXoFMWuvzrqW7pYF202U&_nc_zt=1&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQE7iXb-wX0qz6EQHq8RdaGr4zr5ni56kMZGpD6ZBioNztPLz2EUYE61Fbw486F-DvTGui5Xlqamag&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6ljTJ92E3ecsyxmmKLhOqxVqsGTzbRbg17qhrJ0QFfyA&oe=6A129C37",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "30% Off Fiore | Larroudé",
@@ -121,7 +121,7 @@
       "ad_name": "310897770662_Catalog_Collection_No-Copy_Product-focused_V01",
       "ad_status": "ACTIVE",
       "destination_url": "",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwGEC65M&_nc_oc=AdpsIZdT3_ijs70nk2peNK7nXbAMjWvGKiMTukZLmdwYAuEPI1bagBdsh7pYBb5a4zA&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFDqX189kC0JjYMIj8gVAH_mOTrSLuFVVHrgYkUGiaLqL6T3rd3ECo6PLWAJP3JhpzFUYG8mJNIPA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af7ATiC3U161nqr9AWMLiQlQaCreXeDddJSLZ3JBWFnK1Q&oe=6A129684",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwEzC-LN&_nc_oc=AdrYzx6tY2XX_2EsIRZzgotUu5NoBkqI6QkkL24PDiBfAMvsN-ihpOAUsr55egqTmeA&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFMUUhOXL1-4vQ86ZmXxpa81VTtiVux8Aoj3vExW1sf9QdvcUuQIQSkHoLAJmUO_p0uA14r9hL6_A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af6-OQUcLyLU6RebTIZaBQSaK7iAbsidMTTeU9ddjuPGag&oe=6A129684",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "{{product.name}}",
@@ -165,7 +165,7 @@
       "ad_name": "Catalog_All_Carousel",
       "ad_status": "ACTIVE",
       "destination_url": "",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwGEC65M&_nc_oc=AdpsIZdT3_ijs70nk2peNK7nXbAMjWvGKiMTukZLmdwYAuEPI1bagBdsh7pYBb5a4zA&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFuj2i5t9QKFmk-U_iLokvIHMiVl3WlvNzqcOceqCO81kso1mw-rWxV3S8FZISWUQ1FNCz--djTRg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af44Pn8ilcnSfeiMR0hgOOpsb6ic05ktQr-hwkDUi5-kYw&oe=6A129684",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwEzC-LN&_nc_oc=AdrYzx6tY2XX_2EsIRZzgotUu5NoBkqI6QkkL24PDiBfAMvsN-ihpOAUsr55egqTmeA&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFfwiYcD3gFssUpvb-W9GYHHZUQIRj9-ORYbZxICQVomVX2F568uBu6NJeH2XAWIbn-tD_3bBulbA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af7M7txCyFGFDSIq7y8_zHzmGRNhFx3Y3YgzLtXgOfuABQ&oe=6A129684",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "{{product.name}}",
@@ -174,8 +174,8 @@
       "destination": "Catalog",
       "clicks": 0,
       "ctr": 0.0,
-      "spend": 52359.41,
-      "impressions": 668159,
+      "spend": 52359.42,
+      "impressions": 668160,
       "cpc": 0.0,
       "cpm": 78.36,
       "purchases": 521,
@@ -209,7 +209,7 @@
       "ad_name": "310897770662_Static_Collection_Most-Aware_Text_V01",
       "ad_status": "ACTIVE",
       "destination_url": "",
-      "thumbnail_url": "https://external-sjc6-1.xx.fbcdn.net/emg1/v/t13/10595538178002285351?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIw8X7a8SkmRJ4G_5P04KGHRkMb5oJxZl7wJ8Qeu_FkZyfSpWhuVQs3CCIi34qR98J6bj7alMhQbeFteVSFAnfJMEMEcdStifAi-rya6YnHcV0Mav0wshm0IVmwxkEizeeAqVr9Qk6eNgCSg-Pwwkny&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_oc=Adox2H5x8m28wfbVHvuMpI3HzmiUhaAF3YsitH6-zj8qy0eehJcemQqxkejdIhUZ6ck&ccb=13-1&oh=06_Q3-_AYbvLSN0Qm3PBXrLw4jFSR_oYjEtQ8Yu86j_TFHdQSIt&oe=6A0E8C91&_nc_sid=58080a",
+      "thumbnail_url": "https://external-fra3-1.xx.fbcdn.net/emg1/v/t13/10595538178002285351?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIw8X7a8SkmRJ4G_5P04KGHRkMb5oJxZl7wJ8Qeu_FkZyfSpWhuVQs3CCIi34qR98J6bj7alMhQbeFteVSFAnfJMEMEcdStifAi-rya6YnHcV0Mav0wshm0IVmwxkEizeeAqVr9Qk6eNgCSg-Pwwkny&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_oc=AdpYzMPeggvUCb2392pZ0jdwWo9UmOnwhV3bWpizzJ0wcL8FRs8oOLspInyYshSnebM&ccb=13-1&oh=06_Q3-_AWaEgYmZWLmCH58qZNmS3vI8Xo_mrZ9y-bmS97oADXMf&oe=6A0E8C91&_nc_sid=58080a",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "Larroude",
@@ -253,7 +253,7 @@
       "ad_name": "686901723302_Video_Collection_Product-Aware_Product-Mix_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/collections/the-fiore-sandal",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/699515417_1948940859074989_3519753113229422468_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=2xRxhhfu8zwQ7kNvwHMA9ps&_nc_oc=Adox0L3yJX_n0RT68Z4K57JVRcYYqAHFOgdWa9L10u7ReP9uxf2DksUnnlB9vsD6yp4&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFGeuZD2iHRHCIcwV1GaXp_3Teo8sraP60OfTDIjReFE9mdMNMK2LxICC6Jf3jSuy2KjY5yM6silA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4-oze4ksCtvjG7OKmvnT1Z2E649X6UgfYGc2-zO46m0g&oe=6A128259",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/699515417_1948940859074989_3519753113229422468_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=2xRxhhfu8zwQ7kNvwFAPpwU&_nc_oc=AdoiYXhApAxSKg6oqp40cWutiC1UVXIlmVb7iQDq202QdF5wjB_H3cM0EO-qa7XhghM&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQHHFPNlG3Cjf3EvMk0Whl24M3z41UQEWw9Eccpqh9EjF3YvDcJuNiQf1qvRUHfzgwLsP-6YP8yg-g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4MCON310tO9f5UaraP_s9uwQiV-29Y1O2DycBXroH-aA&oe=6A128259",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "30% Off The New Fiore Styles",
@@ -297,7 +297,7 @@
       "ad_name": "L570-VIVI-CLEA-2704_Video_ProductPage_Solution-Aware_Editorial_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/clear-vivi-wedge-mule-vinyl",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/691558507_1958926911395426_3663680840369306357_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=TpC-udaKy64Q7kNvwGdW43Y&_nc_oc=AdrL5XcfTkR--MsCYNCoVQ-AWWInfnlo7iBu5mf30_UP6PkZAbvielA-hxizoTJBmEo&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQGtnzblgkglZ8zATeBBZGb1o7Y23UXcv7lUYloHmoZQYW_tQjTOGNnA2ar3oNXh41WdJR1-6pY0YQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6FJkDTYyWN4Lidpaw48Mlr9-yor8YeLTI7Ah72tAngfA&oe=6A12798B",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/691558507_1958926911395426_3663680840369306357_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=TpC-udaKy64Q7kNvwHdMcC-&_nc_oc=AdqtRqc7I1c2IpyrtEkAO5ia8cYKg8ZjquB5zByHMPEkDOZs8AGHkA09fcjghW_eFXg&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGGphMGCmxm_LMUspPatb3MebubMumO9gQlGGwnqdUtjl5mDsL0MRiV3briZy-yi816HA4oVLIDrQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4Wm-kR9m7152g6jpuZrPgWsMybijQbhoKfP5uplDjswg&oe=6A12798B",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "30% Off Right Now | Larroudé",
@@ -306,8 +306,8 @@
       "destination": "ProductPage",
       "clicks": 0,
       "ctr": 0.0,
-      "spend": 17133.3,
-      "impressions": 224458,
+      "spend": 17133.43,
+      "impressions": 224459,
       "cpc": 0.0,
       "cpm": 76.33,
       "purchases": 146,
@@ -341,7 +341,7 @@
       "ad_name": "Catalog_All_Static",
       "ad_status": "ACTIVE",
       "destination_url": "",
-      "thumbnail_url": "https://external-sjc6-1.xx.fbcdn.net/emg1/v/t13/14321323928549118083?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL3Ax_DWpaUXg_LGjmJuXI-rrnpTNZym2_QeuMhqY2P41SJt2yXPwBDWtYtWto8ZBic3c6rlR4VU_49_21-WRpkoU3qMHwCefOWWV6wFGir4o-xCDBJFDcHqneGRCuPLj0U9rDRqarRYJrJi8g_zBeq&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_oc=AdrgzdUQSNoYv3uyevjiTyYLnCkOsxuZ9_NLU3TE5MDhSLN5lgzKsSCld1vrrdSScTg&ccb=13-1&oh=06_Q3-_Ab3kTvPQywqw7JRvgB6ywN-LWJHjhajS4rwdUUVGTuVI&oe=6A0EAC05&_nc_sid=58080a",
+      "thumbnail_url": "https://external-fra3-1.xx.fbcdn.net/emg1/v/t13/14321323928549118083?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL3Ax_DWpaUXg_LGjmJuXI-rrnpTNZym2_QeuMhqY2P41SJt2yXPwBDWtYtWto8ZBic3c6rlR4VU_49_21-WRpkoU3qMHwCefOWWV6wFGir4o-xCDBJFDcHqneGRCuPLj0U9rDRqarRYJrJi8g_zBeq&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_oc=Adq5Cc2z0HYcU1wvki9JT8WO_hAMnZ4B_9rKbOc_4M_DJljrqUxvJqf1HS3VdtMUBzg&ccb=13-1&oh=06_Q3-_ARuK51C7ETEm4lUz4Q61pyTltPl5POZx9tXtv8V5D8fi&oe=6A0EAC05&_nc_sid=58080a",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "{{product.name}}",
@@ -385,7 +385,7 @@
       "ad_name": "686901723302_Static_Collection_Product-Aware_Product-focused_V01Aware_Product-focused_5-13-26",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/collections/the-fiore-sandal",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/699800595_951856387622260_3031259750746719860_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=u_TbLWU0RegQ7kNvwEJR3kp&_nc_oc=AdoI4ct_g6kuShvuDubDzNBJKZhwHpmqXTzcq-v2rg1-3Vs54KEv52azisEc0OHxfl8&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQElx0LI9dVBwz-OF5hzdEYdH6sznjGCYFeP6VrGe8HijgZ87rozgUIefMFy5gpvQJJw9uWiqIJIDw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4bRq4YVq5urk2uXFCxKIsYYdEQtiTRrF7HA7ZdCOzJaA&oe=6A12710A",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t45.1600-4/699800595_951856387622260_3031259750746719860_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=u_TbLWU0RegQ7kNvwEM4VQQ&_nc_oc=AdopFR_N75FDLtS5wlrf4faHWw3nV4vny6796xp3C0jXMoKyWg2_-J9P-AGcshqmBLU&_nc_zt=1&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH5c8jFTaY8V0LVVoVk5aT-mVYZ3fERI00i7b3LQC4DCMQeK8ainySHGn4zct2T_fbYY_qjl-mTpw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4Ik2LeoDpMb4olBhMesGT36wzec5qioERdojpdtv1f8Q&oe=6A12710A",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "New Fiore Styles | 30% Off Pre-Order",
@@ -429,7 +429,7 @@
       "ad_name": "L471-DOLL-NATU-2461_Static_ProductPage_Product-Aware_On-foot_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/natural-dolly-low-mule-and-beige-raffia",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/684207713_941419221999310_375184059833171435_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=gAFBu_enCgUQ7kNvwF1DTgB&_nc_oc=Adrk4AtHY1_JsQ8c8VboFhw9ftQlJu0x5ZP2QMlmHNGR3jL4c47F6mkLZT6YWmr4UrU&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQGdoyl2jlHlGkmI9nVCzMXvi7yWrlYwtPL2W78Q5SVAYMTyyg9Bx6XnbOTAd8T02XESs4HsTUMizw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af66BanjroGz0SsTix0bw5FtypZ3PWsPbMZbR4VvHSsAoA&oe=6A1290F6",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t45.1600-4/684207713_941419221999310_375184059833171435_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=gAFBu_enCgUQ7kNvwFKOqVz&_nc_oc=Ado7nlUS_X_Ho1TXZjBY_AITDlI94pDjLi_38sARyAP_dRutqbo34jfT_5oMLHq6nug&_nc_zt=1&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFmKQnOUqm9j6YqQL-2X3Cjh5sLiVXcNWN2hZSEldIw86YorkROD5-d0wJwsLa1L9okZg0ZqwOk1g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af72RNEqlQqqw8rCUH50ul-UjujDnJNsp919dawMf1x7xQ&oe=6A1290F6",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "Always the Right Choice",
@@ -473,7 +473,7 @@
       "ad_name": "L471-DOLL-NATU-2461_Video_ProductPage_Product-Aware_Unboxing_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/natural-dolly-low-mule-and-beige-raffia",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/685644397_995884893448434_8900097440424031138_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=o753hlLuTagQ7kNvwEyiVDA&_nc_oc=Adr1oT61ixgi1HUor3mXkoOJ8PowIlsLk0wT0nq8iYvG1aN9uaEu_1Tq_RECD1CHobo&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHOLk_NxQ7fc5bHTRrcPzljAtEwOCKRmHZ6a4gRzZ4Deldg5XEZwh4LO7pHszaydbbBT5vaDGl3hg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4qEvZwrb2zzIWsTh5EwL9eVvISE7zPMicMd85xHSFcWw&oe=6A1290AE",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t15.5256-10/685644397_995884893448434_8900097440424031138_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=o753hlLuTagQ7kNvwEzR31V&_nc_oc=AdpUZEel0gEhS2H9-WbKXDjIJdOchoR6hgLHq4vy7HO2ulVVLuFgvvv5SIbErLQmWZo&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGh4l-yS5IrJpPq7LCdSlQnfbt8GICpDeEoym6umPTn3sM1EFSAOMnS8QoZEzYIfe1TGoMuHUvbLA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af7M8hQDaykSQ8nEKZjPE1OVXCsDiWUn7mxsuq6RUiaQ_A&oe=6A1290AE",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "First Look",
@@ -517,7 +517,7 @@
       "ad_name": "L114-VIVI-SAND-2738_Static_ProductPage_Solution-Aware_Product-focused_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/mule-vivi-lucite-clear-sand-leather",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/690966278_947876851353547_333206645899559167_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vqxyz1mn26YQ7kNvwGwAyTo&_nc_oc=AdqKp02bGBKajDbVuFc9nglN4Wmdkw1nD6hhYc5dE3IOm0yUG-3AcEbNaQEmrQKcOI8&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFOYVi2e-xR4Ie3hCCVgrQOIu0V7glk7Fhsc0Wx6zrRnw3VjM2EjXdjYmvPCUbDRZzecdFKyLRqIg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4CYxsmOawhYvp34D0F7510l41Hqhd9msQpZ7tkapHZQw&oe=6A12820E",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t45.1600-4/690966278_947876851353547_333206645899559167_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vqxyz1mn26YQ7kNvwF-6icA&_nc_oc=AdqbUx5B-JkRuCUYqFFdjEJyEOPF4TSgoKBtf8oFCjopSKQdRoA35GvzrIqodQZvbFs&_nc_zt=1&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF-9E5B4BgsOkr_f_13KmNBHZWZsr15XfIzxp6qAKZ5_DEvqa9bBBZLvOEpQpj6kU2eJZ1Yq_FK0w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7o6iaa9YzjTCEOgAuBJ_UQ1if9wDp2A4jtcd2SM19Hbg&oe=6A12820E",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "The Shoe That Goes With Everything",
@@ -561,7 +561,7 @@
       "ad_name": "686997569702_Static_Collection_No-Copy_Product-focused_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/collections/larroude-x-ciao-lucia",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/700460427_953622860778946_4003091242876100794_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=x7HlePzzW7wQ7kNvwH_-VxP&_nc_oc=AdpXKNaCQf_8a9Z-JdRXSGEQDmypjevTsQqf2DMagbMx7fb1YB6MkymZwmcENCBeGdQ&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQH_lTdNuGS3l3DkcuLXAs082a4gNiD9XTiMSD7C1T_UaDC9Pwgh0KM_Xf1QTVFWSZ8vj4h_OCac9g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4DiOZv_vt_nws7SOTtgUO41FDG23bfshXAXrcqLTWfcA&oe=6A126D38",
+      "thumbnail_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t45.1600-4/700460427_953622860778946_4003091242876100794_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=x7HlePzzW7wQ7kNvwHhod7S&_nc_oc=AdqSyRqQPsC-WmW81xBrx3m2wS5dGwhl2V8oidZaD8YI3MIDJ8eBBZMsKNnURbSDlgI&_nc_zt=1&_nc_ht=scontent-fra5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGePyi288qYIlipWMPK9HzscG5EGB-5SYp4aGqV4jTFupyF-uFiWJUKW_UJkUIbur79bQozokSdqA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5lb-zyacsi0I0-WBJKO2U7hujiYbyKI01pspSDw0oo2w&oe=6A12A578",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "Meet the New Larroudé x Ciao Lucia",
@@ -605,7 +605,7 @@
       "ad_name": "320250085542_Static_Collection_No-Copy_Editorial_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/collections/larroude-x-nicolo-beretta",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/692249076_947941084680457_6602014924822248431_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=H_bc1PP88joQ7kNvwFuLgfQ&_nc_oc=AdobhnkLHWiPgMKIpZlZv3_k2ez9B4vNUA_BHoyPcvZuDfjMxahcs2Ip_XN4WP7ynuk&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEqf2YxDZ6P5ry8IIF00cOooiqpNIlFfxbN5Xtx2ZHuyzZ1LeC-5ouKxUDr2cHlQ0xR1Gn-Gdj-Nw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5rlTTD4ypE0HZRhbZFAQplLkFrKMlNDe8ta3mzl0FRsA&oe=6A1294F1",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t45.1600-4/692249076_947941084680457_6602014924822248431_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=H_bc1PP88joQ7kNvwFBryjD&_nc_oc=AdrgpCofaDAEmVqoYIsFYuH2juH67tkGrUfHyjapyAs9JXdHQm4SC5xTLsnCeN7tRds&_nc_zt=1&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQEnXVk_LNd6IaxVoKU5fYL_eQOpzR_xLNQkswdroTea3Vz1PDEzbGVYZ5vlDug9RDMi5OTjjxo1jA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4YpaXFzgCU2zmgpGgn-Ibt3asRL5RUAiJIfTpfYdBD2A&oe=6A1294F1",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "The New Larroudé x Nicolò B.",
@@ -649,7 +649,7 @@
       "ad_name": "L471-MILA-BEIG-2420_Video_ProductPage_Product-Aware_Unboxing_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/beige-milan-dolly-low-raffia",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/690667168_1022112013808874_3562191228308897015_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=L5n2QdSV-ssQ7kNvwHrlZt_&_nc_oc=AdoQCEjWVZy1tP2mTuCItLUk2dXy2-aDaT6SPiHQQ5zZsjU9AhziJtZoqX4XiUFz0pw&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHwQrjYs4XXTbNS8LRXZDB-iNhloTo7hFHjzLzmIdri5B2OAtIOnZZalGZ2YHeIsMgqss4NhJoN2A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4Yqrk4UvE1WciTIOyaBiJ3OSHk1JB-oIWzW0nJArvz2g&oe=6A128BC0",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t15.5256-10/690667168_1022112013808874_3562191228308897015_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=L5n2QdSV-ssQ7kNvwFd-oQZ&_nc_oc=AdowSZs2svogYTNILmCeVmhBPViByXwEOKgeAbPUQmslSdOe9gcwaDtp1ESblzZW3Eg&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFerBLow_EoB7F2QbZU0u6CDn4Izl0SWA6GQUnfeGP0p0XXxZy-V1lawEd1I9DQ600MdAQaWr4vmA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5VwT6bnbJcY2wO416H5Vz3K7Np4-FNMuJB9vAhrv7zEg&oe=6A128BC0",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "Meet Your New Everyday",
@@ -695,7 +695,7 @@
       "ad_name": "320250085542_Video_Collection_No-Copy_Product-Mix_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/collections/larroude-x-nicolo-beretta",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwE-hs2E&_nc_oc=AdpdcxAThB-r9ziUswDjZYmzGbe8V0tgtQph-T04Y0rOal1B7lRmzrASlQJC8yxNss4&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHI7cEznB4HExQcIJc4luvnh96-FgLXKov6pavKEiT9-Rl1NKn8JUVW7mDHbiuBHDx_3eojyGY76g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6pBJ0z2FE8Qgu2x3V1p6Z7mrCP2uXmTlN1VgSrAGREpQ&oe=6A1278AA",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwHXSVrn&_nc_oc=Adq7rMAgbv4rGVjR6eJyGs3x8FII1rrIADxKQb7v4UmKTPCxv5cgYUfZSDevRlKvIOU&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF6QYOvAkv-IAthh7CFtw41Un_DfwUwZrrReFaluxUj2jM2aYrBdrswruqKlsgHFtR3-cEEI9MKqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6CQUhxqP1sp04YZecB0wuG4q2YwqlNIooyZ1eVy_SFKg&oe=6A1278AA",
       "creative_image_url": "",
       "creative_object_type": "VIDEO",
       "creative_title": "The New Larroudé x Nicolò B. Collaboration",
@@ -739,7 +739,7 @@
       "ad_name": "L277-FIOR-SCAR-2853_Video_ProductPage_Product-Aware_Product-focused_V01",
       "ad_status": "ACTIVE",
       "destination_url": "https://larroude.com/products/patent-fiore-sandal-scarlet-leather",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwFzd9hX&_nc_oc=AdrIjDH6i_xWV4X62dmL2eK6YwqWLvlUvUp5qvRMHB9SUx5JGxnQwql84z9R5WlJ8Ag&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEUDx9VnwTjfL5GXZ2Sm-B_IcJF6TuTkM2nMaOde8-czbRaQx-e0RQLvTO7uciUfZgoT229VnvT0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5rlmACL-2aDCHsZkAYypZDu3P0Sk0DNvT-62ZavTd_uQ&oe=6A12A3C1",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwGfRpLW&_nc_oc=Ado9EpibBy-1E5aycdGkFwTV8bXuBVal0xVeAMVj1atm31-btUxoC1xs8eNZxHFi1Ng&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH_M_wL4rYfmQDrhow09DwR7CYVKy2YOfK9QGukDd7XlHYx4YVAuC191vL0i92MPyS7YfoOmsOliA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af48dPaL-ciMOzwEfzRv2466tES0BlwqyH7QkNR3Xl5-Xw&oe=6A12A3C1",
       "creative_image_url": "",
       "creative_object_type": "SHARE",
       "creative_title": "30% Off Now on Pre-Order",
@@ -774,10 +774,10 @@
   ],
   "campaigns": [
     {
-      "spend": 58480.05,
+      "spend": 58480.06,
       "revenue": 197652.66,
       "purchases": 575,
-      "impressions": 742603,
+      "impressions": 742604,
       "campaign_id": "120241148947980106",
       "campaign_name": "A+Sale_Catalog_Maximize-Value-Of-Conversions",
       "objective": "OUTCOME_SALES",
@@ -804,10 +804,10 @@
       "score": 22.901
     },
     {
-      "spend": 19554.43,
+      "spend": 19554.56,
       "revenue": 46167.4,
       "purchases": 168,
-      "impressions": 247447,
+      "impressions": 247448,
       "campaign_id": "120243114004860106",
       "campaign_name": "Sale_Advantage_Maximize-Value-Of-Conversions_Mules-Pre-Order",
       "objective": "OUTCOME_SALES",
@@ -900,7 +900,7 @@
       "campaign_name": "A+Sale_Catalog_Maximize-Value-Of-Conversions",
       "account_id": "act_2047856822417350",
       "account_name": "Larroude US",
-      "spend": 58480.05,
+      "spend": 58480.06,
       "roas": 3.38,
       "purchases": 575,
       "n_ads": 3,
@@ -930,7 +930,7 @@
       "campaign_name": "Sale_Advantage_Maximize-Value-Of-Conversions_Mules-Pre-Order",
       "account_id": "act_2047856822417350",
       "account_name": "Larroude US",
-      "spend": 19554.43,
+      "spend": 19554.56,
       "roas": 2.36,
       "purchases": 168,
       "n_ads": 2,
@@ -958,7 +958,7 @@
           "spend": 114.01,
           "roas": 0.0,
           "purchases": 0,
-          "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwFzd9hX&_nc_oc=AdrIjDH6i_xWV4X62dmL2eK6YwqWLvlUvUp5qvRMHB9SUx5JGxnQwql84z9R5WlJ8Ag&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEUDx9VnwTjfL5GXZ2Sm-B_IcJF6TuTkM2nMaOde8-czbRaQx-e0RQLvTO7uciUfZgoT229VnvT0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5rlmACL-2aDCHsZkAYypZDu3P0Sk0DNvT-62ZavTd_uQ&oe=6A12A3C1",
+          "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwGfRpLW&_nc_oc=Ado9EpibBy-1E5aycdGkFwTV8bXuBVal0xVeAMVj1atm31-btUxoC1xs8eNZxHFi1Ng&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH_M_wL4rYfmQDrhow09DwR7CYVKy2YOfK9QGukDd7XlHYx4YVAuC191vL0i92MPyS7YfoOmsOliA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af48dPaL-ciMOzwEfzRv2466tES0BlwqyH7QkNR3Xl5-Xw&oe=6A12A3C1",
           "creative_image_url": "",
           "matched_product_image": "",
           "matched_product_title": null,
@@ -986,7 +986,7 @@
           "spend": 1032.3,
           "roas": 1.17,
           "purchases": 4,
-          "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwE-hs2E&_nc_oc=AdpdcxAThB-r9ziUswDjZYmzGbe8V0tgtQph-T04Y0rOal1B7lRmzrASlQJC8yxNss4&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHI7cEznB4HExQcIJc4luvnh96-FgLXKov6pavKEiT9-Rl1NKn8JUVW7mDHbiuBHDx_3eojyGY76g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6pBJ0z2FE8Qgu2x3V1p6Z7mrCP2uXmTlN1VgSrAGREpQ&oe=6A1278AA",
+          "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwHXSVrn&_nc_oc=Adq7rMAgbv4rGVjR6eJyGs3x8FII1rrIADxKQb7v4UmKTPCxv5cgYUfZSDevRlKvIOU&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF6QYOvAkv-IAthh7CFtw41Un_DfwUwZrrReFaluxUj2jM2aYrBdrswruqKlsgHFtR3-cEEI9MKqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6CQUhxqP1sp04YZecB0wuG4q2YwqlNIooyZ1eVy_SFKg&oe=6A1278AA",
           "creative_image_url": "",
           "matched_product_image": "",
           "matched_product_title": null,
@@ -1053,7 +1053,7 @@
     },
     {
       "angle": "V01",
-      "spend": 86098.94,
+      "spend": 86099.07,
       "revenue": 271045.3,
       "n": 15,
       "roas": 3.15
@@ -1062,7 +1062,7 @@
   "roas_by_asset": [
     {
       "asset": "GIF/CAROUSEL",
-      "spend": 52359.41,
+      "spend": 52359.42,
       "revenue": 180219.87,
       "purchases": 521,
       "n_ads": 1,
@@ -1070,7 +1070,7 @@
     },
     {
       "asset": "OTHER",
-      "spend": 85718.08,
+      "spend": 85718.21,
       "revenue": 272667.62,
       "purchases": 901,
       "n_ads": 18,
@@ -1108,7 +1108,21 @@
       "net_sales": 70500.0,
       "units_sold": 190,
       "n_orders": 184,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L471-VERO-5.0-NATU-1967",
+        "L471-VERO-5.5-NATU-1967",
+        "L471-VERO-6.0-NATU-1967",
+        "L471-VERO-6.5-NATU-1967",
+        "L471-VERO-7.0-NATU-1967",
+        "L471-VERO-7.5-NATU-1967",
+        "L471-VERO-8.0-NATU-1967",
+        "L471-VERO-8.5-NATU-1967",
+        "L471-VERO-9.0-NATU-1967",
+        "L471-VERO-9.5-NATU-1967",
+        "L471-VERO-10.0-NATU-1967",
+        "L471-VERO-11.0-NATU-1967"
+      ]
     },
     {
       "product_id": "15180405866662",
@@ -1124,7 +1138,21 @@
       "net_sales": 52185.0,
       "units_sold": 148,
       "n_orders": 142,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L471-DOLL-5.0-NATU-2461",
+        "L471-DOLL-5.5-NATU-2461",
+        "L471-DOLL-6.0-NATU-2461",
+        "L471-DOLL-6.5-NATU-2461",
+        "L471-DOLL-7.0-NATU-2461",
+        "L471-DOLL-7.5-NATU-2461",
+        "L471-DOLL-8.0-NATU-2461",
+        "L471-DOLL-8.5-NATU-2461",
+        "L471-DOLL-9.0-NATU-2461",
+        "L471-DOLL-9.5-NATU-2461",
+        "L471-DOLL-10.0-NATU-2461",
+        "L471-DOLL-11.0-NATU-2461"
+      ]
     },
     {
       "product_id": "15232067502246",
@@ -1140,7 +1168,21 @@
       "net_sales": 31668.0,
       "units_sold": 160,
       "n_orders": 160,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L570-VIVI-5.0-CLEA-2704",
+        "L570-VIVI-5.5-CLEA-2704",
+        "L570-VIVI-6.0-CLEA-2704",
+        "L570-VIVI-6.5-CLEA-2704",
+        "L570-VIVI-7.0-CLEA-2704",
+        "L570-VIVI-7.5-CLEA-2704",
+        "L570-VIVI-8.0-CLEA-2704",
+        "L570-VIVI-8.5-CLEA-2704",
+        "L570-VIVI-9.0-CLEA-2704",
+        "L570-VIVI-9.5-CLEA-2704",
+        "L570-VIVI-10.0-CLEA-2704",
+        "L570-VIVI-11.0-CLEA-2704"
+      ]
     },
     {
       "product_id": "15236704600230",
@@ -1156,7 +1198,21 @@
       "net_sales": 16863.0,
       "units_sold": 87,
       "n_orders": 86,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L277-FIOR-5.0-IVOR-2723",
+        "L277-FIOR-5.5-IVOR-2723",
+        "L277-FIOR-6.0-IVOR-2723",
+        "L277-FIOR-6.5-IVOR-2723",
+        "L277-FIOR-7.0-IVOR-2723",
+        "L277-FIOR-7.5-IVOR-2723",
+        "L277-FIOR-8.0-IVOR-2723",
+        "L277-FIOR-8.5-IVOR-2723",
+        "L277-FIOR-9.0-IVOR-2723",
+        "L277-FIOR-9.5-IVOR-2723",
+        "L277-FIOR-10.0-IVOR-2723",
+        "L277-FIOR-11.0-IVOR-2723"
+      ]
     },
     {
       "product_id": "15309740179622",
@@ -1172,7 +1228,21 @@
       "net_sales": 15028.0,
       "units_sold": 68,
       "n_orders": 67,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L450-FIOR-5.0-BLAC-2875",
+        "L450-FIOR-5.5-BLAC-2875",
+        "L450-FIOR-6.0-BLAC-2875",
+        "L450-FIOR-6.5-BLAC-2875",
+        "L450-FIOR-7.0-BLAC-2875",
+        "L450-FIOR-7.5-BLAC-2875",
+        "L450-FIOR-8.0-BLAC-2875",
+        "L450-FIOR-8.5-BLAC-2875",
+        "L450-FIOR-9.0-BLAC-2875",
+        "L450-FIOR-9.5-BLAC-2875",
+        "L450-FIOR-10.0-BLAC-2875",
+        "L450-FIOR-11.0-BLAC-2875"
+      ]
     },
     {
       "product_id": "15309740408998",
@@ -1188,7 +1258,21 @@
       "net_sales": 14586.0,
       "units_sold": 66,
       "n_orders": 66,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L450-FIOR-5.0-IVOR-2874",
+        "L450-FIOR-5.5-IVOR-2874",
+        "L450-FIOR-6.0-IVOR-2874",
+        "L450-FIOR-6.5-IVOR-2874",
+        "L450-FIOR-7.0-IVOR-2874",
+        "L450-FIOR-7.5-IVOR-2874",
+        "L450-FIOR-8.0-IVOR-2874",
+        "L450-FIOR-8.5-IVOR-2874",
+        "L450-FIOR-9.0-IVOR-2874",
+        "L450-FIOR-9.5-IVOR-2874",
+        "L450-FIOR-10.0-IVOR-2874",
+        "L450-FIOR-11.0-IVOR-2874"
+      ]
     },
     {
       "product_id": "7846916587686",
@@ -1204,7 +1288,21 @@
       "net_sales": 14250.0,
       "units_sold": 39,
       "n_orders": 39,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L144-MILA-5.0-BEIG-0959",
+        "L144-MILA-5.5-BEIG-0959",
+        "L144-MILA-6.0-BEIG-0959",
+        "L144-MILA-6.5-BEIG-0959",
+        "L144-MILA-7.0-BEIG-0959",
+        "L144-MILA-7.5-BEIG-0959",
+        "L144-MILA-8.0-BEIG-0959",
+        "L144-MILA-8.5-BEIG-0959",
+        "L144-MILA-9.0-BEIG-0959",
+        "L144-MILA-9.5-BEIG-0959",
+        "L144-MILA-10.0-BEIG-0959",
+        "L144-MILA-11.0-BEIG-0959"
+      ]
     },
     {
       "product_id": "15275529666726",
@@ -1220,7 +1318,21 @@
       "net_sales": 12804.0,
       "units_sold": 68,
       "n_orders": 9,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L471-JOLE-5.0-NATU-2814",
+        "L471-JOLE-5.5-NATU-2814",
+        "L471-JOLE-6.0-NATU-2814",
+        "L471-JOLE-6.5-NATU-2814",
+        "L471-JOLE-7.0-NATU-2814",
+        "L471-JOLE-7.5-NATU-2814",
+        "L471-JOLE-8.0-NATU-2814",
+        "L471-JOLE-8.5-NATU-2814",
+        "L471-JOLE-9.0-NATU-2814",
+        "L471-JOLE-9.5-NATU-2814",
+        "L471-JOLE-10.0-NATU-2814",
+        "L471-JOLE-11.0-NATU-2814"
+      ]
     },
     {
       "product_id": "8492761972902",
@@ -1236,7 +1348,21 @@
       "net_sales": 12600.0,
       "units_sold": 36,
       "n_orders": 33,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L471-DOLL-5.0-BEIG-2085",
+        "L471-DOLL-5.5-BEIG-2085",
+        "L471-DOLL-6.0-BEIG-2085",
+        "L471-DOLL-6.5-BEIG-2085",
+        "L471-DOLL-7.0-BEIG-2085",
+        "L471-DOLL-7.5-BEIG-2085",
+        "L471-DOLL-8.0-BEIG-2085",
+        "L471-DOLL-8.5-BEIG-2085",
+        "L471-DOLL-9.0-BEIG-2085",
+        "L471-DOLL-9.5-BEIG-2085",
+        "L471-DOLL-10.0-BEIG-2085",
+        "L471-DOLL-11.0-BEIG-2085"
+      ]
     },
     {
       "product_id": "7846916620454",
@@ -1252,7 +1378,21 @@
       "net_sales": 12210.0,
       "units_sold": 38,
       "n_orders": 38,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L264-MILA-5.0-BEIG-0992",
+        "L264-MILA-5.5-BEIG-0992",
+        "L264-MILA-6.0-BEIG-0992",
+        "L264-MILA-6.5-BEIG-0992",
+        "L264-MILA-7.0-BEIG-0992",
+        "L264-MILA-7.5-BEIG-0992",
+        "L264-MILA-8.0-BEIG-0992",
+        "L264-MILA-8.5-BEIG-0992",
+        "L264-MILA-9.0-BEIG-0992",
+        "L264-MILA-9.5-BEIG-0992",
+        "L264-MILA-10.0-BEIG-0992",
+        "L264-MILA-11.0-BEIG-0992"
+      ]
     },
     {
       "product_id": "15301487755430",
@@ -1268,7 +1408,21 @@
       "net_sales": 11670.0,
       "units_sold": 66,
       "n_orders": 43,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L420-LOUL-5.0-RAIN-2854",
+        "L420-LOUL-5.5-RAIN-2854",
+        "L420-LOUL-6.0-RAIN-2854",
+        "L420-LOUL-6.5-RAIN-2854",
+        "L420-LOUL-7.0-RAIN-2854",
+        "L420-LOUL-7.5-RAIN-2854",
+        "L420-LOUL-8.0-RAIN-2854",
+        "L420-LOUL-8.5-RAIN-2854",
+        "L420-LOUL-9.0-RAIN-2854",
+        "L420-LOUL-9.5-RAIN-2854",
+        "L420-LOUL-10.0-RAIN-2854",
+        "L420-LOUL-11.0-RAIN-2854"
+      ]
     },
     {
       "product_id": "15301487493286",
@@ -1284,7 +1438,21 @@
       "net_sales": 10730.0,
       "units_sold": 70,
       "n_orders": 11,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L581-VERO-5.0-BURN-2857",
+        "L581-VERO-5.5-BURN-2857",
+        "L581-VERO-6.0-BURN-2857",
+        "L581-VERO-6.5-BURN-2857",
+        "L581-VERO-7.0-BURN-2857",
+        "L581-VERO-7.5-BURN-2857",
+        "L581-VERO-8.0-BURN-2857",
+        "L581-VERO-8.5-BURN-2857",
+        "L581-VERO-9.0-BURN-2857",
+        "L581-VERO-9.5-BURN-2857",
+        "L581-VERO-10.0-BURN-2857",
+        "L581-VERO-11.0-BURN-2857"
+      ]
     },
     {
       "product_id": "15242561618086",
@@ -1300,7 +1468,21 @@
       "net_sales": 10556.0,
       "units_sold": 52,
       "n_orders": 50,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L114-VIVI-5.0-SAND-2738",
+        "L114-VIVI-5.5-SAND-2738",
+        "L114-VIVI-6.0-SAND-2738",
+        "L114-VIVI-6.5-SAND-2738",
+        "L114-VIVI-7.0-SAND-2738",
+        "L114-VIVI-7.5-SAND-2738",
+        "L114-VIVI-8.0-SAND-2738",
+        "L114-VIVI-8.5-SAND-2738",
+        "L114-VIVI-9.0-SAND-2738",
+        "L114-VIVI-9.5-SAND-2738",
+        "L114-VIVI-10.0-SAND-2738",
+        "L114-VIVI-11.0-SAND-2738"
+      ]
     },
     {
       "product_id": "15260772335782",
@@ -1316,7 +1498,21 @@
       "net_sales": 10164.0,
       "units_sold": 48,
       "n_orders": 48,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L277-FIOR-5.0-BLAC-2761",
+        "L277-FIOR-5.5-BLAC-2761",
+        "L277-FIOR-6.0-BLAC-2761",
+        "L277-FIOR-6.5-BLAC-2761",
+        "L277-FIOR-7.0-BLAC-2761",
+        "L277-FIOR-7.5-BLAC-2761",
+        "L277-FIOR-8.0-BLAC-2761",
+        "L277-FIOR-8.5-BLAC-2761",
+        "L277-FIOR-9.0-BLAC-2761",
+        "L277-FIOR-9.5-BLAC-2761",
+        "L277-FIOR-10.0-BLAC-2761",
+        "L277-FIOR-11.0-BLAC-2761"
+      ]
     },
     {
       "product_id": "8495896625318",
@@ -1332,7 +1528,21 @@
       "net_sales": 10150.0,
       "units_sold": 30,
       "n_orders": 30,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L144-VERO-5.0-NATU-2077",
+        "L144-VERO-5.5-NATU-2077",
+        "L144-VERO-6.0-NATU-2077",
+        "L144-VERO-6.5-NATU-2077",
+        "L144-VERO-7.0-NATU-2077",
+        "L144-VERO-7.5-NATU-2077",
+        "L144-VERO-8.0-NATU-2077",
+        "L144-VERO-8.5-NATU-2077",
+        "L144-VERO-9.0-NATU-2077",
+        "L144-VERO-9.5-NATU-2077",
+        "L144-VERO-10.0-NATU-2077",
+        "L144-VERO-11.0-NATU-2077"
+      ]
     },
     {
       "product_id": "15180406554790",
@@ -1348,7 +1558,21 @@
       "net_sales": 9750.0,
       "units_sold": 28,
       "n_orders": 28,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L144-MILA-5.0-BEIG-2456",
+        "L144-MILA-5.5-BEIG-2456",
+        "L144-MILA-6.0-BEIG-2456",
+        "L144-MILA-6.5-BEIG-2456",
+        "L144-MILA-7.0-BEIG-2456",
+        "L144-MILA-7.5-BEIG-2456",
+        "L144-MILA-8.0-BEIG-2456",
+        "L144-MILA-8.5-BEIG-2456",
+        "L144-MILA-9.0-BEIG-2456",
+        "L144-MILA-9.5-BEIG-2456",
+        "L144-MILA-10.0-BEIG-2456",
+        "L144-MILA-11.0-BEIG-2456"
+      ]
     },
     {
       "product_id": "15236704764070",
@@ -1364,7 +1588,21 @@
       "net_sales": 9744.0,
       "units_sold": 51,
       "n_orders": 51,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L420-LOUL-5.0-BEIG-2695",
+        "L420-LOUL-5.5-BEIG-2695",
+        "L420-LOUL-6.0-BEIG-2695",
+        "L420-LOUL-6.5-BEIG-2695",
+        "L420-LOUL-7.0-BEIG-2695",
+        "L420-LOUL-7.5-BEIG-2695",
+        "L420-LOUL-8.0-BEIG-2695",
+        "L420-LOUL-8.5-BEIG-2695",
+        "L420-LOUL-9.0-BEIG-2695",
+        "L420-LOUL-9.5-BEIG-2695",
+        "L420-LOUL-10.0-BEIG-2695",
+        "L420-LOUL-11.0-BEIG-2695"
+      ]
     },
     {
       "product_id": "8473832456358",
@@ -1380,7 +1618,21 @@
       "net_sales": 9154.8,
       "units_sold": 27,
       "n_orders": 25,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L219-VERO-5.0-IVOR-1989",
+        "L219-VERO-5.5-IVOR-1989",
+        "L219-VERO-6.0-IVOR-1989",
+        "L219-VERO-6.5-IVOR-1989",
+        "L219-VERO-7.0-IVOR-1989",
+        "L219-VERO-7.5-IVOR-1989",
+        "L219-VERO-8.0-IVOR-1989",
+        "L219-VERO-8.5-IVOR-1989",
+        "L219-VERO-9.0-IVOR-1989",
+        "L219-VERO-9.5-IVOR-1989",
+        "L219-VERO-10.0-IVOR-1989",
+        "L219-VERO-11.0-IVOR-1989"
+      ]
     },
     {
       "product_id": "8401379917990",
@@ -1396,7 +1648,21 @@
       "net_sales": 8625.0,
       "units_sold": 24,
       "n_orders": 24,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L131-DOLL-5.0-NATU-1813",
+        "L131-DOLL-5.5-NATU-1813",
+        "L131-DOLL-6.0-NATU-1813",
+        "L131-DOLL-6.5-NATU-1813",
+        "L131-DOLL-7.0-NATU-1813",
+        "L131-DOLL-7.5-NATU-1813",
+        "L131-DOLL-8.0-NATU-1813",
+        "L131-DOLL-8.5-NATU-1813",
+        "L131-DOLL-9.0-NATU-1813",
+        "L131-DOLL-9.5-NATU-1813",
+        "L131-DOLL-10.0-NATU-1813",
+        "L131-DOLL-11.0-NATU-1813"
+      ]
     },
     {
       "product_id": "8639815483558",
@@ -1412,7 +1678,21 @@
       "net_sales": 8250.0,
       "units_sold": 22,
       "n_orders": 16,
-      "gross_profit": 0.0
+      "gross_profit": 0.0,
+      "skus": [
+        "L471-BIAN-5.0-PLAT-2421",
+        "L471-BIAN-5.5-PLAT-2421",
+        "L471-BIAN-6.0-PLAT-2421",
+        "L471-BIAN-6.5-PLAT-2421",
+        "L471-BIAN-7.0-PLAT-2421",
+        "L471-BIAN-7.5-PLAT-2421",
+        "L471-BIAN-8.0-PLAT-2421",
+        "L471-BIAN-8.5-PLAT-2421",
+        "L471-BIAN-9.0-PLAT-2421",
+        "L471-BIAN-9.5-PLAT-2421",
+        "L471-BIAN-10.0-PLAT-2421",
+        "L471-BIAN-11.0-PLAT-2421"
+      ]
     }
   ],
   "advertised_product_ids": [],
@@ -1448,10 +1728,10 @@
       "score": 22.901
     },
     {
-      "spend": 58480.05,
+      "spend": 58480.06,
       "revenue": 197652.66,
       "purchases": 575,
-      "impressions": 742603,
+      "impressions": 742604,
       "campaign_id": "120241148947980106",
       "campaign_name": "A+Sale_Catalog_Maximize-Value-Of-Conversions",
       "objective": "OUTCOME_SALES",
@@ -1478,10 +1758,10 @@
       "score": 15.941
     },
     {
-      "spend": 19554.43,
+      "spend": 19554.56,
       "revenue": 46167.4,
       "purchases": 168,
-      "impressions": 247447,
+      "impressions": 247448,
       "campaign_id": "120243114004860106",
       "campaign_name": "Sale_Advantage_Maximize-Value-Of-Conversions_Mules-Pre-Order",
       "objective": "OUTCOME_SALES",
@@ -1524,6 +1804,20 @@
       "units_sold": 190,
       "n_orders": 184,
       "gross_profit": 0.0,
+      "skus": [
+        "L471-VERO-5.0-NATU-1967",
+        "L471-VERO-5.5-NATU-1967",
+        "L471-VERO-6.0-NATU-1967",
+        "L471-VERO-6.5-NATU-1967",
+        "L471-VERO-7.0-NATU-1967",
+        "L471-VERO-7.5-NATU-1967",
+        "L471-VERO-8.0-NATU-1967",
+        "L471-VERO-8.5-NATU-1967",
+        "L471-VERO-9.0-NATU-1967",
+        "L471-VERO-9.5-NATU-1967",
+        "L471-VERO-10.0-NATU-1967",
+        "L471-VERO-11.0-NATU-1967"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1542,8 +1836,22 @@
       "units_sold": 148,
       "n_orders": 142,
       "gross_profit": 0.0,
-      "has_ad": false,
-      "matched_sku": ""
+      "skus": [
+        "L471-DOLL-5.0-NATU-2461",
+        "L471-DOLL-5.5-NATU-2461",
+        "L471-DOLL-6.0-NATU-2461",
+        "L471-DOLL-6.5-NATU-2461",
+        "L471-DOLL-7.0-NATU-2461",
+        "L471-DOLL-7.5-NATU-2461",
+        "L471-DOLL-8.0-NATU-2461",
+        "L471-DOLL-8.5-NATU-2461",
+        "L471-DOLL-9.0-NATU-2461",
+        "L471-DOLL-9.5-NATU-2461",
+        "L471-DOLL-10.0-NATU-2461",
+        "L471-DOLL-11.0-NATU-2461"
+      ],
+      "has_ad": true,
+      "matched_sku": "L471-DOLL-NATU-2461"
     },
     {
       "product_id": "15232067502246",
@@ -1560,8 +1868,22 @@
       "units_sold": 160,
       "n_orders": 160,
       "gross_profit": 0.0,
-      "has_ad": false,
-      "matched_sku": ""
+      "skus": [
+        "L570-VIVI-5.0-CLEA-2704",
+        "L570-VIVI-5.5-CLEA-2704",
+        "L570-VIVI-6.0-CLEA-2704",
+        "L570-VIVI-6.5-CLEA-2704",
+        "L570-VIVI-7.0-CLEA-2704",
+        "L570-VIVI-7.5-CLEA-2704",
+        "L570-VIVI-8.0-CLEA-2704",
+        "L570-VIVI-8.5-CLEA-2704",
+        "L570-VIVI-9.0-CLEA-2704",
+        "L570-VIVI-9.5-CLEA-2704",
+        "L570-VIVI-10.0-CLEA-2704",
+        "L570-VIVI-11.0-CLEA-2704"
+      ],
+      "has_ad": true,
+      "matched_sku": "L570-VIVI-CLEA-2704"
     },
     {
       "product_id": "15236704600230",
@@ -1578,8 +1900,22 @@
       "units_sold": 87,
       "n_orders": 86,
       "gross_profit": 0.0,
-      "has_ad": false,
-      "matched_sku": ""
+      "skus": [
+        "L277-FIOR-5.0-IVOR-2723",
+        "L277-FIOR-5.5-IVOR-2723",
+        "L277-FIOR-6.0-IVOR-2723",
+        "L277-FIOR-6.5-IVOR-2723",
+        "L277-FIOR-7.0-IVOR-2723",
+        "L277-FIOR-7.5-IVOR-2723",
+        "L277-FIOR-8.0-IVOR-2723",
+        "L277-FIOR-8.5-IVOR-2723",
+        "L277-FIOR-9.0-IVOR-2723",
+        "L277-FIOR-9.5-IVOR-2723",
+        "L277-FIOR-10.0-IVOR-2723",
+        "L277-FIOR-11.0-IVOR-2723"
+      ],
+      "has_ad": true,
+      "matched_sku": "L277-FIOR-IVOR-2723"
     },
     {
       "product_id": "15309740179622",
@@ -1596,6 +1932,20 @@
       "units_sold": 68,
       "n_orders": 67,
       "gross_profit": 0.0,
+      "skus": [
+        "L450-FIOR-5.0-BLAC-2875",
+        "L450-FIOR-5.5-BLAC-2875",
+        "L450-FIOR-6.0-BLAC-2875",
+        "L450-FIOR-6.5-BLAC-2875",
+        "L450-FIOR-7.0-BLAC-2875",
+        "L450-FIOR-7.5-BLAC-2875",
+        "L450-FIOR-8.0-BLAC-2875",
+        "L450-FIOR-8.5-BLAC-2875",
+        "L450-FIOR-9.0-BLAC-2875",
+        "L450-FIOR-9.5-BLAC-2875",
+        "L450-FIOR-10.0-BLAC-2875",
+        "L450-FIOR-11.0-BLAC-2875"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1614,6 +1964,20 @@
       "units_sold": 66,
       "n_orders": 66,
       "gross_profit": 0.0,
+      "skus": [
+        "L450-FIOR-5.0-IVOR-2874",
+        "L450-FIOR-5.5-IVOR-2874",
+        "L450-FIOR-6.0-IVOR-2874",
+        "L450-FIOR-6.5-IVOR-2874",
+        "L450-FIOR-7.0-IVOR-2874",
+        "L450-FIOR-7.5-IVOR-2874",
+        "L450-FIOR-8.0-IVOR-2874",
+        "L450-FIOR-8.5-IVOR-2874",
+        "L450-FIOR-9.0-IVOR-2874",
+        "L450-FIOR-9.5-IVOR-2874",
+        "L450-FIOR-10.0-IVOR-2874",
+        "L450-FIOR-11.0-IVOR-2874"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1632,6 +1996,20 @@
       "units_sold": 39,
       "n_orders": 39,
       "gross_profit": 0.0,
+      "skus": [
+        "L144-MILA-5.0-BEIG-0959",
+        "L144-MILA-5.5-BEIG-0959",
+        "L144-MILA-6.0-BEIG-0959",
+        "L144-MILA-6.5-BEIG-0959",
+        "L144-MILA-7.0-BEIG-0959",
+        "L144-MILA-7.5-BEIG-0959",
+        "L144-MILA-8.0-BEIG-0959",
+        "L144-MILA-8.5-BEIG-0959",
+        "L144-MILA-9.0-BEIG-0959",
+        "L144-MILA-9.5-BEIG-0959",
+        "L144-MILA-10.0-BEIG-0959",
+        "L144-MILA-11.0-BEIG-0959"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1650,6 +2028,20 @@
       "units_sold": 68,
       "n_orders": 9,
       "gross_profit": 0.0,
+      "skus": [
+        "L471-JOLE-5.0-NATU-2814",
+        "L471-JOLE-5.5-NATU-2814",
+        "L471-JOLE-6.0-NATU-2814",
+        "L471-JOLE-6.5-NATU-2814",
+        "L471-JOLE-7.0-NATU-2814",
+        "L471-JOLE-7.5-NATU-2814",
+        "L471-JOLE-8.0-NATU-2814",
+        "L471-JOLE-8.5-NATU-2814",
+        "L471-JOLE-9.0-NATU-2814",
+        "L471-JOLE-9.5-NATU-2814",
+        "L471-JOLE-10.0-NATU-2814",
+        "L471-JOLE-11.0-NATU-2814"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1668,6 +2060,20 @@
       "units_sold": 36,
       "n_orders": 33,
       "gross_profit": 0.0,
+      "skus": [
+        "L471-DOLL-5.0-BEIG-2085",
+        "L471-DOLL-5.5-BEIG-2085",
+        "L471-DOLL-6.0-BEIG-2085",
+        "L471-DOLL-6.5-BEIG-2085",
+        "L471-DOLL-7.0-BEIG-2085",
+        "L471-DOLL-7.5-BEIG-2085",
+        "L471-DOLL-8.0-BEIG-2085",
+        "L471-DOLL-8.5-BEIG-2085",
+        "L471-DOLL-9.0-BEIG-2085",
+        "L471-DOLL-9.5-BEIG-2085",
+        "L471-DOLL-10.0-BEIG-2085",
+        "L471-DOLL-11.0-BEIG-2085"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1686,6 +2092,20 @@
       "units_sold": 38,
       "n_orders": 38,
       "gross_profit": 0.0,
+      "skus": [
+        "L264-MILA-5.0-BEIG-0992",
+        "L264-MILA-5.5-BEIG-0992",
+        "L264-MILA-6.0-BEIG-0992",
+        "L264-MILA-6.5-BEIG-0992",
+        "L264-MILA-7.0-BEIG-0992",
+        "L264-MILA-7.5-BEIG-0992",
+        "L264-MILA-8.0-BEIG-0992",
+        "L264-MILA-8.5-BEIG-0992",
+        "L264-MILA-9.0-BEIG-0992",
+        "L264-MILA-9.5-BEIG-0992",
+        "L264-MILA-10.0-BEIG-0992",
+        "L264-MILA-11.0-BEIG-0992"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1704,6 +2124,20 @@
       "units_sold": 66,
       "n_orders": 43,
       "gross_profit": 0.0,
+      "skus": [
+        "L420-LOUL-5.0-RAIN-2854",
+        "L420-LOUL-5.5-RAIN-2854",
+        "L420-LOUL-6.0-RAIN-2854",
+        "L420-LOUL-6.5-RAIN-2854",
+        "L420-LOUL-7.0-RAIN-2854",
+        "L420-LOUL-7.5-RAIN-2854",
+        "L420-LOUL-8.0-RAIN-2854",
+        "L420-LOUL-8.5-RAIN-2854",
+        "L420-LOUL-9.0-RAIN-2854",
+        "L420-LOUL-9.5-RAIN-2854",
+        "L420-LOUL-10.0-RAIN-2854",
+        "L420-LOUL-11.0-RAIN-2854"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1722,6 +2156,20 @@
       "units_sold": 70,
       "n_orders": 11,
       "gross_profit": 0.0,
+      "skus": [
+        "L581-VERO-5.0-BURN-2857",
+        "L581-VERO-5.5-BURN-2857",
+        "L581-VERO-6.0-BURN-2857",
+        "L581-VERO-6.5-BURN-2857",
+        "L581-VERO-7.0-BURN-2857",
+        "L581-VERO-7.5-BURN-2857",
+        "L581-VERO-8.0-BURN-2857",
+        "L581-VERO-8.5-BURN-2857",
+        "L581-VERO-9.0-BURN-2857",
+        "L581-VERO-9.5-BURN-2857",
+        "L581-VERO-10.0-BURN-2857",
+        "L581-VERO-11.0-BURN-2857"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1740,8 +2188,22 @@
       "units_sold": 52,
       "n_orders": 50,
       "gross_profit": 0.0,
-      "has_ad": false,
-      "matched_sku": ""
+      "skus": [
+        "L114-VIVI-5.0-SAND-2738",
+        "L114-VIVI-5.5-SAND-2738",
+        "L114-VIVI-6.0-SAND-2738",
+        "L114-VIVI-6.5-SAND-2738",
+        "L114-VIVI-7.0-SAND-2738",
+        "L114-VIVI-7.5-SAND-2738",
+        "L114-VIVI-8.0-SAND-2738",
+        "L114-VIVI-8.5-SAND-2738",
+        "L114-VIVI-9.0-SAND-2738",
+        "L114-VIVI-9.5-SAND-2738",
+        "L114-VIVI-10.0-SAND-2738",
+        "L114-VIVI-11.0-SAND-2738"
+      ],
+      "has_ad": true,
+      "matched_sku": "L114-VIVI-SAND-2738"
     },
     {
       "product_id": "15260772335782",
@@ -1758,8 +2220,22 @@
       "units_sold": 48,
       "n_orders": 48,
       "gross_profit": 0.0,
-      "has_ad": false,
-      "matched_sku": ""
+      "skus": [
+        "L277-FIOR-5.0-BLAC-2761",
+        "L277-FIOR-5.5-BLAC-2761",
+        "L277-FIOR-6.0-BLAC-2761",
+        "L277-FIOR-6.5-BLAC-2761",
+        "L277-FIOR-7.0-BLAC-2761",
+        "L277-FIOR-7.5-BLAC-2761",
+        "L277-FIOR-8.0-BLAC-2761",
+        "L277-FIOR-8.5-BLAC-2761",
+        "L277-FIOR-9.0-BLAC-2761",
+        "L277-FIOR-9.5-BLAC-2761",
+        "L277-FIOR-10.0-BLAC-2761",
+        "L277-FIOR-11.0-BLAC-2761"
+      ],
+      "has_ad": true,
+      "matched_sku": "L277-FIOR-BLAC-2761"
     },
     {
       "product_id": "8495896625318",
@@ -1776,6 +2252,20 @@
       "units_sold": 30,
       "n_orders": 30,
       "gross_profit": 0.0,
+      "skus": [
+        "L144-VERO-5.0-NATU-2077",
+        "L144-VERO-5.5-NATU-2077",
+        "L144-VERO-6.0-NATU-2077",
+        "L144-VERO-6.5-NATU-2077",
+        "L144-VERO-7.0-NATU-2077",
+        "L144-VERO-7.5-NATU-2077",
+        "L144-VERO-8.0-NATU-2077",
+        "L144-VERO-8.5-NATU-2077",
+        "L144-VERO-9.0-NATU-2077",
+        "L144-VERO-9.5-NATU-2077",
+        "L144-VERO-10.0-NATU-2077",
+        "L144-VERO-11.0-NATU-2077"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1788,12 +2278,15 @@
       "price": 4.98,
       "handle": "free-returns-coverage-3",
       "created_at": "2026-03-20T11:37:14-04:00",
-      "gross_sales": 9800.64,
-      "total_sales": 9800.64,
-      "net_sales": 9800.64,
-      "units_sold": 1968,
-      "n_orders": 1968,
+      "gross_sales": 9805.62,
+      "total_sales": 9805.62,
+      "net_sales": 9805.62,
+      "units_sold": 1969,
+      "n_orders": 1969,
       "gross_profit": 0.0,
+      "skus": [
+        "x-redo"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1812,6 +2305,20 @@
       "units_sold": 28,
       "n_orders": 28,
       "gross_profit": 0.0,
+      "skus": [
+        "L144-MILA-5.0-BEIG-2456",
+        "L144-MILA-5.5-BEIG-2456",
+        "L144-MILA-6.0-BEIG-2456",
+        "L144-MILA-6.5-BEIG-2456",
+        "L144-MILA-7.0-BEIG-2456",
+        "L144-MILA-7.5-BEIG-2456",
+        "L144-MILA-8.0-BEIG-2456",
+        "L144-MILA-8.5-BEIG-2456",
+        "L144-MILA-9.0-BEIG-2456",
+        "L144-MILA-9.5-BEIG-2456",
+        "L144-MILA-10.0-BEIG-2456",
+        "L144-MILA-11.0-BEIG-2456"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1830,6 +2337,20 @@
       "units_sold": 51,
       "n_orders": 51,
       "gross_profit": 0.0,
+      "skus": [
+        "L420-LOUL-5.0-BEIG-2695",
+        "L420-LOUL-5.5-BEIG-2695",
+        "L420-LOUL-6.0-BEIG-2695",
+        "L420-LOUL-6.5-BEIG-2695",
+        "L420-LOUL-7.0-BEIG-2695",
+        "L420-LOUL-7.5-BEIG-2695",
+        "L420-LOUL-8.0-BEIG-2695",
+        "L420-LOUL-8.5-BEIG-2695",
+        "L420-LOUL-9.0-BEIG-2695",
+        "L420-LOUL-9.5-BEIG-2695",
+        "L420-LOUL-10.0-BEIG-2695",
+        "L420-LOUL-11.0-BEIG-2695"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1848,6 +2369,20 @@
       "units_sold": 27,
       "n_orders": 25,
       "gross_profit": 0.0,
+      "skus": [
+        "L219-VERO-5.0-IVOR-1989",
+        "L219-VERO-5.5-IVOR-1989",
+        "L219-VERO-6.0-IVOR-1989",
+        "L219-VERO-6.5-IVOR-1989",
+        "L219-VERO-7.0-IVOR-1989",
+        "L219-VERO-7.5-IVOR-1989",
+        "L219-VERO-8.0-IVOR-1989",
+        "L219-VERO-8.5-IVOR-1989",
+        "L219-VERO-9.0-IVOR-1989",
+        "L219-VERO-9.5-IVOR-1989",
+        "L219-VERO-10.0-IVOR-1989",
+        "L219-VERO-11.0-IVOR-1989"
+      ],
       "has_ad": false,
       "matched_sku": ""
     },
@@ -1866,6 +2401,20 @@
       "units_sold": 24,
       "n_orders": 24,
       "gross_profit": 0.0,
+      "skus": [
+        "L131-DOLL-5.0-NATU-1813",
+        "L131-DOLL-5.5-NATU-1813",
+        "L131-DOLL-6.0-NATU-1813",
+        "L131-DOLL-6.5-NATU-1813",
+        "L131-DOLL-7.0-NATU-1813",
+        "L131-DOLL-7.5-NATU-1813",
+        "L131-DOLL-8.0-NATU-1813",
+        "L131-DOLL-8.5-NATU-1813",
+        "L131-DOLL-9.0-NATU-1813",
+        "L131-DOLL-9.5-NATU-1813",
+        "L131-DOLL-10.0-NATU-1813",
+        "L131-DOLL-11.0-NATU-1813"
+      ],
       "has_ad": false,
       "matched_sku": ""
     }
@@ -1879,74 +2428,10 @@
       "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/package-icon.png?v=1774021039",
       "handle": "free-returns-coverage-3",
       "price": 4.98,
-      "total_stock": 2988737,
+      "total_stock": 2988736,
       "n_variants": 1,
       "skus": [
         "x-redo"
-      ],
-      "has_ad": false,
-      "matched_sku": ""
-    },
-    {
-      "product_id": "15214262452390",
-      "title": "George Sneaker In White and Blood Red Leather and Navy Suede",
-      "type": "Sneaker",
-      "vendor": "Larroudé",
-      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEORL-INDI-2563_1M.webp?v=1768846017",
-      "handle": "white-george-sneaker-and-blood-red-leather-and-navy-suede",
-      "price": 250.0,
-      "total_stock": 170306,
-      "n_variants": 17,
-      "skus": [
-        "L532-GEOR-5.0-INDI-2563",
-        "L532-GEOR-5.5-INDI-2563",
-        "L532-GEOR-6.0-INDI-2563",
-        "L532-GEOR-6.5-INDI-2563",
-        "L532-GEOR-7.0-INDI-2563",
-        "L532-GEOR-7.5-INDI-2563",
-        "L532-GEOR-8.0-INDI-2563",
-        "L532-GEOR-8.5-INDI-2563",
-        "L532-GEOR-9.0-INDI-2563",
-        "L532-GEOR-9.5-INDI-2563",
-        "L532-GEOR-10.0-INDI-2563",
-        "L532-GEOR-10.5-INDI-2563",
-        "L532-GEOR-11.0-INDI-2563",
-        "L532-GEOR-12.0-INDI-2563",
-        "L532-GEOR-13.0-INDI-2563",
-        "L532-GEOR-14.0-INDI-2563",
-        "L532-GEOR-15.0-INDI-2563"
-      ],
-      "has_ad": false,
-      "matched_sku": ""
-    },
-    {
-      "product_id": "15214262747302",
-      "title": "George Sneaker In Black and White Leather",
-      "type": "Sneaker",
-      "vendor": "Larroudé",
-      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-BLAC-2562_1M.webp?v=1768846017",
-      "handle": "black-george-sneaker-and-white-leather",
-      "price": 250.0,
-      "total_stock": 170233,
-      "n_variants": 17,
-      "skus": [
-        "L532-GEOR-5.0-BLAC-2562",
-        "L532-GEOR-5.5-BLAC-2562",
-        "L532-GEOR-6.0-BLAC-2562",
-        "L532-GEOR-6.5-BLAC-2562",
-        "L532-GEOR-7.0-BLAC-2562",
-        "L532-GEOR-7.5-BLAC-2562",
-        "L532-GEOR-8.0-BLAC-2562",
-        "L532-GEOR-8.5-BLAC-2562",
-        "L532-GEOR-9.0-BLAC-2562",
-        "L532-GEOR-9.5-BLAC-2562",
-        "L532-GEOR-10.0-BLAC-2562",
-        "L532-GEOR-10.5-BLAC-2562",
-        "L532-GEOR-11.0-BLAC-2562",
-        "L532-GEOR-12.0-BLAC-2562",
-        "L532-GEOR-13.0-BLAC-2562",
-        "L532-GEOR-14.0-BLAC-2562",
-        "L532-GEOR-15.0-BLAC-2562"
       ],
       "has_ad": false,
       "matched_sku": ""
@@ -1984,70 +2469,6 @@
       "matched_sku": ""
     },
     {
-      "product_id": "15214262583462",
-      "title": "George Sneaker In Navy Suede and Silver Sparkle Leather",
-      "type": "Sneaker",
-      "vendor": "Larroudé",
-      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-INDI-2564_1M.webp?v=1768846018",
-      "handle": "navy-george-sneaker-suede-and-silver-sparkle-leather",
-      "price": 250.0,
-      "total_stock": 170182,
-      "n_variants": 17,
-      "skus": [
-        "L532-GEOR-5.0-INDI-2564",
-        "L532-GEOR-5.5-INDI-2564",
-        "L532-GEOR-6.0-INDI-2564",
-        "L532-GEOR-6.5-INDI-2564",
-        "L532-GEOR-7.0-INDI-2564",
-        "L532-GEOR-7.5-INDI-2564",
-        "L532-GEOR-8.0-INDI-2564",
-        "L532-GEOR-8.5-INDI-2564",
-        "L532-GEOR-9.0-INDI-2564",
-        "L532-GEOR-9.5-INDI-2564",
-        "L532-GEOR-10.0-INDI-2564",
-        "L532-GEOR-10.5-INDI-2564",
-        "L532-GEOR-11.0-INDI-2564",
-        "L532-GEOR-12.0-INDI-2564",
-        "L532-GEOR-13.0-INDI-2564",
-        "L532-GEOR-14.0-INDI-2564",
-        "L532-GEOR-15.0-INDI-2564"
-      ],
-      "has_ad": false,
-      "matched_sku": ""
-    },
-    {
-      "product_id": "15214262714534",
-      "title": "George Sneaker In Burgundy Suede and Maya and Tulip Leather",
-      "type": "Sneaker",
-      "vendor": "Larroudé",
-      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-BURG-2565_1M.webp?v=1768846017",
-      "handle": "burgundy-george-sneaker-suede-and-maya-and-tulip-leather",
-      "price": 250.0,
-      "total_stock": 170170,
-      "n_variants": 17,
-      "skus": [
-        "L532-GEOR-5.0-BURG-2565",
-        "L532-GEOR-5.5-BURG-2565",
-        "L532-GEOR-6.0-BURG-2565",
-        "L532-GEOR-6.5-BURG-2565",
-        "L532-GEOR-7.0-BURG-2565",
-        "L532-GEOR-7.5-BURG-2565",
-        "L532-GEOR-8.0-BURG-2565",
-        "L532-GEOR-8.5-BURG-2565",
-        "L532-GEOR-9.0-BURG-2565",
-        "L532-GEOR-9.5-BURG-2565",
-        "L532-GEOR-10.0-BURG-2565",
-        "L532-GEOR-10.5-BURG-2565",
-        "L532-GEOR-11.0-BURG-2565",
-        "L532-GEOR-12.0-BURG-2565",
-        "L532-GEOR-13.0-BURG-2565",
-        "L532-GEOR-14.0-BURG-2565",
-        "L532-GEOR-15.0-BURG-2565"
-      ],
-      "has_ad": false,
-      "matched_sku": ""
-    },
-    {
       "product_id": "15214262616230",
       "title": "George Sneaker In Silver Sparkle Leather and Ivory Leather",
       "type": "Sneaker",
@@ -2080,6 +2501,134 @@
       "matched_sku": ""
     },
     {
+      "product_id": "15214262452390",
+      "title": "George Sneaker In White and Blood Red Leather and Navy Suede",
+      "type": "Sneaker",
+      "vendor": "Larroudé",
+      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEORL-INDI-2563_1M.webp?v=1768846017",
+      "handle": "white-george-sneaker-and-blood-red-leather-and-navy-suede",
+      "price": 250.0,
+      "total_stock": 160310,
+      "n_variants": 17,
+      "skus": [
+        "L532-GEOR-5.0-INDI-2563",
+        "L532-GEOR-5.5-INDI-2563",
+        "L532-GEOR-6.0-INDI-2563",
+        "L532-GEOR-6.5-INDI-2563",
+        "L532-GEOR-7.0-INDI-2563",
+        "L532-GEOR-7.5-INDI-2563",
+        "L532-GEOR-8.0-INDI-2563",
+        "L532-GEOR-8.5-INDI-2563",
+        "L532-GEOR-9.0-INDI-2563",
+        "L532-GEOR-9.5-INDI-2563",
+        "L532-GEOR-10.0-INDI-2563",
+        "L532-GEOR-10.5-INDI-2563",
+        "L532-GEOR-11.0-INDI-2563",
+        "L532-GEOR-12.0-INDI-2563",
+        "L532-GEOR-13.0-INDI-2563",
+        "L532-GEOR-14.0-INDI-2563",
+        "L532-GEOR-15.0-INDI-2563"
+      ],
+      "has_ad": false,
+      "matched_sku": ""
+    },
+    {
+      "product_id": "15214262583462",
+      "title": "George Sneaker In Navy Suede and Silver Sparkle Leather",
+      "type": "Sneaker",
+      "vendor": "Larroudé",
+      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-INDI-2564_1M.webp?v=1768846018",
+      "handle": "navy-george-sneaker-suede-and-silver-sparkle-leather",
+      "price": 250.0,
+      "total_stock": 160184,
+      "n_variants": 17,
+      "skus": [
+        "L532-GEOR-5.0-INDI-2564",
+        "L532-GEOR-5.5-INDI-2564",
+        "L532-GEOR-6.0-INDI-2564",
+        "L532-GEOR-6.5-INDI-2564",
+        "L532-GEOR-7.0-INDI-2564",
+        "L532-GEOR-7.5-INDI-2564",
+        "L532-GEOR-8.0-INDI-2564",
+        "L532-GEOR-8.5-INDI-2564",
+        "L532-GEOR-9.0-INDI-2564",
+        "L532-GEOR-9.5-INDI-2564",
+        "L532-GEOR-10.0-INDI-2564",
+        "L532-GEOR-10.5-INDI-2564",
+        "L532-GEOR-11.0-INDI-2564",
+        "L532-GEOR-12.0-INDI-2564",
+        "L532-GEOR-13.0-INDI-2564",
+        "L532-GEOR-14.0-INDI-2564",
+        "L532-GEOR-15.0-INDI-2564"
+      ],
+      "has_ad": false,
+      "matched_sku": ""
+    },
+    {
+      "product_id": "15214262714534",
+      "title": "George Sneaker In Burgundy Suede and Maya and Tulip Leather",
+      "type": "Sneaker",
+      "vendor": "Larroudé",
+      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-BURG-2565_1M.webp?v=1768846017",
+      "handle": "burgundy-george-sneaker-suede-and-maya-and-tulip-leather",
+      "price": 250.0,
+      "total_stock": 160174,
+      "n_variants": 17,
+      "skus": [
+        "L532-GEOR-5.0-BURG-2565",
+        "L532-GEOR-5.5-BURG-2565",
+        "L532-GEOR-6.0-BURG-2565",
+        "L532-GEOR-6.5-BURG-2565",
+        "L532-GEOR-7.0-BURG-2565",
+        "L532-GEOR-7.5-BURG-2565",
+        "L532-GEOR-8.0-BURG-2565",
+        "L532-GEOR-8.5-BURG-2565",
+        "L532-GEOR-9.0-BURG-2565",
+        "L532-GEOR-9.5-BURG-2565",
+        "L532-GEOR-10.0-BURG-2565",
+        "L532-GEOR-10.5-BURG-2565",
+        "L532-GEOR-11.0-BURG-2565",
+        "L532-GEOR-12.0-BURG-2565",
+        "L532-GEOR-13.0-BURG-2565",
+        "L532-GEOR-14.0-BURG-2565",
+        "L532-GEOR-15.0-BURG-2565"
+      ],
+      "has_ad": false,
+      "matched_sku": ""
+    },
+    {
+      "product_id": "15214262747302",
+      "title": "George Sneaker In Black and White Leather",
+      "type": "Sneaker",
+      "vendor": "Larroudé",
+      "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-BLAC-2562_1M.webp?v=1768846017",
+      "handle": "black-george-sneaker-and-white-leather",
+      "price": 250.0,
+      "total_stock": 150235,
+      "n_variants": 17,
+      "skus": [
+        "L532-GEOR-5.0-BLAC-2562",
+        "L532-GEOR-5.5-BLAC-2562",
+        "L532-GEOR-6.0-BLAC-2562",
+        "L532-GEOR-6.5-BLAC-2562",
+        "L532-GEOR-7.0-BLAC-2562",
+        "L532-GEOR-7.5-BLAC-2562",
+        "L532-GEOR-8.0-BLAC-2562",
+        "L532-GEOR-8.5-BLAC-2562",
+        "L532-GEOR-9.0-BLAC-2562",
+        "L532-GEOR-9.5-BLAC-2562",
+        "L532-GEOR-10.0-BLAC-2562",
+        "L532-GEOR-10.5-BLAC-2562",
+        "L532-GEOR-11.0-BLAC-2562",
+        "L532-GEOR-12.0-BLAC-2562",
+        "L532-GEOR-13.0-BLAC-2562",
+        "L532-GEOR-14.0-BLAC-2562",
+        "L532-GEOR-15.0-BLAC-2562"
+      ],
+      "has_ad": false,
+      "matched_sku": ""
+    },
+    {
       "product_id": "15214262812838",
       "title": "George Sneaker In White Leather and Mushroom Grey Suede",
       "type": "Sneaker",
@@ -2087,7 +2636,7 @@
       "image_url": "https://cdn.shopify.com/s/files/1/0425/9810/5254/files/L532-GEOR-WHIT-2561_1M.webp?v=1768846018",
       "handle": "white-george-sneaker-leather-and-mushroom-grey-suede",
       "price": 250.0,
-      "total_stock": 160174,
+      "total_stock": 150176,
       "n_variants": 17,
       "skus": [
         "L532-GEOR-5.0-WHIT-2561",
@@ -2189,7 +2738,21 @@
         "net_sales": 70500.0,
         "units_sold": 190,
         "n_orders": 184,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-NATU-1967",
+          "L471-VERO-5.5-NATU-1967",
+          "L471-VERO-6.0-NATU-1967",
+          "L471-VERO-6.5-NATU-1967",
+          "L471-VERO-7.0-NATU-1967",
+          "L471-VERO-7.5-NATU-1967",
+          "L471-VERO-8.0-NATU-1967",
+          "L471-VERO-8.5-NATU-1967",
+          "L471-VERO-9.0-NATU-1967",
+          "L471-VERO-9.5-NATU-1967",
+          "L471-VERO-10.0-NATU-1967",
+          "L471-VERO-11.0-NATU-1967"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2232,7 +2795,21 @@
         "net_sales": 52185.0,
         "units_sold": 148,
         "n_orders": 142,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-NATU-2461",
+          "L471-DOLL-5.5-NATU-2461",
+          "L471-DOLL-6.0-NATU-2461",
+          "L471-DOLL-6.5-NATU-2461",
+          "L471-DOLL-7.0-NATU-2461",
+          "L471-DOLL-7.5-NATU-2461",
+          "L471-DOLL-8.0-NATU-2461",
+          "L471-DOLL-8.5-NATU-2461",
+          "L471-DOLL-9.0-NATU-2461",
+          "L471-DOLL-9.5-NATU-2461",
+          "L471-DOLL-10.0-NATU-2461",
+          "L471-DOLL-11.0-NATU-2461"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2275,7 +2852,21 @@
         "net_sales": 31668.0,
         "units_sold": 160,
         "n_orders": 160,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L570-VIVI-5.0-CLEA-2704",
+          "L570-VIVI-5.5-CLEA-2704",
+          "L570-VIVI-6.0-CLEA-2704",
+          "L570-VIVI-6.5-CLEA-2704",
+          "L570-VIVI-7.0-CLEA-2704",
+          "L570-VIVI-7.5-CLEA-2704",
+          "L570-VIVI-8.0-CLEA-2704",
+          "L570-VIVI-8.5-CLEA-2704",
+          "L570-VIVI-9.0-CLEA-2704",
+          "L570-VIVI-9.5-CLEA-2704",
+          "L570-VIVI-10.0-CLEA-2704",
+          "L570-VIVI-11.0-CLEA-2704"
+        ]
       },
       "asset": "GIF",
       "asset_type": "MP4",
@@ -2318,7 +2909,21 @@
         "net_sales": 16863.0,
         "units_sold": 87,
         "n_orders": 86,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-IVOR-2723",
+          "L277-FIOR-5.5-IVOR-2723",
+          "L277-FIOR-6.0-IVOR-2723",
+          "L277-FIOR-6.5-IVOR-2723",
+          "L277-FIOR-7.0-IVOR-2723",
+          "L277-FIOR-7.5-IVOR-2723",
+          "L277-FIOR-8.0-IVOR-2723",
+          "L277-FIOR-8.5-IVOR-2723",
+          "L277-FIOR-9.0-IVOR-2723",
+          "L277-FIOR-9.5-IVOR-2723",
+          "L277-FIOR-10.0-IVOR-2723",
+          "L277-FIOR-11.0-IVOR-2723"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2361,7 +2966,21 @@
         "net_sales": 15028.0,
         "units_sold": 68,
         "n_orders": 67,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-BLAC-2875",
+          "L450-FIOR-5.5-BLAC-2875",
+          "L450-FIOR-6.0-BLAC-2875",
+          "L450-FIOR-6.5-BLAC-2875",
+          "L450-FIOR-7.0-BLAC-2875",
+          "L450-FIOR-7.5-BLAC-2875",
+          "L450-FIOR-8.0-BLAC-2875",
+          "L450-FIOR-8.5-BLAC-2875",
+          "L450-FIOR-9.0-BLAC-2875",
+          "L450-FIOR-9.5-BLAC-2875",
+          "L450-FIOR-10.0-BLAC-2875",
+          "L450-FIOR-11.0-BLAC-2875"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2404,7 +3023,21 @@
         "net_sales": 14586.0,
         "units_sold": 66,
         "n_orders": 66,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-IVOR-2874",
+          "L450-FIOR-5.5-IVOR-2874",
+          "L450-FIOR-6.0-IVOR-2874",
+          "L450-FIOR-6.5-IVOR-2874",
+          "L450-FIOR-7.0-IVOR-2874",
+          "L450-FIOR-7.5-IVOR-2874",
+          "L450-FIOR-8.0-IVOR-2874",
+          "L450-FIOR-8.5-IVOR-2874",
+          "L450-FIOR-9.0-IVOR-2874",
+          "L450-FIOR-9.5-IVOR-2874",
+          "L450-FIOR-10.0-IVOR-2874",
+          "L450-FIOR-11.0-IVOR-2874"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2447,7 +3080,21 @@
         "net_sales": 14250.0,
         "units_sold": 39,
         "n_orders": 39,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-0959",
+          "L144-MILA-5.5-BEIG-0959",
+          "L144-MILA-6.0-BEIG-0959",
+          "L144-MILA-6.5-BEIG-0959",
+          "L144-MILA-7.0-BEIG-0959",
+          "L144-MILA-7.5-BEIG-0959",
+          "L144-MILA-8.0-BEIG-0959",
+          "L144-MILA-8.5-BEIG-0959",
+          "L144-MILA-9.0-BEIG-0959",
+          "L144-MILA-9.5-BEIG-0959",
+          "L144-MILA-10.0-BEIG-0959",
+          "L144-MILA-11.0-BEIG-0959"
+        ]
       },
       "asset": "GIF",
       "asset_type": "MP4",
@@ -2488,7 +3135,21 @@
         "net_sales": 12804.0,
         "units_sold": 68,
         "n_orders": 9,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-JOLE-5.0-NATU-2814",
+          "L471-JOLE-5.5-NATU-2814",
+          "L471-JOLE-6.0-NATU-2814",
+          "L471-JOLE-6.5-NATU-2814",
+          "L471-JOLE-7.0-NATU-2814",
+          "L471-JOLE-7.5-NATU-2814",
+          "L471-JOLE-8.0-NATU-2814",
+          "L471-JOLE-8.5-NATU-2814",
+          "L471-JOLE-9.0-NATU-2814",
+          "L471-JOLE-9.5-NATU-2814",
+          "L471-JOLE-10.0-NATU-2814",
+          "L471-JOLE-11.0-NATU-2814"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2529,7 +3190,21 @@
         "net_sales": 12600.0,
         "units_sold": 36,
         "n_orders": 33,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-BEIG-2085",
+          "L471-DOLL-5.5-BEIG-2085",
+          "L471-DOLL-6.0-BEIG-2085",
+          "L471-DOLL-6.5-BEIG-2085",
+          "L471-DOLL-7.0-BEIG-2085",
+          "L471-DOLL-7.5-BEIG-2085",
+          "L471-DOLL-8.0-BEIG-2085",
+          "L471-DOLL-8.5-BEIG-2085",
+          "L471-DOLL-9.0-BEIG-2085",
+          "L471-DOLL-9.5-BEIG-2085",
+          "L471-DOLL-10.0-BEIG-2085",
+          "L471-DOLL-11.0-BEIG-2085"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2570,7 +3245,21 @@
         "net_sales": 12210.0,
         "units_sold": 38,
         "n_orders": 38,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-BEIG-0992",
+          "L264-MILA-5.5-BEIG-0992",
+          "L264-MILA-6.0-BEIG-0992",
+          "L264-MILA-6.5-BEIG-0992",
+          "L264-MILA-7.0-BEIG-0992",
+          "L264-MILA-7.5-BEIG-0992",
+          "L264-MILA-8.0-BEIG-0992",
+          "L264-MILA-8.5-BEIG-0992",
+          "L264-MILA-9.0-BEIG-0992",
+          "L264-MILA-9.5-BEIG-0992",
+          "L264-MILA-10.0-BEIG-0992",
+          "L264-MILA-11.0-BEIG-0992"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2613,7 +3302,21 @@
         "net_sales": 11670.0,
         "units_sold": 66,
         "n_orders": 43,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L420-LOUL-5.0-RAIN-2854",
+          "L420-LOUL-5.5-RAIN-2854",
+          "L420-LOUL-6.0-RAIN-2854",
+          "L420-LOUL-6.5-RAIN-2854",
+          "L420-LOUL-7.0-RAIN-2854",
+          "L420-LOUL-7.5-RAIN-2854",
+          "L420-LOUL-8.0-RAIN-2854",
+          "L420-LOUL-8.5-RAIN-2854",
+          "L420-LOUL-9.0-RAIN-2854",
+          "L420-LOUL-9.5-RAIN-2854",
+          "L420-LOUL-10.0-RAIN-2854",
+          "L420-LOUL-11.0-RAIN-2854"
+        ]
       },
       "asset": "GIF",
       "asset_type": "MP4",
@@ -2654,7 +3357,21 @@
         "net_sales": 10730.0,
         "units_sold": 70,
         "n_orders": 11,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L581-VERO-5.0-BURN-2857",
+          "L581-VERO-5.5-BURN-2857",
+          "L581-VERO-6.0-BURN-2857",
+          "L581-VERO-6.5-BURN-2857",
+          "L581-VERO-7.0-BURN-2857",
+          "L581-VERO-7.5-BURN-2857",
+          "L581-VERO-8.0-BURN-2857",
+          "L581-VERO-8.5-BURN-2857",
+          "L581-VERO-9.0-BURN-2857",
+          "L581-VERO-9.5-BURN-2857",
+          "L581-VERO-10.0-BURN-2857",
+          "L581-VERO-11.0-BURN-2857"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2695,7 +3412,21 @@
         "net_sales": 10556.0,
         "units_sold": 52,
         "n_orders": 50,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L114-VIVI-5.0-SAND-2738",
+          "L114-VIVI-5.5-SAND-2738",
+          "L114-VIVI-6.0-SAND-2738",
+          "L114-VIVI-6.5-SAND-2738",
+          "L114-VIVI-7.0-SAND-2738",
+          "L114-VIVI-7.5-SAND-2738",
+          "L114-VIVI-8.0-SAND-2738",
+          "L114-VIVI-8.5-SAND-2738",
+          "L114-VIVI-9.0-SAND-2738",
+          "L114-VIVI-9.5-SAND-2738",
+          "L114-VIVI-10.0-SAND-2738",
+          "L114-VIVI-11.0-SAND-2738"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2736,7 +3467,21 @@
         "net_sales": 10164.0,
         "units_sold": 48,
         "n_orders": 48,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-BLAC-2761",
+          "L277-FIOR-5.5-BLAC-2761",
+          "L277-FIOR-6.0-BLAC-2761",
+          "L277-FIOR-6.5-BLAC-2761",
+          "L277-FIOR-7.0-BLAC-2761",
+          "L277-FIOR-7.5-BLAC-2761",
+          "L277-FIOR-8.0-BLAC-2761",
+          "L277-FIOR-8.5-BLAC-2761",
+          "L277-FIOR-9.0-BLAC-2761",
+          "L277-FIOR-9.5-BLAC-2761",
+          "L277-FIOR-10.0-BLAC-2761",
+          "L277-FIOR-11.0-BLAC-2761"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2777,7 +3522,21 @@
         "net_sales": 10150.0,
         "units_sold": 30,
         "n_orders": 30,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-VERO-5.0-NATU-2077",
+          "L144-VERO-5.5-NATU-2077",
+          "L144-VERO-6.0-NATU-2077",
+          "L144-VERO-6.5-NATU-2077",
+          "L144-VERO-7.0-NATU-2077",
+          "L144-VERO-7.5-NATU-2077",
+          "L144-VERO-8.0-NATU-2077",
+          "L144-VERO-8.5-NATU-2077",
+          "L144-VERO-9.0-NATU-2077",
+          "L144-VERO-9.5-NATU-2077",
+          "L144-VERO-10.0-NATU-2077",
+          "L144-VERO-11.0-NATU-2077"
+        ]
       },
       "asset": "VIDEO",
       "asset_type": "MP4",
@@ -2818,7 +3577,21 @@
         "net_sales": 9750.0,
         "units_sold": 28,
         "n_orders": 28,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-2456",
+          "L144-MILA-5.5-BEIG-2456",
+          "L144-MILA-6.0-BEIG-2456",
+          "L144-MILA-6.5-BEIG-2456",
+          "L144-MILA-7.0-BEIG-2456",
+          "L144-MILA-7.5-BEIG-2456",
+          "L144-MILA-8.0-BEIG-2456",
+          "L144-MILA-8.5-BEIG-2456",
+          "L144-MILA-9.0-BEIG-2456",
+          "L144-MILA-9.5-BEIG-2456",
+          "L144-MILA-10.0-BEIG-2456",
+          "L144-MILA-11.0-BEIG-2456"
+        ]
       },
       "asset": "GIF",
       "asset_type": "MP4",
@@ -2859,7 +3632,21 @@
         "net_sales": 8625.0,
         "units_sold": 24,
         "n_orders": 24,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L131-DOLL-5.0-NATU-1813",
+          "L131-DOLL-5.5-NATU-1813",
+          "L131-DOLL-6.0-NATU-1813",
+          "L131-DOLL-6.5-NATU-1813",
+          "L131-DOLL-7.0-NATU-1813",
+          "L131-DOLL-7.5-NATU-1813",
+          "L131-DOLL-8.0-NATU-1813",
+          "L131-DOLL-8.5-NATU-1813",
+          "L131-DOLL-9.0-NATU-1813",
+          "L131-DOLL-9.5-NATU-1813",
+          "L131-DOLL-10.0-NATU-1813",
+          "L131-DOLL-11.0-NATU-1813"
+        ]
       },
       "asset": "STATIC",
       "asset_type": "JPEG",
@@ -2896,7 +3683,7 @@
         "spend": 1032.3,
         "roas": 1.17,
         "purchases": 4,
-        "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwE-hs2E&_nc_oc=AdpdcxAThB-r9ziUswDjZYmzGbe8V0tgtQph-T04Y0rOal1B7lRmzrASlQJC8yxNss4&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHI7cEznB4HExQcIJc4luvnh96-FgLXKov6pavKEiT9-Rl1NKn8JUVW7mDHbiuBHDx_3eojyGY76g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6pBJ0z2FE8Qgu2x3V1p6Z7mrCP2uXmTlN1VgSrAGREpQ&oe=6A1278AA",
+        "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwHXSVrn&_nc_oc=Adq7rMAgbv4rGVjR6eJyGs3x8FII1rrIADxKQb7v4UmKTPCxv5cgYUfZSDevRlKvIOU&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF6QYOvAkv-IAthh7CFtw41Un_DfwUwZrrReFaluxUj2jM2aYrBdrswruqKlsgHFtR3-cEEI9MKqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6CQUhxqP1sp04YZecB0wuG4q2YwqlNIooyZ1eVy_SFKg&oe=6A1278AA",
         "creative_image_url": "",
         "matched_product_image": "",
         "matched_product_title": null,
@@ -2907,12 +3694,12 @@
       "campaign_target": "Sale_Advantage_Maximize-Value-Of-Conversions_CollabNicolo"
     }
   ],
-  "n_total_products": 442,
+  "n_total_products": 441,
   "n_total_ads": 22,
   "n_advertised_products": 0,
   "pareto_50pct": {
-    "total_revenue": 1002113.74,
-    "target_50pct": 501056.87,
+    "total_revenue": 1002263.72,
+    "target_50pct": 501131.86,
     "n_pareto_products": 45,
     "n_pareto_with_ads": 0,
     "n_pareto_without_ads": 44,
@@ -2932,6 +3719,20 @@
         "units_sold": 190,
         "n_orders": 184,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-NATU-1967",
+          "L471-VERO-5.5-NATU-1967",
+          "L471-VERO-6.0-NATU-1967",
+          "L471-VERO-6.5-NATU-1967",
+          "L471-VERO-7.0-NATU-1967",
+          "L471-VERO-7.5-NATU-1967",
+          "L471-VERO-8.0-NATU-1967",
+          "L471-VERO-8.5-NATU-1967",
+          "L471-VERO-9.0-NATU-1967",
+          "L471-VERO-9.5-NATU-1967",
+          "L471-VERO-10.0-NATU-1967",
+          "L471-VERO-11.0-NATU-1967"
+        ],
         "advertised": false
       },
       {
@@ -2949,6 +3750,20 @@
         "units_sold": 148,
         "n_orders": 142,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-NATU-2461",
+          "L471-DOLL-5.5-NATU-2461",
+          "L471-DOLL-6.0-NATU-2461",
+          "L471-DOLL-6.5-NATU-2461",
+          "L471-DOLL-7.0-NATU-2461",
+          "L471-DOLL-7.5-NATU-2461",
+          "L471-DOLL-8.0-NATU-2461",
+          "L471-DOLL-8.5-NATU-2461",
+          "L471-DOLL-9.0-NATU-2461",
+          "L471-DOLL-9.5-NATU-2461",
+          "L471-DOLL-10.0-NATU-2461",
+          "L471-DOLL-11.0-NATU-2461"
+        ],
         "advertised": false
       },
       {
@@ -2966,6 +3781,20 @@
         "units_sold": 160,
         "n_orders": 160,
         "gross_profit": 0.0,
+        "skus": [
+          "L570-VIVI-5.0-CLEA-2704",
+          "L570-VIVI-5.5-CLEA-2704",
+          "L570-VIVI-6.0-CLEA-2704",
+          "L570-VIVI-6.5-CLEA-2704",
+          "L570-VIVI-7.0-CLEA-2704",
+          "L570-VIVI-7.5-CLEA-2704",
+          "L570-VIVI-8.0-CLEA-2704",
+          "L570-VIVI-8.5-CLEA-2704",
+          "L570-VIVI-9.0-CLEA-2704",
+          "L570-VIVI-9.5-CLEA-2704",
+          "L570-VIVI-10.0-CLEA-2704",
+          "L570-VIVI-11.0-CLEA-2704"
+        ],
         "advertised": false
       },
       {
@@ -2983,6 +3812,20 @@
         "units_sold": 87,
         "n_orders": 86,
         "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-IVOR-2723",
+          "L277-FIOR-5.5-IVOR-2723",
+          "L277-FIOR-6.0-IVOR-2723",
+          "L277-FIOR-6.5-IVOR-2723",
+          "L277-FIOR-7.0-IVOR-2723",
+          "L277-FIOR-7.5-IVOR-2723",
+          "L277-FIOR-8.0-IVOR-2723",
+          "L277-FIOR-8.5-IVOR-2723",
+          "L277-FIOR-9.0-IVOR-2723",
+          "L277-FIOR-9.5-IVOR-2723",
+          "L277-FIOR-10.0-IVOR-2723",
+          "L277-FIOR-11.0-IVOR-2723"
+        ],
         "advertised": false
       },
       {
@@ -3000,6 +3843,20 @@
         "units_sold": 68,
         "n_orders": 67,
         "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-BLAC-2875",
+          "L450-FIOR-5.5-BLAC-2875",
+          "L450-FIOR-6.0-BLAC-2875",
+          "L450-FIOR-6.5-BLAC-2875",
+          "L450-FIOR-7.0-BLAC-2875",
+          "L450-FIOR-7.5-BLAC-2875",
+          "L450-FIOR-8.0-BLAC-2875",
+          "L450-FIOR-8.5-BLAC-2875",
+          "L450-FIOR-9.0-BLAC-2875",
+          "L450-FIOR-9.5-BLAC-2875",
+          "L450-FIOR-10.0-BLAC-2875",
+          "L450-FIOR-11.0-BLAC-2875"
+        ],
         "advertised": false
       },
       {
@@ -3017,6 +3874,20 @@
         "units_sold": 66,
         "n_orders": 66,
         "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-IVOR-2874",
+          "L450-FIOR-5.5-IVOR-2874",
+          "L450-FIOR-6.0-IVOR-2874",
+          "L450-FIOR-6.5-IVOR-2874",
+          "L450-FIOR-7.0-IVOR-2874",
+          "L450-FIOR-7.5-IVOR-2874",
+          "L450-FIOR-8.0-IVOR-2874",
+          "L450-FIOR-8.5-IVOR-2874",
+          "L450-FIOR-9.0-IVOR-2874",
+          "L450-FIOR-9.5-IVOR-2874",
+          "L450-FIOR-10.0-IVOR-2874",
+          "L450-FIOR-11.0-IVOR-2874"
+        ],
         "advertised": false
       },
       {
@@ -3034,6 +3905,20 @@
         "units_sold": 39,
         "n_orders": 39,
         "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-0959",
+          "L144-MILA-5.5-BEIG-0959",
+          "L144-MILA-6.0-BEIG-0959",
+          "L144-MILA-6.5-BEIG-0959",
+          "L144-MILA-7.0-BEIG-0959",
+          "L144-MILA-7.5-BEIG-0959",
+          "L144-MILA-8.0-BEIG-0959",
+          "L144-MILA-8.5-BEIG-0959",
+          "L144-MILA-9.0-BEIG-0959",
+          "L144-MILA-9.5-BEIG-0959",
+          "L144-MILA-10.0-BEIG-0959",
+          "L144-MILA-11.0-BEIG-0959"
+        ],
         "advertised": false
       },
       {
@@ -3051,6 +3936,20 @@
         "units_sold": 68,
         "n_orders": 9,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-JOLE-5.0-NATU-2814",
+          "L471-JOLE-5.5-NATU-2814",
+          "L471-JOLE-6.0-NATU-2814",
+          "L471-JOLE-6.5-NATU-2814",
+          "L471-JOLE-7.0-NATU-2814",
+          "L471-JOLE-7.5-NATU-2814",
+          "L471-JOLE-8.0-NATU-2814",
+          "L471-JOLE-8.5-NATU-2814",
+          "L471-JOLE-9.0-NATU-2814",
+          "L471-JOLE-9.5-NATU-2814",
+          "L471-JOLE-10.0-NATU-2814",
+          "L471-JOLE-11.0-NATU-2814"
+        ],
         "advertised": false
       },
       {
@@ -3068,6 +3967,20 @@
         "units_sold": 36,
         "n_orders": 33,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-BEIG-2085",
+          "L471-DOLL-5.5-BEIG-2085",
+          "L471-DOLL-6.0-BEIG-2085",
+          "L471-DOLL-6.5-BEIG-2085",
+          "L471-DOLL-7.0-BEIG-2085",
+          "L471-DOLL-7.5-BEIG-2085",
+          "L471-DOLL-8.0-BEIG-2085",
+          "L471-DOLL-8.5-BEIG-2085",
+          "L471-DOLL-9.0-BEIG-2085",
+          "L471-DOLL-9.5-BEIG-2085",
+          "L471-DOLL-10.0-BEIG-2085",
+          "L471-DOLL-11.0-BEIG-2085"
+        ],
         "advertised": false
       },
       {
@@ -3085,6 +3998,20 @@
         "units_sold": 38,
         "n_orders": 38,
         "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-BEIG-0992",
+          "L264-MILA-5.5-BEIG-0992",
+          "L264-MILA-6.0-BEIG-0992",
+          "L264-MILA-6.5-BEIG-0992",
+          "L264-MILA-7.0-BEIG-0992",
+          "L264-MILA-7.5-BEIG-0992",
+          "L264-MILA-8.0-BEIG-0992",
+          "L264-MILA-8.5-BEIG-0992",
+          "L264-MILA-9.0-BEIG-0992",
+          "L264-MILA-9.5-BEIG-0992",
+          "L264-MILA-10.0-BEIG-0992",
+          "L264-MILA-11.0-BEIG-0992"
+        ],
         "advertised": false
       },
       {
@@ -3102,6 +4029,20 @@
         "units_sold": 66,
         "n_orders": 43,
         "gross_profit": 0.0,
+        "skus": [
+          "L420-LOUL-5.0-RAIN-2854",
+          "L420-LOUL-5.5-RAIN-2854",
+          "L420-LOUL-6.0-RAIN-2854",
+          "L420-LOUL-6.5-RAIN-2854",
+          "L420-LOUL-7.0-RAIN-2854",
+          "L420-LOUL-7.5-RAIN-2854",
+          "L420-LOUL-8.0-RAIN-2854",
+          "L420-LOUL-8.5-RAIN-2854",
+          "L420-LOUL-9.0-RAIN-2854",
+          "L420-LOUL-9.5-RAIN-2854",
+          "L420-LOUL-10.0-RAIN-2854",
+          "L420-LOUL-11.0-RAIN-2854"
+        ],
         "advertised": false
       },
       {
@@ -3119,6 +4060,20 @@
         "units_sold": 70,
         "n_orders": 11,
         "gross_profit": 0.0,
+        "skus": [
+          "L581-VERO-5.0-BURN-2857",
+          "L581-VERO-5.5-BURN-2857",
+          "L581-VERO-6.0-BURN-2857",
+          "L581-VERO-6.5-BURN-2857",
+          "L581-VERO-7.0-BURN-2857",
+          "L581-VERO-7.5-BURN-2857",
+          "L581-VERO-8.0-BURN-2857",
+          "L581-VERO-8.5-BURN-2857",
+          "L581-VERO-9.0-BURN-2857",
+          "L581-VERO-9.5-BURN-2857",
+          "L581-VERO-10.0-BURN-2857",
+          "L581-VERO-11.0-BURN-2857"
+        ],
         "advertised": false
       },
       {
@@ -3136,6 +4091,20 @@
         "units_sold": 52,
         "n_orders": 50,
         "gross_profit": 0.0,
+        "skus": [
+          "L114-VIVI-5.0-SAND-2738",
+          "L114-VIVI-5.5-SAND-2738",
+          "L114-VIVI-6.0-SAND-2738",
+          "L114-VIVI-6.5-SAND-2738",
+          "L114-VIVI-7.0-SAND-2738",
+          "L114-VIVI-7.5-SAND-2738",
+          "L114-VIVI-8.0-SAND-2738",
+          "L114-VIVI-8.5-SAND-2738",
+          "L114-VIVI-9.0-SAND-2738",
+          "L114-VIVI-9.5-SAND-2738",
+          "L114-VIVI-10.0-SAND-2738",
+          "L114-VIVI-11.0-SAND-2738"
+        ],
         "advertised": false
       },
       {
@@ -3153,6 +4122,20 @@
         "units_sold": 48,
         "n_orders": 48,
         "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-BLAC-2761",
+          "L277-FIOR-5.5-BLAC-2761",
+          "L277-FIOR-6.0-BLAC-2761",
+          "L277-FIOR-6.5-BLAC-2761",
+          "L277-FIOR-7.0-BLAC-2761",
+          "L277-FIOR-7.5-BLAC-2761",
+          "L277-FIOR-8.0-BLAC-2761",
+          "L277-FIOR-8.5-BLAC-2761",
+          "L277-FIOR-9.0-BLAC-2761",
+          "L277-FIOR-9.5-BLAC-2761",
+          "L277-FIOR-10.0-BLAC-2761",
+          "L277-FIOR-11.0-BLAC-2761"
+        ],
         "advertised": false
       },
       {
@@ -3170,6 +4153,20 @@
         "units_sold": 30,
         "n_orders": 30,
         "gross_profit": 0.0,
+        "skus": [
+          "L144-VERO-5.0-NATU-2077",
+          "L144-VERO-5.5-NATU-2077",
+          "L144-VERO-6.0-NATU-2077",
+          "L144-VERO-6.5-NATU-2077",
+          "L144-VERO-7.0-NATU-2077",
+          "L144-VERO-7.5-NATU-2077",
+          "L144-VERO-8.0-NATU-2077",
+          "L144-VERO-8.5-NATU-2077",
+          "L144-VERO-9.0-NATU-2077",
+          "L144-VERO-9.5-NATU-2077",
+          "L144-VERO-10.0-NATU-2077",
+          "L144-VERO-11.0-NATU-2077"
+        ],
         "advertised": false
       },
       {
@@ -3181,12 +4178,15 @@
         "price": 4.98,
         "handle": "free-returns-coverage-3",
         "created_at": "2026-03-20T11:37:14-04:00",
-        "gross_sales": 9800.64,
-        "total_sales": 9800.64,
-        "net_sales": 9800.64,
-        "units_sold": 1968,
-        "n_orders": 1968,
+        "gross_sales": 9805.62,
+        "total_sales": 9805.62,
+        "net_sales": 9805.62,
+        "units_sold": 1969,
+        "n_orders": 1969,
         "gross_profit": 0.0,
+        "skus": [
+          "x-redo"
+        ],
         "advertised": false
       },
       {
@@ -3204,6 +4204,20 @@
         "units_sold": 28,
         "n_orders": 28,
         "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-2456",
+          "L144-MILA-5.5-BEIG-2456",
+          "L144-MILA-6.0-BEIG-2456",
+          "L144-MILA-6.5-BEIG-2456",
+          "L144-MILA-7.0-BEIG-2456",
+          "L144-MILA-7.5-BEIG-2456",
+          "L144-MILA-8.0-BEIG-2456",
+          "L144-MILA-8.5-BEIG-2456",
+          "L144-MILA-9.0-BEIG-2456",
+          "L144-MILA-9.5-BEIG-2456",
+          "L144-MILA-10.0-BEIG-2456",
+          "L144-MILA-11.0-BEIG-2456"
+        ],
         "advertised": false
       },
       {
@@ -3221,6 +4235,20 @@
         "units_sold": 51,
         "n_orders": 51,
         "gross_profit": 0.0,
+        "skus": [
+          "L420-LOUL-5.0-BEIG-2695",
+          "L420-LOUL-5.5-BEIG-2695",
+          "L420-LOUL-6.0-BEIG-2695",
+          "L420-LOUL-6.5-BEIG-2695",
+          "L420-LOUL-7.0-BEIG-2695",
+          "L420-LOUL-7.5-BEIG-2695",
+          "L420-LOUL-8.0-BEIG-2695",
+          "L420-LOUL-8.5-BEIG-2695",
+          "L420-LOUL-9.0-BEIG-2695",
+          "L420-LOUL-9.5-BEIG-2695",
+          "L420-LOUL-10.0-BEIG-2695",
+          "L420-LOUL-11.0-BEIG-2695"
+        ],
         "advertised": false
       },
       {
@@ -3238,6 +4266,20 @@
         "units_sold": 27,
         "n_orders": 25,
         "gross_profit": 0.0,
+        "skus": [
+          "L219-VERO-5.0-IVOR-1989",
+          "L219-VERO-5.5-IVOR-1989",
+          "L219-VERO-6.0-IVOR-1989",
+          "L219-VERO-6.5-IVOR-1989",
+          "L219-VERO-7.0-IVOR-1989",
+          "L219-VERO-7.5-IVOR-1989",
+          "L219-VERO-8.0-IVOR-1989",
+          "L219-VERO-8.5-IVOR-1989",
+          "L219-VERO-9.0-IVOR-1989",
+          "L219-VERO-9.5-IVOR-1989",
+          "L219-VERO-10.0-IVOR-1989",
+          "L219-VERO-11.0-IVOR-1989"
+        ],
         "advertised": false
       },
       {
@@ -3255,6 +4297,20 @@
         "units_sold": 24,
         "n_orders": 24,
         "gross_profit": 0.0,
+        "skus": [
+          "L131-DOLL-5.0-NATU-1813",
+          "L131-DOLL-5.5-NATU-1813",
+          "L131-DOLL-6.0-NATU-1813",
+          "L131-DOLL-6.5-NATU-1813",
+          "L131-DOLL-7.0-NATU-1813",
+          "L131-DOLL-7.5-NATU-1813",
+          "L131-DOLL-8.0-NATU-1813",
+          "L131-DOLL-8.5-NATU-1813",
+          "L131-DOLL-9.0-NATU-1813",
+          "L131-DOLL-9.5-NATU-1813",
+          "L131-DOLL-10.0-NATU-1813",
+          "L131-DOLL-11.0-NATU-1813"
+        ],
         "advertised": false
       },
       {
@@ -3272,6 +4328,20 @@
         "units_sold": 22,
         "n_orders": 16,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-PLAT-2421",
+          "L471-BIAN-5.5-PLAT-2421",
+          "L471-BIAN-6.0-PLAT-2421",
+          "L471-BIAN-6.5-PLAT-2421",
+          "L471-BIAN-7.0-PLAT-2421",
+          "L471-BIAN-7.5-PLAT-2421",
+          "L471-BIAN-8.0-PLAT-2421",
+          "L471-BIAN-8.5-PLAT-2421",
+          "L471-BIAN-9.0-PLAT-2421",
+          "L471-BIAN-9.5-PLAT-2421",
+          "L471-BIAN-10.0-PLAT-2421",
+          "L471-BIAN-11.0-PLAT-2421"
+        ],
         "advertised": false
       },
       {
@@ -3289,6 +4359,20 @@
         "units_sold": 24,
         "n_orders": 24,
         "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-BEIG-2458",
+          "L264-MILA-5.5-BEIG-2458",
+          "L264-MILA-6.0-BEIG-2458",
+          "L264-MILA-6.5-BEIG-2458",
+          "L264-MILA-7.0-BEIG-2458",
+          "L264-MILA-7.5-BEIG-2458",
+          "L264-MILA-8.0-BEIG-2458",
+          "L264-MILA-8.5-BEIG-2458",
+          "L264-MILA-9.0-BEIG-2458",
+          "L264-MILA-9.5-BEIG-2458",
+          "L264-MILA-10.0-BEIG-2458",
+          "L264-MILA-11.0-BEIG-2458"
+        ],
         "advertised": false
       },
       {
@@ -3306,6 +4390,20 @@
         "units_sold": 33,
         "n_orders": 33,
         "gross_profit": 0.0,
+        "skus": [
+          "L131-DOLL-5.0-RAIN-2840",
+          "L131-DOLL-5.5-RAIN-2840",
+          "L131-DOLL-6.0-RAIN-2840",
+          "L131-DOLL-6.5-RAIN-2840",
+          "L131-DOLL-7.0-RAIN-2840",
+          "L131-DOLL-7.5-RAIN-2840",
+          "L131-DOLL-8.0-RAIN-2840",
+          "L131-DOLL-8.5-RAIN-2840",
+          "L131-DOLL-9.0-RAIN-2840",
+          "L131-DOLL-9.5-RAIN-2840",
+          "L131-DOLL-10.0-RAIN-2840",
+          "L131-DOLL-11.0-RAIN-2840"
+        ],
         "advertised": false
       },
       {
@@ -3323,6 +4421,20 @@
         "units_sold": 19,
         "n_orders": 13,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-GOLD-2017",
+          "L471-VERO-5.5-GOLD-2017",
+          "L471-VERO-6.0-GOLD-2017",
+          "L471-VERO-6.5-GOLD-2017",
+          "L471-VERO-7.0-GOLD-2017",
+          "L471-VERO-7.5-GOLD-2017",
+          "L471-VERO-8.0-GOLD-2017",
+          "L471-VERO-8.5-GOLD-2017",
+          "L471-VERO-9.0-GOLD-2017",
+          "L471-VERO-9.5-GOLD-2017",
+          "L471-VERO-10.0-GOLD-2017",
+          "L471-VERO-11.0-GOLD-2017"
+        ],
         "advertised": false
       },
       {
@@ -3340,6 +4452,20 @@
         "units_sold": 18,
         "n_orders": 17,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-PINK-2650",
+          "L471-DOLL-5.5-PINK-2650",
+          "L471-DOLL-6.0-PINK-2650",
+          "L471-DOLL-6.5-PINK-2650",
+          "L471-DOLL-7.0-PINK-2650",
+          "L471-DOLL-7.5-PINK-2650",
+          "L471-DOLL-8.0-PINK-2650",
+          "L471-DOLL-8.5-PINK-2650",
+          "L471-DOLL-9.0-PINK-2650",
+          "L471-DOLL-9.5-PINK-2650",
+          "L471-DOLL-10.0-PINK-2650",
+          "L471-DOLL-11.0-PINK-2650"
+        ],
         "advertised": false
       },
       {
@@ -3357,6 +4483,20 @@
         "units_sold": 19,
         "n_orders": 19,
         "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-PINK-2646",
+          "L144-MILA-5.5-PINK-2646",
+          "L144-MILA-6.0-PINK-2646",
+          "L144-MILA-6.5-PINK-2646",
+          "L144-MILA-7.0-PINK-2646",
+          "L144-MILA-7.5-PINK-2646",
+          "L144-MILA-8.0-PINK-2646",
+          "L144-MILA-8.5-PINK-2646",
+          "L144-MILA-9.0-PINK-2646",
+          "L144-MILA-9.5-PINK-2646",
+          "L144-MILA-10.0-PINK-2646",
+          "L144-MILA-11.0-PINK-2646"
+        ],
         "advertised": false
       },
       {
@@ -3374,6 +4514,20 @@
         "units_sold": 36,
         "n_orders": 13,
         "gross_profit": 0.0,
+        "skus": [
+          "L533-FIOR-5.0-BLAC-2873",
+          "L533-FIOR-5.5-BLAC-2873",
+          "L533-FIOR-6.0-BLAC-2873",
+          "L533-FIOR-6.5-BLAC-2873",
+          "L533-FIOR-7.0-BLAC-2873",
+          "L533-FIOR-7.5-BLAC-2873",
+          "L533-FIOR-8.0-BLAC-2873",
+          "L533-FIOR-8.5-BLAC-2873",
+          "L533-FIOR-9.0-BLAC-2873",
+          "L533-FIOR-9.5-BLAC-2873",
+          "L533-FIOR-10.0-BLAC-2873",
+          "L533-FIOR-11.0-BLAC-2873"
+        ],
         "advertised": false
       },
       {
@@ -3391,6 +4545,20 @@
         "units_sold": 33,
         "n_orders": 32,
         "gross_profit": 0.0,
+        "skus": [
+          "L144-MARI-5.0-BEIG-2685",
+          "L144-MARI-5.5-BEIG-2685",
+          "L144-MARI-6.0-BEIG-2685",
+          "L144-MARI-6.5-BEIG-2685",
+          "L144-MARI-7.0-BEIG-2685",
+          "L144-MARI-7.5-BEIG-2685",
+          "L144-MARI-8.0-BEIG-2685",
+          "L144-MARI-8.5-BEIG-2685",
+          "L144-MARI-9.0-BEIG-2685",
+          "L144-MARI-9.5-BEIG-2685",
+          "L144-MARI-10.0-BEIG-2685",
+          "L144-MARI-11.0-BEIG-2685"
+        ],
         "advertised": false
       },
       {
@@ -3408,6 +4576,20 @@
         "units_sold": 41,
         "n_orders": 6,
         "gross_profit": 0.0,
+        "skus": [
+          "L104-VALE-5.0-SILV-0332",
+          "L104-VALE-5.5-SILV-0332",
+          "L104-VALE-6.0-SILV-0332",
+          "L104-VALE-6.5-SILV-0332",
+          "L104-VALE-7.0-SILV-0332",
+          "L104-VALE-7.5-SILV-0332",
+          "L104-VALE-8.0-SILV-0332",
+          "L104-VALE-8.5-SILV-0332",
+          "L104-VALE-9.0-SILV-0332",
+          "L104-VALE-9.5-SILV-0332",
+          "L104-VALE-10.0-SILV-0332",
+          "L104-VALE-11.0-SILV-0332"
+        ],
         "advertised": false
       },
       {
@@ -3425,6 +4607,21 @@
         "units_sold": 22,
         "n_orders": 18,
         "gross_profit": 0.0,
+        "skus": [
+          "L545-CYPR-5.0-IVOR-2571",
+          "L545-CYPR-5.5-IVOR-2571",
+          "L545-CYPR-6.0-IVOR-2571",
+          "L545-CYPR-6.5-IVOR-2571",
+          "L545-CYPR-7.0-IVOR-2571",
+          "L545-CYPR-7.5-IVOR-2571",
+          "L545-CYPR-8.0-IVOR-2571",
+          "L545-CYPR-8.5-IVOR-2571",
+          "L545-CYPR-9.0-IVOR-2571",
+          "L545-CYPR-9.5-IVOR-2571",
+          "L545-CYPR-10.0-IVOR-2571",
+          "L545-CYPR-11.0-IVOR-2571",
+          "L545-CYPR-12.0-IVOR-2571"
+        ],
         "advertised": false
       },
       {
@@ -3442,6 +4639,20 @@
         "units_sold": 37,
         "n_orders": 8,
         "gross_profit": 0.0,
+        "skus": [
+          "L533-FIOR-5.0-IVOR-2871",
+          "L533-FIOR-5.5-IVOR-2871",
+          "L533-FIOR-6.0-IVOR-2871",
+          "L533-FIOR-6.5-IVOR-2871",
+          "L533-FIOR-7.0-IVOR-2871",
+          "L533-FIOR-7.5-IVOR-2871",
+          "L533-FIOR-8.0-IVOR-2871",
+          "L533-FIOR-8.5-IVOR-2871",
+          "L533-FIOR-9.0-IVOR-2871",
+          "L533-FIOR-9.5-IVOR-2871",
+          "L533-FIOR-10.0-IVOR-2871",
+          "L533-FIOR-11.0-IVOR-2871"
+        ],
         "advertised": false
       },
       {
@@ -3459,6 +4670,20 @@
         "units_sold": 16,
         "n_orders": 15,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-IVOR-2015",
+          "L471-VERO-5.5-IVOR-2015",
+          "L471-VERO-6.0-IVOR-2015",
+          "L471-VERO-6.5-IVOR-2015",
+          "L471-VERO-7.0-IVOR-2015",
+          "L471-VERO-7.5-IVOR-2015",
+          "L471-VERO-8.0-IVOR-2015",
+          "L471-VERO-8.5-IVOR-2015",
+          "L471-VERO-9.0-IVOR-2015",
+          "L471-VERO-9.5-IVOR-2015",
+          "L471-VERO-10.0-IVOR-2015",
+          "L471-VERO-11.0-IVOR-2015"
+        ],
         "advertised": false
       },
       {
@@ -3476,6 +4701,20 @@
         "units_sold": 26,
         "n_orders": 26,
         "gross_profit": 0.0,
+        "skus": [
+          "L114-VALE-5.0-POWD-2778",
+          "L114-VALE-5.5-POWD-2778",
+          "L114-VALE-6.0-POWD-2778",
+          "L114-VALE-6.5-POWD-2778",
+          "L114-VALE-7.0-POWD-2778",
+          "L114-VALE-7.5-POWD-2778",
+          "L114-VALE-8.0-POWD-2778",
+          "L114-VALE-8.5-POWD-2778",
+          "L114-VALE-9.0-POWD-2778",
+          "L114-VALE-9.5-POWD-2778",
+          "L114-VALE-10.0-POWD-2778",
+          "L114-VALE-11.0-POWD-2778"
+        ],
         "advertised": false
       },
       {
@@ -3493,6 +4732,20 @@
         "units_sold": 20,
         "n_orders": 20,
         "gross_profit": 0.0,
+        "skus": [
+          "L219-VERO-5.0-BEIG-1959",
+          "L219-VERO-5.5-BEIG-1959",
+          "L219-VERO-6.0-BEIG-1959",
+          "L219-VERO-6.5-BEIG-1959",
+          "L219-VERO-7.0-BEIG-1959",
+          "L219-VERO-7.5-BEIG-1959",
+          "L219-VERO-8.0-BEIG-1959",
+          "L219-VERO-8.5-BEIG-1959",
+          "L219-VERO-9.0-BEIG-1959",
+          "L219-VERO-9.5-BEIG-1959",
+          "L219-VERO-10.0-BEIG-1959",
+          "L219-VERO-11.0-BEIG-1959"
+        ],
         "advertised": false
       },
       {
@@ -3510,6 +4763,20 @@
         "units_sold": 23,
         "n_orders": 23,
         "gross_profit": 0.0,
+        "skus": [
+          "L458-JASM-5.0-BEIG-2745",
+          "L458-JASM-5.5-BEIG-2745",
+          "L458-JASM-6.0-BEIG-2745",
+          "L458-JASM-6.5-BEIG-2745",
+          "L458-JASM-7.0-BEIG-2745",
+          "L458-JASM-7.5-BEIG-2745",
+          "L458-JASM-8.0-BEIG-2745",
+          "L458-JASM-8.5-BEIG-2745",
+          "L458-JASM-9.0-BEIG-2745",
+          "L458-JASM-9.5-BEIG-2745",
+          "L458-JASM-10.0-BEIG-2745",
+          "L458-JASM-11.0-BEIG-2745"
+        ],
         "advertised": false
       },
       {
@@ -3527,6 +4794,20 @@
         "units_sold": 15,
         "n_orders": 13,
         "gross_profit": 0.0,
+        "skus": [
+          "L458-SCAR-5.0-MILK-2796",
+          "L458-SCAR-5.5-MILK-2796",
+          "L458-SCAR-6.0-MILK-2796",
+          "L458-SCAR-6.5-MILK-2796",
+          "L458-SCAR-7.0-MILK-2796",
+          "L458-SCAR-7.5-MILK-2796",
+          "L458-SCAR-8.0-MILK-2796",
+          "L458-SCAR-8.5-MILK-2796",
+          "L458-SCAR-9.0-MILK-2796",
+          "L458-SCAR-9.5-MILK-2796",
+          "L458-SCAR-10.0-MILK-2796",
+          "L458-SCAR-11.0-MILK-2796"
+        ],
         "advertised": false
       },
       {
@@ -3544,6 +4825,20 @@
         "units_sold": 14,
         "n_orders": 14,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-MILA-5.0-BEIG-2420",
+          "L471-MILA-5.5-BEIG-2420",
+          "L471-MILA-6.0-BEIG-2420",
+          "L471-MILA-6.5-BEIG-2420",
+          "L471-MILA-7.0-BEIG-2420",
+          "L471-MILA-7.5-BEIG-2420",
+          "L471-MILA-8.0-BEIG-2420",
+          "L471-MILA-8.5-BEIG-2420",
+          "L471-MILA-9.0-BEIG-2420",
+          "L471-MILA-9.5-BEIG-2420",
+          "L471-MILA-10.0-BEIG-2420",
+          "L471-MILA-11.0-BEIG-2420"
+        ],
         "advertised": false
       },
       {
@@ -3561,6 +4856,20 @@
         "units_sold": 24,
         "n_orders": 24,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-CHAM-2653",
+          "L471-BIAN-5.5-CHAM-2653",
+          "L471-BIAN-6.0-CHAM-2653",
+          "L471-BIAN-6.5-CHAM-2653",
+          "L471-BIAN-7.0-CHAM-2653",
+          "L471-BIAN-7.5-CHAM-2653",
+          "L471-BIAN-8.0-CHAM-2653",
+          "L471-BIAN-8.5-CHAM-2653",
+          "L471-BIAN-9.0-CHAM-2653",
+          "L471-BIAN-9.5-CHAM-2653",
+          "L471-BIAN-10.0-CHAM-2653",
+          "L471-BIAN-11.0-CHAM-2653"
+        ],
         "advertised": false
       },
       {
@@ -3578,6 +4887,20 @@
         "units_sold": 18,
         "n_orders": 18,
         "gross_profit": 0.0,
+        "skus": [
+          "L569-MILA-5.0-BEIG-2486",
+          "L569-MILA-5.5-BEIG-2486",
+          "L569-MILA-6.0-BEIG-2486",
+          "L569-MILA-6.5-BEIG-2486",
+          "L569-MILA-7.0-BEIG-2486",
+          "L569-MILA-7.5-BEIG-2486",
+          "L569-MILA-8.0-BEIG-2486",
+          "L569-MILA-8.5-BEIG-2486",
+          "L569-MILA-9.0-BEIG-2486",
+          "L569-MILA-9.5-BEIG-2486",
+          "L569-MILA-10.0-BEIG-2486",
+          "L569-MILA-11.0-BEIG-2486"
+        ],
         "advertised": false
       },
       {
@@ -3595,6 +4918,22 @@
         "units_sold": 37,
         "n_orders": 20,
         "gross_profit": 0.0,
+        "skus": [
+          "L415-STEL-5.0-INDI-1938",
+          "L415-STEL-5.5-INDI-1938",
+          "L415-STEL-6.0-INDI-1938",
+          "L415-STEL-6.5-INDI-1938",
+          "L415-STEL-7.0-INDI-1938",
+          "L415-STEL-7.5-INDI-1938",
+          "L415-STEL-8.0-INDI-1938",
+          "L415-STEL-8.5-INDI-1938",
+          "L415-STEL-9.0-INDI-1938",
+          "L415-STEL-9.5-INDI-1938",
+          "L415-STEL-10.0-INDI-1938",
+          "L415-STEL-11.0-INDI-1938",
+          "L415-STEL-12.0-INDI-1938",
+          "L415-STEL-13.0-INDI-1938"
+        ],
         "advertised": false
       },
       {
@@ -3612,6 +4951,20 @@
         "units_sold": 21,
         "n_orders": 19,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-LIGH-2732",
+          "L471-BIAN-5.5-LIGH-2732",
+          "L471-BIAN-6.0-LIGH-2732",
+          "L471-BIAN-6.5-LIGH-2732",
+          "L471-BIAN-7.0-LIGH-2732",
+          "L471-BIAN-7.5-LIGH-2732",
+          "L471-BIAN-8.0-LIGH-2732",
+          "L471-BIAN-8.5-LIGH-2732",
+          "L471-BIAN-9.0-LIGH-2732",
+          "L471-BIAN-9.5-LIGH-2732",
+          "L471-BIAN-10.0-LIGH-2732",
+          "L471-BIAN-11.0-LIGH-2732"
+        ],
         "advertised": false
       },
       {
@@ -3629,6 +4982,20 @@
         "units_sold": 14,
         "n_orders": 14,
         "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-IVOR-2424",
+          "L471-BIAN-5.5-IVOR-2424",
+          "L471-BIAN-6.0-IVOR-2424",
+          "L471-BIAN-6.5-IVOR-2424",
+          "L471-BIAN-7.0-IVOR-2424",
+          "L471-BIAN-7.5-IVOR-2424",
+          "L471-BIAN-8.0-IVOR-2424",
+          "L471-BIAN-8.5-IVOR-2424",
+          "L471-BIAN-9.0-IVOR-2424",
+          "L471-BIAN-9.5-IVOR-2424",
+          "L471-BIAN-10.0-IVOR-2424",
+          "L471-BIAN-11.0-IVOR-2424"
+        ],
         "advertised": false
       },
       {
@@ -3646,6 +5013,20 @@
         "units_sold": 16,
         "n_orders": 16,
         "gross_profit": 0.0,
+        "skus": [
+          "L277-CIAO-5.0-BLAC-0002",
+          "L277-CIAO-5.5-BLAC-0002",
+          "L277-CIAO-6.0-BLAC-0002",
+          "L277-CIAO-6.5-BLAC-0002",
+          "L277-CIAO-7.0-BLAC-0002",
+          "L277-CIAO-7.5-BLAC-0002",
+          "L277-CIAO-8.0-BLAC-0002",
+          "L277-CIAO-8.5-BLAC-0002",
+          "L277-CIAO-9.0-BLAC-0002",
+          "L277-CIAO-9.5-BLAC-0002",
+          "L277-CIAO-10.0-BLAC-0002",
+          "L277-CIAO-11.0-BLAC-0002"
+        ],
         "advertised": false
       },
       {
@@ -3663,6 +5044,20 @@
         "units_sold": 15,
         "n_orders": 15,
         "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-IVOR-0616",
+          "L264-MILA-5.5-IVOR-0616",
+          "L264-MILA-6.0-IVOR-0616",
+          "L264-MILA-6.5-IVOR-0616",
+          "L264-MILA-7.0-IVOR-0616",
+          "L264-MILA-7.5-IVOR-0616",
+          "L264-MILA-8.0-IVOR-0616",
+          "L264-MILA-8.5-IVOR-0616",
+          "L264-MILA-9.0-IVOR-0616",
+          "L264-MILA-9.5-IVOR-0616",
+          "L264-MILA-10.0-IVOR-0616",
+          "L264-MILA-11.0-IVOR-0616"
+        ],
         "advertised": false
       },
       {
@@ -3680,6 +5075,20 @@
         "units_sold": 20,
         "n_orders": 20,
         "gross_profit": 0.0,
+        "skus": [
+          "L531-JENN-5.0-TULI-2670",
+          "L531-JENN-5.5-TULI-2670",
+          "L531-JENN-6.0-TULI-2670",
+          "L531-JENN-6.5-TULI-2670",
+          "L531-JENN-7.0-TULI-2670",
+          "L531-JENN-7.5-TULI-2670",
+          "L531-JENN-8.0-TULI-2670",
+          "L531-JENN-8.5-TULI-2670",
+          "L531-JENN-9.0-TULI-2670",
+          "L531-JENN-9.5-TULI-2670",
+          "L531-JENN-10.0-TULI-2670",
+          "L531-JENN-11.0-TULI-2670"
+        ],
         "advertised": false
       }
     ],
@@ -3698,7 +5107,21 @@
         "net_sales": 70500.0,
         "units_sold": 190,
         "n_orders": 184,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-NATU-1967",
+          "L471-VERO-5.5-NATU-1967",
+          "L471-VERO-6.0-NATU-1967",
+          "L471-VERO-6.5-NATU-1967",
+          "L471-VERO-7.0-NATU-1967",
+          "L471-VERO-7.5-NATU-1967",
+          "L471-VERO-8.0-NATU-1967",
+          "L471-VERO-8.5-NATU-1967",
+          "L471-VERO-9.0-NATU-1967",
+          "L471-VERO-9.5-NATU-1967",
+          "L471-VERO-10.0-NATU-1967",
+          "L471-VERO-11.0-NATU-1967"
+        ]
       },
       {
         "product_id": "15180405866662",
@@ -3714,7 +5137,21 @@
         "net_sales": 52185.0,
         "units_sold": 148,
         "n_orders": 142,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-NATU-2461",
+          "L471-DOLL-5.5-NATU-2461",
+          "L471-DOLL-6.0-NATU-2461",
+          "L471-DOLL-6.5-NATU-2461",
+          "L471-DOLL-7.0-NATU-2461",
+          "L471-DOLL-7.5-NATU-2461",
+          "L471-DOLL-8.0-NATU-2461",
+          "L471-DOLL-8.5-NATU-2461",
+          "L471-DOLL-9.0-NATU-2461",
+          "L471-DOLL-9.5-NATU-2461",
+          "L471-DOLL-10.0-NATU-2461",
+          "L471-DOLL-11.0-NATU-2461"
+        ]
       },
       {
         "product_id": "15232067502246",
@@ -3730,7 +5167,21 @@
         "net_sales": 31668.0,
         "units_sold": 160,
         "n_orders": 160,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L570-VIVI-5.0-CLEA-2704",
+          "L570-VIVI-5.5-CLEA-2704",
+          "L570-VIVI-6.0-CLEA-2704",
+          "L570-VIVI-6.5-CLEA-2704",
+          "L570-VIVI-7.0-CLEA-2704",
+          "L570-VIVI-7.5-CLEA-2704",
+          "L570-VIVI-8.0-CLEA-2704",
+          "L570-VIVI-8.5-CLEA-2704",
+          "L570-VIVI-9.0-CLEA-2704",
+          "L570-VIVI-9.5-CLEA-2704",
+          "L570-VIVI-10.0-CLEA-2704",
+          "L570-VIVI-11.0-CLEA-2704"
+        ]
       },
       {
         "product_id": "15236704600230",
@@ -3746,7 +5197,21 @@
         "net_sales": 16863.0,
         "units_sold": 87,
         "n_orders": 86,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-IVOR-2723",
+          "L277-FIOR-5.5-IVOR-2723",
+          "L277-FIOR-6.0-IVOR-2723",
+          "L277-FIOR-6.5-IVOR-2723",
+          "L277-FIOR-7.0-IVOR-2723",
+          "L277-FIOR-7.5-IVOR-2723",
+          "L277-FIOR-8.0-IVOR-2723",
+          "L277-FIOR-8.5-IVOR-2723",
+          "L277-FIOR-9.0-IVOR-2723",
+          "L277-FIOR-9.5-IVOR-2723",
+          "L277-FIOR-10.0-IVOR-2723",
+          "L277-FIOR-11.0-IVOR-2723"
+        ]
       },
       {
         "product_id": "15309740179622",
@@ -3762,7 +5227,21 @@
         "net_sales": 15028.0,
         "units_sold": 68,
         "n_orders": 67,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-BLAC-2875",
+          "L450-FIOR-5.5-BLAC-2875",
+          "L450-FIOR-6.0-BLAC-2875",
+          "L450-FIOR-6.5-BLAC-2875",
+          "L450-FIOR-7.0-BLAC-2875",
+          "L450-FIOR-7.5-BLAC-2875",
+          "L450-FIOR-8.0-BLAC-2875",
+          "L450-FIOR-8.5-BLAC-2875",
+          "L450-FIOR-9.0-BLAC-2875",
+          "L450-FIOR-9.5-BLAC-2875",
+          "L450-FIOR-10.0-BLAC-2875",
+          "L450-FIOR-11.0-BLAC-2875"
+        ]
       },
       {
         "product_id": "15309740408998",
@@ -3778,7 +5257,21 @@
         "net_sales": 14586.0,
         "units_sold": 66,
         "n_orders": 66,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L450-FIOR-5.0-IVOR-2874",
+          "L450-FIOR-5.5-IVOR-2874",
+          "L450-FIOR-6.0-IVOR-2874",
+          "L450-FIOR-6.5-IVOR-2874",
+          "L450-FIOR-7.0-IVOR-2874",
+          "L450-FIOR-7.5-IVOR-2874",
+          "L450-FIOR-8.0-IVOR-2874",
+          "L450-FIOR-8.5-IVOR-2874",
+          "L450-FIOR-9.0-IVOR-2874",
+          "L450-FIOR-9.5-IVOR-2874",
+          "L450-FIOR-10.0-IVOR-2874",
+          "L450-FIOR-11.0-IVOR-2874"
+        ]
       },
       {
         "product_id": "7846916587686",
@@ -3794,7 +5287,21 @@
         "net_sales": 14250.0,
         "units_sold": 39,
         "n_orders": 39,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-0959",
+          "L144-MILA-5.5-BEIG-0959",
+          "L144-MILA-6.0-BEIG-0959",
+          "L144-MILA-6.5-BEIG-0959",
+          "L144-MILA-7.0-BEIG-0959",
+          "L144-MILA-7.5-BEIG-0959",
+          "L144-MILA-8.0-BEIG-0959",
+          "L144-MILA-8.5-BEIG-0959",
+          "L144-MILA-9.0-BEIG-0959",
+          "L144-MILA-9.5-BEIG-0959",
+          "L144-MILA-10.0-BEIG-0959",
+          "L144-MILA-11.0-BEIG-0959"
+        ]
       },
       {
         "product_id": "15275529666726",
@@ -3810,7 +5317,21 @@
         "net_sales": 12804.0,
         "units_sold": 68,
         "n_orders": 9,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-JOLE-5.0-NATU-2814",
+          "L471-JOLE-5.5-NATU-2814",
+          "L471-JOLE-6.0-NATU-2814",
+          "L471-JOLE-6.5-NATU-2814",
+          "L471-JOLE-7.0-NATU-2814",
+          "L471-JOLE-7.5-NATU-2814",
+          "L471-JOLE-8.0-NATU-2814",
+          "L471-JOLE-8.5-NATU-2814",
+          "L471-JOLE-9.0-NATU-2814",
+          "L471-JOLE-9.5-NATU-2814",
+          "L471-JOLE-10.0-NATU-2814",
+          "L471-JOLE-11.0-NATU-2814"
+        ]
       },
       {
         "product_id": "8492761972902",
@@ -3826,7 +5347,21 @@
         "net_sales": 12600.0,
         "units_sold": 36,
         "n_orders": 33,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-BEIG-2085",
+          "L471-DOLL-5.5-BEIG-2085",
+          "L471-DOLL-6.0-BEIG-2085",
+          "L471-DOLL-6.5-BEIG-2085",
+          "L471-DOLL-7.0-BEIG-2085",
+          "L471-DOLL-7.5-BEIG-2085",
+          "L471-DOLL-8.0-BEIG-2085",
+          "L471-DOLL-8.5-BEIG-2085",
+          "L471-DOLL-9.0-BEIG-2085",
+          "L471-DOLL-9.5-BEIG-2085",
+          "L471-DOLL-10.0-BEIG-2085",
+          "L471-DOLL-11.0-BEIG-2085"
+        ]
       },
       {
         "product_id": "7846916620454",
@@ -3842,7 +5377,21 @@
         "net_sales": 12210.0,
         "units_sold": 38,
         "n_orders": 38,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-BEIG-0992",
+          "L264-MILA-5.5-BEIG-0992",
+          "L264-MILA-6.0-BEIG-0992",
+          "L264-MILA-6.5-BEIG-0992",
+          "L264-MILA-7.0-BEIG-0992",
+          "L264-MILA-7.5-BEIG-0992",
+          "L264-MILA-8.0-BEIG-0992",
+          "L264-MILA-8.5-BEIG-0992",
+          "L264-MILA-9.0-BEIG-0992",
+          "L264-MILA-9.5-BEIG-0992",
+          "L264-MILA-10.0-BEIG-0992",
+          "L264-MILA-11.0-BEIG-0992"
+        ]
       },
       {
         "product_id": "15301487755430",
@@ -3858,7 +5407,21 @@
         "net_sales": 11670.0,
         "units_sold": 66,
         "n_orders": 43,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L420-LOUL-5.0-RAIN-2854",
+          "L420-LOUL-5.5-RAIN-2854",
+          "L420-LOUL-6.0-RAIN-2854",
+          "L420-LOUL-6.5-RAIN-2854",
+          "L420-LOUL-7.0-RAIN-2854",
+          "L420-LOUL-7.5-RAIN-2854",
+          "L420-LOUL-8.0-RAIN-2854",
+          "L420-LOUL-8.5-RAIN-2854",
+          "L420-LOUL-9.0-RAIN-2854",
+          "L420-LOUL-9.5-RAIN-2854",
+          "L420-LOUL-10.0-RAIN-2854",
+          "L420-LOUL-11.0-RAIN-2854"
+        ]
       },
       {
         "product_id": "15301487493286",
@@ -3874,7 +5437,21 @@
         "net_sales": 10730.0,
         "units_sold": 70,
         "n_orders": 11,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L581-VERO-5.0-BURN-2857",
+          "L581-VERO-5.5-BURN-2857",
+          "L581-VERO-6.0-BURN-2857",
+          "L581-VERO-6.5-BURN-2857",
+          "L581-VERO-7.0-BURN-2857",
+          "L581-VERO-7.5-BURN-2857",
+          "L581-VERO-8.0-BURN-2857",
+          "L581-VERO-8.5-BURN-2857",
+          "L581-VERO-9.0-BURN-2857",
+          "L581-VERO-9.5-BURN-2857",
+          "L581-VERO-10.0-BURN-2857",
+          "L581-VERO-11.0-BURN-2857"
+        ]
       },
       {
         "product_id": "15242561618086",
@@ -3890,7 +5467,21 @@
         "net_sales": 10556.0,
         "units_sold": 52,
         "n_orders": 50,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L114-VIVI-5.0-SAND-2738",
+          "L114-VIVI-5.5-SAND-2738",
+          "L114-VIVI-6.0-SAND-2738",
+          "L114-VIVI-6.5-SAND-2738",
+          "L114-VIVI-7.0-SAND-2738",
+          "L114-VIVI-7.5-SAND-2738",
+          "L114-VIVI-8.0-SAND-2738",
+          "L114-VIVI-8.5-SAND-2738",
+          "L114-VIVI-9.0-SAND-2738",
+          "L114-VIVI-9.5-SAND-2738",
+          "L114-VIVI-10.0-SAND-2738",
+          "L114-VIVI-11.0-SAND-2738"
+        ]
       },
       {
         "product_id": "15260772335782",
@@ -3906,7 +5497,21 @@
         "net_sales": 10164.0,
         "units_sold": 48,
         "n_orders": 48,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L277-FIOR-5.0-BLAC-2761",
+          "L277-FIOR-5.5-BLAC-2761",
+          "L277-FIOR-6.0-BLAC-2761",
+          "L277-FIOR-6.5-BLAC-2761",
+          "L277-FIOR-7.0-BLAC-2761",
+          "L277-FIOR-7.5-BLAC-2761",
+          "L277-FIOR-8.0-BLAC-2761",
+          "L277-FIOR-8.5-BLAC-2761",
+          "L277-FIOR-9.0-BLAC-2761",
+          "L277-FIOR-9.5-BLAC-2761",
+          "L277-FIOR-10.0-BLAC-2761",
+          "L277-FIOR-11.0-BLAC-2761"
+        ]
       },
       {
         "product_id": "8495896625318",
@@ -3922,7 +5527,21 @@
         "net_sales": 10150.0,
         "units_sold": 30,
         "n_orders": 30,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-VERO-5.0-NATU-2077",
+          "L144-VERO-5.5-NATU-2077",
+          "L144-VERO-6.0-NATU-2077",
+          "L144-VERO-6.5-NATU-2077",
+          "L144-VERO-7.0-NATU-2077",
+          "L144-VERO-7.5-NATU-2077",
+          "L144-VERO-8.0-NATU-2077",
+          "L144-VERO-8.5-NATU-2077",
+          "L144-VERO-9.0-NATU-2077",
+          "L144-VERO-9.5-NATU-2077",
+          "L144-VERO-10.0-NATU-2077",
+          "L144-VERO-11.0-NATU-2077"
+        ]
       },
       {
         "product_id": "15180406554790",
@@ -3938,7 +5557,21 @@
         "net_sales": 9750.0,
         "units_sold": 28,
         "n_orders": 28,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-BEIG-2456",
+          "L144-MILA-5.5-BEIG-2456",
+          "L144-MILA-6.0-BEIG-2456",
+          "L144-MILA-6.5-BEIG-2456",
+          "L144-MILA-7.0-BEIG-2456",
+          "L144-MILA-7.5-BEIG-2456",
+          "L144-MILA-8.0-BEIG-2456",
+          "L144-MILA-8.5-BEIG-2456",
+          "L144-MILA-9.0-BEIG-2456",
+          "L144-MILA-9.5-BEIG-2456",
+          "L144-MILA-10.0-BEIG-2456",
+          "L144-MILA-11.0-BEIG-2456"
+        ]
       },
       {
         "product_id": "15236704764070",
@@ -3954,7 +5587,21 @@
         "net_sales": 9744.0,
         "units_sold": 51,
         "n_orders": 51,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L420-LOUL-5.0-BEIG-2695",
+          "L420-LOUL-5.5-BEIG-2695",
+          "L420-LOUL-6.0-BEIG-2695",
+          "L420-LOUL-6.5-BEIG-2695",
+          "L420-LOUL-7.0-BEIG-2695",
+          "L420-LOUL-7.5-BEIG-2695",
+          "L420-LOUL-8.0-BEIG-2695",
+          "L420-LOUL-8.5-BEIG-2695",
+          "L420-LOUL-9.0-BEIG-2695",
+          "L420-LOUL-9.5-BEIG-2695",
+          "L420-LOUL-10.0-BEIG-2695",
+          "L420-LOUL-11.0-BEIG-2695"
+        ]
       },
       {
         "product_id": "8473832456358",
@@ -3970,7 +5617,21 @@
         "net_sales": 9154.8,
         "units_sold": 27,
         "n_orders": 25,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L219-VERO-5.0-IVOR-1989",
+          "L219-VERO-5.5-IVOR-1989",
+          "L219-VERO-6.0-IVOR-1989",
+          "L219-VERO-6.5-IVOR-1989",
+          "L219-VERO-7.0-IVOR-1989",
+          "L219-VERO-7.5-IVOR-1989",
+          "L219-VERO-8.0-IVOR-1989",
+          "L219-VERO-8.5-IVOR-1989",
+          "L219-VERO-9.0-IVOR-1989",
+          "L219-VERO-9.5-IVOR-1989",
+          "L219-VERO-10.0-IVOR-1989",
+          "L219-VERO-11.0-IVOR-1989"
+        ]
       },
       {
         "product_id": "8401379917990",
@@ -3986,7 +5647,21 @@
         "net_sales": 8625.0,
         "units_sold": 24,
         "n_orders": 24,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L131-DOLL-5.0-NATU-1813",
+          "L131-DOLL-5.5-NATU-1813",
+          "L131-DOLL-6.0-NATU-1813",
+          "L131-DOLL-6.5-NATU-1813",
+          "L131-DOLL-7.0-NATU-1813",
+          "L131-DOLL-7.5-NATU-1813",
+          "L131-DOLL-8.0-NATU-1813",
+          "L131-DOLL-8.5-NATU-1813",
+          "L131-DOLL-9.0-NATU-1813",
+          "L131-DOLL-9.5-NATU-1813",
+          "L131-DOLL-10.0-NATU-1813",
+          "L131-DOLL-11.0-NATU-1813"
+        ]
       },
       {
         "product_id": "8639815483558",
@@ -4002,7 +5677,21 @@
         "net_sales": 8250.0,
         "units_sold": 22,
         "n_orders": 16,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-PLAT-2421",
+          "L471-BIAN-5.5-PLAT-2421",
+          "L471-BIAN-6.0-PLAT-2421",
+          "L471-BIAN-6.5-PLAT-2421",
+          "L471-BIAN-7.0-PLAT-2421",
+          "L471-BIAN-7.5-PLAT-2421",
+          "L471-BIAN-8.0-PLAT-2421",
+          "L471-BIAN-8.5-PLAT-2421",
+          "L471-BIAN-9.0-PLAT-2421",
+          "L471-BIAN-9.5-PLAT-2421",
+          "L471-BIAN-10.0-PLAT-2421",
+          "L471-BIAN-11.0-PLAT-2421"
+        ]
       },
       {
         "product_id": "15180408750246",
@@ -4018,7 +5707,21 @@
         "net_sales": 7700.0,
         "units_sold": 24,
         "n_orders": 24,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-BEIG-2458",
+          "L264-MILA-5.5-BEIG-2458",
+          "L264-MILA-6.0-BEIG-2458",
+          "L264-MILA-6.5-BEIG-2458",
+          "L264-MILA-7.0-BEIG-2458",
+          "L264-MILA-7.5-BEIG-2458",
+          "L264-MILA-8.0-BEIG-2458",
+          "L264-MILA-8.5-BEIG-2458",
+          "L264-MILA-9.0-BEIG-2458",
+          "L264-MILA-9.5-BEIG-2458",
+          "L264-MILA-10.0-BEIG-2458",
+          "L264-MILA-11.0-BEIG-2458"
+        ]
       },
       {
         "product_id": "15286302081190",
@@ -4034,7 +5737,21 @@
         "net_sales": 7623.0,
         "units_sold": 33,
         "n_orders": 33,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L131-DOLL-5.0-RAIN-2840",
+          "L131-DOLL-5.5-RAIN-2840",
+          "L131-DOLL-6.0-RAIN-2840",
+          "L131-DOLL-6.5-RAIN-2840",
+          "L131-DOLL-7.0-RAIN-2840",
+          "L131-DOLL-7.5-RAIN-2840",
+          "L131-DOLL-8.0-RAIN-2840",
+          "L131-DOLL-8.5-RAIN-2840",
+          "L131-DOLL-9.0-RAIN-2840",
+          "L131-DOLL-9.5-RAIN-2840",
+          "L131-DOLL-10.0-RAIN-2840",
+          "L131-DOLL-11.0-RAIN-2840"
+        ]
       },
       {
         "product_id": "8480335921318",
@@ -4050,7 +5767,21 @@
         "net_sales": 7125.0,
         "units_sold": 19,
         "n_orders": 13,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-GOLD-2017",
+          "L471-VERO-5.5-GOLD-2017",
+          "L471-VERO-6.0-GOLD-2017",
+          "L471-VERO-6.5-GOLD-2017",
+          "L471-VERO-7.0-GOLD-2017",
+          "L471-VERO-7.5-GOLD-2017",
+          "L471-VERO-8.0-GOLD-2017",
+          "L471-VERO-8.5-GOLD-2017",
+          "L471-VERO-9.0-GOLD-2017",
+          "L471-VERO-9.5-GOLD-2017",
+          "L471-VERO-10.0-GOLD-2017",
+          "L471-VERO-11.0-GOLD-2017"
+        ]
       },
       {
         "product_id": "15224736252070",
@@ -4066,7 +5797,21 @@
         "net_sales": 6750.0,
         "units_sold": 18,
         "n_orders": 17,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-DOLL-5.0-PINK-2650",
+          "L471-DOLL-5.5-PINK-2650",
+          "L471-DOLL-6.0-PINK-2650",
+          "L471-DOLL-6.5-PINK-2650",
+          "L471-DOLL-7.0-PINK-2650",
+          "L471-DOLL-7.5-PINK-2650",
+          "L471-DOLL-8.0-PINK-2650",
+          "L471-DOLL-8.5-PINK-2650",
+          "L471-DOLL-9.0-PINK-2650",
+          "L471-DOLL-9.5-PINK-2650",
+          "L471-DOLL-10.0-PINK-2650",
+          "L471-DOLL-11.0-PINK-2650"
+        ]
       },
       {
         "product_id": "15224736284838",
@@ -4082,7 +5827,21 @@
         "net_sales": 6375.0,
         "units_sold": 19,
         "n_orders": 19,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MILA-5.0-PINK-2646",
+          "L144-MILA-5.5-PINK-2646",
+          "L144-MILA-6.0-PINK-2646",
+          "L144-MILA-6.5-PINK-2646",
+          "L144-MILA-7.0-PINK-2646",
+          "L144-MILA-7.5-PINK-2646",
+          "L144-MILA-8.0-PINK-2646",
+          "L144-MILA-8.5-PINK-2646",
+          "L144-MILA-9.0-PINK-2646",
+          "L144-MILA-9.5-PINK-2646",
+          "L144-MILA-10.0-PINK-2646",
+          "L144-MILA-11.0-PINK-2646"
+        ]
       },
       {
         "product_id": "15309740343462",
@@ -4098,7 +5857,21 @@
         "net_sales": 6348.0,
         "units_sold": 36,
         "n_orders": 13,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L533-FIOR-5.0-BLAC-2873",
+          "L533-FIOR-5.5-BLAC-2873",
+          "L533-FIOR-6.0-BLAC-2873",
+          "L533-FIOR-6.5-BLAC-2873",
+          "L533-FIOR-7.0-BLAC-2873",
+          "L533-FIOR-7.5-BLAC-2873",
+          "L533-FIOR-8.0-BLAC-2873",
+          "L533-FIOR-8.5-BLAC-2873",
+          "L533-FIOR-9.0-BLAC-2873",
+          "L533-FIOR-9.5-BLAC-2873",
+          "L533-FIOR-10.0-BLAC-2873",
+          "L533-FIOR-11.0-BLAC-2873"
+        ]
       },
       {
         "product_id": "15239614988454",
@@ -4114,7 +5887,21 @@
         "net_sales": 6293.0,
         "units_sold": 33,
         "n_orders": 32,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L144-MARI-5.0-BEIG-2685",
+          "L144-MARI-5.5-BEIG-2685",
+          "L144-MARI-6.0-BEIG-2685",
+          "L144-MARI-6.5-BEIG-2685",
+          "L144-MARI-7.0-BEIG-2685",
+          "L144-MARI-7.5-BEIG-2685",
+          "L144-MARI-8.0-BEIG-2685",
+          "L144-MARI-8.5-BEIG-2685",
+          "L144-MARI-9.0-BEIG-2685",
+          "L144-MARI-9.5-BEIG-2685",
+          "L144-MARI-10.0-BEIG-2685",
+          "L144-MARI-11.0-BEIG-2685"
+        ]
       },
       {
         "product_id": "7276382584998",
@@ -4130,7 +5917,21 @@
         "net_sales": 6253.0,
         "units_sold": 41,
         "n_orders": 6,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L104-VALE-5.0-SILV-0332",
+          "L104-VALE-5.5-SILV-0332",
+          "L104-VALE-6.0-SILV-0332",
+          "L104-VALE-6.5-SILV-0332",
+          "L104-VALE-7.0-SILV-0332",
+          "L104-VALE-7.5-SILV-0332",
+          "L104-VALE-8.0-SILV-0332",
+          "L104-VALE-8.5-SILV-0332",
+          "L104-VALE-9.0-SILV-0332",
+          "L104-VALE-9.5-SILV-0332",
+          "L104-VALE-10.0-SILV-0332",
+          "L104-VALE-11.0-SILV-0332"
+        ]
       },
       {
         "product_id": "8639815418022",
@@ -4146,7 +5947,22 @@
         "net_sales": 6236.6,
         "units_sold": 22,
         "n_orders": 18,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L545-CYPR-5.0-IVOR-2571",
+          "L545-CYPR-5.5-IVOR-2571",
+          "L545-CYPR-6.0-IVOR-2571",
+          "L545-CYPR-6.5-IVOR-2571",
+          "L545-CYPR-7.0-IVOR-2571",
+          "L545-CYPR-7.5-IVOR-2571",
+          "L545-CYPR-8.0-IVOR-2571",
+          "L545-CYPR-8.5-IVOR-2571",
+          "L545-CYPR-9.0-IVOR-2571",
+          "L545-CYPR-9.5-IVOR-2571",
+          "L545-CYPR-10.0-IVOR-2571",
+          "L545-CYPR-11.0-IVOR-2571",
+          "L545-CYPR-12.0-IVOR-2571"
+        ]
       },
       {
         "product_id": "15309739950246",
@@ -4162,7 +5978,21 @@
         "net_sales": 6087.0,
         "units_sold": 37,
         "n_orders": 8,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L533-FIOR-5.0-IVOR-2871",
+          "L533-FIOR-5.5-IVOR-2871",
+          "L533-FIOR-6.0-IVOR-2871",
+          "L533-FIOR-6.5-IVOR-2871",
+          "L533-FIOR-7.0-IVOR-2871",
+          "L533-FIOR-7.5-IVOR-2871",
+          "L533-FIOR-8.0-IVOR-2871",
+          "L533-FIOR-8.5-IVOR-2871",
+          "L533-FIOR-9.0-IVOR-2871",
+          "L533-FIOR-9.5-IVOR-2871",
+          "L533-FIOR-10.0-IVOR-2871",
+          "L533-FIOR-11.0-IVOR-2871"
+        ]
       },
       {
         "product_id": "8480335757478",
@@ -4178,7 +6008,21 @@
         "net_sales": 6000.0,
         "units_sold": 16,
         "n_orders": 15,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-VERO-5.0-IVOR-2015",
+          "L471-VERO-5.5-IVOR-2015",
+          "L471-VERO-6.0-IVOR-2015",
+          "L471-VERO-6.5-IVOR-2015",
+          "L471-VERO-7.0-IVOR-2015",
+          "L471-VERO-7.5-IVOR-2015",
+          "L471-VERO-8.0-IVOR-2015",
+          "L471-VERO-8.5-IVOR-2015",
+          "L471-VERO-9.0-IVOR-2015",
+          "L471-VERO-9.5-IVOR-2015",
+          "L471-VERO-10.0-IVOR-2015",
+          "L471-VERO-11.0-IVOR-2015"
+        ]
       },
       {
         "product_id": "15272328495270",
@@ -4194,7 +6038,21 @@
         "net_sales": 5746.0,
         "units_sold": 26,
         "n_orders": 26,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L114-VALE-5.0-POWD-2778",
+          "L114-VALE-5.5-POWD-2778",
+          "L114-VALE-6.0-POWD-2778",
+          "L114-VALE-6.5-POWD-2778",
+          "L114-VALE-7.0-POWD-2778",
+          "L114-VALE-7.5-POWD-2778",
+          "L114-VALE-8.0-POWD-2778",
+          "L114-VALE-8.5-POWD-2778",
+          "L114-VALE-9.0-POWD-2778",
+          "L114-VALE-9.5-POWD-2778",
+          "L114-VALE-10.0-POWD-2778",
+          "L114-VALE-11.0-POWD-2778"
+        ]
       },
       {
         "product_id": "8444587278502",
@@ -4210,7 +6068,21 @@
         "net_sales": 5661.8,
         "units_sold": 20,
         "n_orders": 20,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L219-VERO-5.0-BEIG-1959",
+          "L219-VERO-5.5-BEIG-1959",
+          "L219-VERO-6.0-BEIG-1959",
+          "L219-VERO-6.5-BEIG-1959",
+          "L219-VERO-7.0-BEIG-1959",
+          "L219-VERO-7.5-BEIG-1959",
+          "L219-VERO-8.0-BEIG-1959",
+          "L219-VERO-8.5-BEIG-1959",
+          "L219-VERO-9.0-BEIG-1959",
+          "L219-VERO-9.5-BEIG-1959",
+          "L219-VERO-10.0-BEIG-1959",
+          "L219-VERO-11.0-BEIG-1959"
+        ]
       },
       {
         "product_id": "15260859793574",
@@ -4226,7 +6098,21 @@
         "net_sales": 5635.0,
         "units_sold": 23,
         "n_orders": 23,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L458-JASM-5.0-BEIG-2745",
+          "L458-JASM-5.5-BEIG-2745",
+          "L458-JASM-6.0-BEIG-2745",
+          "L458-JASM-6.5-BEIG-2745",
+          "L458-JASM-7.0-BEIG-2745",
+          "L458-JASM-7.5-BEIG-2745",
+          "L458-JASM-8.0-BEIG-2745",
+          "L458-JASM-8.5-BEIG-2745",
+          "L458-JASM-9.0-BEIG-2745",
+          "L458-JASM-9.5-BEIG-2745",
+          "L458-JASM-10.0-BEIG-2745",
+          "L458-JASM-11.0-BEIG-2745"
+        ]
       },
       {
         "product_id": "15275530092710",
@@ -4242,7 +6128,21 @@
         "net_sales": 5625.0,
         "units_sold": 15,
         "n_orders": 13,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L458-SCAR-5.0-MILK-2796",
+          "L458-SCAR-5.5-MILK-2796",
+          "L458-SCAR-6.0-MILK-2796",
+          "L458-SCAR-6.5-MILK-2796",
+          "L458-SCAR-7.0-MILK-2796",
+          "L458-SCAR-7.5-MILK-2796",
+          "L458-SCAR-8.0-MILK-2796",
+          "L458-SCAR-8.5-MILK-2796",
+          "L458-SCAR-9.0-MILK-2796",
+          "L458-SCAR-9.5-MILK-2796",
+          "L458-SCAR-10.0-MILK-2796",
+          "L458-SCAR-11.0-MILK-2796"
+        ]
       },
       {
         "product_id": "15180405997734",
@@ -4258,7 +6158,21 @@
         "net_sales": 5530.0,
         "units_sold": 14,
         "n_orders": 14,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-MILA-5.0-BEIG-2420",
+          "L471-MILA-5.5-BEIG-2420",
+          "L471-MILA-6.0-BEIG-2420",
+          "L471-MILA-6.5-BEIG-2420",
+          "L471-MILA-7.0-BEIG-2420",
+          "L471-MILA-7.5-BEIG-2420",
+          "L471-MILA-8.0-BEIG-2420",
+          "L471-MILA-8.5-BEIG-2420",
+          "L471-MILA-9.0-BEIG-2420",
+          "L471-MILA-9.5-BEIG-2420",
+          "L471-MILA-10.0-BEIG-2420",
+          "L471-MILA-11.0-BEIG-2420"
+        ]
       },
       {
         "product_id": "15237167153318",
@@ -4274,7 +6188,21 @@
         "net_sales": 5523.0,
         "units_sold": 24,
         "n_orders": 24,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-CHAM-2653",
+          "L471-BIAN-5.5-CHAM-2653",
+          "L471-BIAN-6.0-CHAM-2653",
+          "L471-BIAN-6.5-CHAM-2653",
+          "L471-BIAN-7.0-CHAM-2653",
+          "L471-BIAN-7.5-CHAM-2653",
+          "L471-BIAN-8.0-CHAM-2653",
+          "L471-BIAN-8.5-CHAM-2653",
+          "L471-BIAN-9.0-CHAM-2653",
+          "L471-BIAN-9.5-CHAM-2653",
+          "L471-BIAN-10.0-CHAM-2653",
+          "L471-BIAN-11.0-CHAM-2653"
+        ]
       },
       {
         "product_id": "15180406063270",
@@ -4290,7 +6218,21 @@
         "net_sales": 5520.0,
         "units_sold": 18,
         "n_orders": 18,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L569-MILA-5.0-BEIG-2486",
+          "L569-MILA-5.5-BEIG-2486",
+          "L569-MILA-6.0-BEIG-2486",
+          "L569-MILA-6.5-BEIG-2486",
+          "L569-MILA-7.0-BEIG-2486",
+          "L569-MILA-7.5-BEIG-2486",
+          "L569-MILA-8.0-BEIG-2486",
+          "L569-MILA-8.5-BEIG-2486",
+          "L569-MILA-9.0-BEIG-2486",
+          "L569-MILA-9.5-BEIG-2486",
+          "L569-MILA-10.0-BEIG-2486",
+          "L569-MILA-11.0-BEIG-2486"
+        ]
       },
       {
         "product_id": "8408303272102",
@@ -4306,7 +6248,23 @@
         "net_sales": 5455.6,
         "units_sold": 37,
         "n_orders": 20,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L415-STEL-5.0-INDI-1938",
+          "L415-STEL-5.5-INDI-1938",
+          "L415-STEL-6.0-INDI-1938",
+          "L415-STEL-6.5-INDI-1938",
+          "L415-STEL-7.0-INDI-1938",
+          "L415-STEL-7.5-INDI-1938",
+          "L415-STEL-8.0-INDI-1938",
+          "L415-STEL-8.5-INDI-1938",
+          "L415-STEL-9.0-INDI-1938",
+          "L415-STEL-9.5-INDI-1938",
+          "L415-STEL-10.0-INDI-1938",
+          "L415-STEL-11.0-INDI-1938",
+          "L415-STEL-12.0-INDI-1938",
+          "L415-STEL-13.0-INDI-1938"
+        ]
       },
       {
         "product_id": "15242589241510",
@@ -4322,7 +6280,21 @@
         "net_sales": 5260.0,
         "units_sold": 21,
         "n_orders": 19,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-LIGH-2732",
+          "L471-BIAN-5.5-LIGH-2732",
+          "L471-BIAN-6.0-LIGH-2732",
+          "L471-BIAN-6.5-LIGH-2732",
+          "L471-BIAN-7.0-LIGH-2732",
+          "L471-BIAN-7.5-LIGH-2732",
+          "L471-BIAN-8.0-LIGH-2732",
+          "L471-BIAN-8.5-LIGH-2732",
+          "L471-BIAN-9.0-LIGH-2732",
+          "L471-BIAN-9.5-LIGH-2732",
+          "L471-BIAN-10.0-LIGH-2732",
+          "L471-BIAN-11.0-LIGH-2732"
+        ]
       },
       {
         "product_id": "15180407931046",
@@ -4338,7 +6310,21 @@
         "net_sales": 5250.0,
         "units_sold": 14,
         "n_orders": 14,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L471-BIAN-5.0-IVOR-2424",
+          "L471-BIAN-5.5-IVOR-2424",
+          "L471-BIAN-6.0-IVOR-2424",
+          "L471-BIAN-6.5-IVOR-2424",
+          "L471-BIAN-7.0-IVOR-2424",
+          "L471-BIAN-7.5-IVOR-2424",
+          "L471-BIAN-8.0-IVOR-2424",
+          "L471-BIAN-8.5-IVOR-2424",
+          "L471-BIAN-9.0-IVOR-2424",
+          "L471-BIAN-9.5-IVOR-2424",
+          "L471-BIAN-10.0-IVOR-2424",
+          "L471-BIAN-11.0-IVOR-2424"
+        ]
       },
       {
         "product_id": "15282586386598",
@@ -4354,7 +6340,21 @@
         "net_sales": 5148.0,
         "units_sold": 16,
         "n_orders": 16,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L277-CIAO-5.0-BLAC-0002",
+          "L277-CIAO-5.5-BLAC-0002",
+          "L277-CIAO-6.0-BLAC-0002",
+          "L277-CIAO-6.5-BLAC-0002",
+          "L277-CIAO-7.0-BLAC-0002",
+          "L277-CIAO-7.5-BLAC-0002",
+          "L277-CIAO-8.0-BLAC-0002",
+          "L277-CIAO-8.5-BLAC-0002",
+          "L277-CIAO-9.0-BLAC-0002",
+          "L277-CIAO-9.5-BLAC-0002",
+          "L277-CIAO-10.0-BLAC-0002",
+          "L277-CIAO-11.0-BLAC-0002"
+        ]
       },
       {
         "product_id": "7626830610598",
@@ -4370,7 +6370,21 @@
         "net_sales": 4950.0,
         "units_sold": 15,
         "n_orders": 15,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L264-MILA-5.0-IVOR-0616",
+          "L264-MILA-5.5-IVOR-0616",
+          "L264-MILA-6.0-IVOR-0616",
+          "L264-MILA-6.5-IVOR-0616",
+          "L264-MILA-7.0-IVOR-0616",
+          "L264-MILA-7.5-IVOR-0616",
+          "L264-MILA-8.0-IVOR-0616",
+          "L264-MILA-8.5-IVOR-0616",
+          "L264-MILA-9.0-IVOR-0616",
+          "L264-MILA-9.5-IVOR-0616",
+          "L264-MILA-10.0-IVOR-0616",
+          "L264-MILA-11.0-IVOR-0616"
+        ]
       },
       {
         "product_id": "15227889320102",
@@ -4386,7 +6400,21 @@
         "net_sales": 4900.0,
         "units_sold": 20,
         "n_orders": 20,
-        "gross_profit": 0.0
+        "gross_profit": 0.0,
+        "skus": [
+          "L531-JENN-5.0-TULI-2670",
+          "L531-JENN-5.5-TULI-2670",
+          "L531-JENN-6.0-TULI-2670",
+          "L531-JENN-6.5-TULI-2670",
+          "L531-JENN-7.0-TULI-2670",
+          "L531-JENN-7.5-TULI-2670",
+          "L531-JENN-8.0-TULI-2670",
+          "L531-JENN-8.5-TULI-2670",
+          "L531-JENN-9.0-TULI-2670",
+          "L531-JENN-9.5-TULI-2670",
+          "L531-JENN-10.0-TULI-2670",
+          "L531-JENN-11.0-TULI-2670"
+        ]
       }
     ]
   },
@@ -4429,7 +6457,7 @@
     },
     "No Copy": {
       "n_ads": 22,
-      "spend": 145230.43,
+      "spend": 145230.57,
       "revenue": 471525.24,
       "purchases": 1480,
       "roas": 3.25,
@@ -4440,11 +6468,11 @@
   "destination_performance": {
     "ProductPage": {
       "n_ads": 9,
-      "spend": 23899.11,
+      "spend": 23899.24,
       "revenue": 61476.2,
       "purchases": 209,
       "clicks": 0,
-      "impressions": 315874,
+      "impressions": 315875,
       "ctr": 0.0,
       "roas": 2.57,
       "cpa": 114.35,
@@ -4464,11 +6492,11 @@
     },
     "Catalog": {
       "n_ads": 3,
-      "spend": 58480.05,
+      "spend": 58480.06,
       "revenue": 197652.66,
       "purchases": 575,
       "clicks": 0,
-      "impressions": 742603,
+      "impressions": 742604,
       "ctr": 0.0,
       "roas": 3.38,
       "cpa": 101.7,
@@ -4509,11 +6537,11 @@
         {
           "url": "https://larroude.com/products/clear-vivi-wedge-mule-vinyl",
           "sample_full_url": "https://larroude.com/products/clear-vivi-wedge-mule-vinyl",
-          "spend": 17133.3,
+          "spend": 17133.43,
           "link_clicks": 0,
           "purchases": 146,
           "purchase_value": 40590.83,
-          "impressions": 224458,
+          "impressions": 224459,
           "roas": 2.37,
           "cvr": 0,
           "score": 0.4602
@@ -4567,8 +6595,8 @@
       "copy_level": "No Copy",
       "creative_title": "{{product.name}}",
       "creative_body": "The shoes everyone’s talking about, from viral heels to all-day flats that look good and feel even better.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwGEC65M&_nc_oc=AdpsIZdT3_ijs70nk2peNK7nXbAMjWvGKiMTukZLmdwYAuEPI1bagBdsh7pYBb5a4zA&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFuj2i5t9QKFmk-U_iLokvIHMiVl3WlvNzqcOceqCO81kso1mw-rWxV3S8FZISWUQ1FNCz--djTRg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af44Pn8ilcnSfeiMR0hgOOpsb6ic05ktQr-hwkDUi5-kYw&oe=6A129684",
-      "spend": 52359.41,
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwEzC-LN&_nc_oc=AdrYzx6tY2XX_2EsIRZzgotUu5NoBkqI6QkkL24PDiBfAMvsN-ihpOAUsr55egqTmeA&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFfwiYcD3gFssUpvb-W9GYHHZUQIRj9-ORYbZxICQVomVX2F568uBu6NJeH2XAWIbn-tD_3bBulbA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af7M7txCyFGFDSIq7y8_zHzmGRNhFx3Y3YgzLtXgOfuABQ&oe=6A129684",
+      "spend": 52359.42,
       "purchases": 521,
       "revenue": 180219.87,
       "roas": 3.44,
@@ -4580,7 +6608,7 @@
       "copy_level": "No Copy",
       "creative_title": "{{product.name}}",
       "creative_body": "Be the first to get the latest from Larroudé.\nAll pre-order styles are 30% off.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwGEC65M&_nc_oc=AdpsIZdT3_ijs70nk2peNK7nXbAMjWvGKiMTukZLmdwYAuEPI1bagBdsh7pYBb5a4zA&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFDqX189kC0JjYMIj8gVAH_mOTrSLuFVVHrgYkUGiaLqL6T3rd3ECo6PLWAJP3JhpzFUYG8mJNIPA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af7ATiC3U161nqr9AWMLiQlQaCreXeDddJSLZ3JBWFnK1Q&oe=6A129684",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.2147-6/75341531_494485104475166_2751028116179648512_n.png?_nc_cat=1&ccb=1-7&_nc_ohc=_X8xRa3St1oQ7kNvwEzC-LN&_nc_oc=AdrYzx6tY2XX_2EsIRZzgotUu5NoBkqI6QkkL24PDiBfAMvsN-ihpOAUsr55egqTmeA&_nc_zt=14&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFMUUhOXL1-4vQ86ZmXxpa81VTtiVux8Aoj3vExW1sf9QdvcUuQIQSkHoLAJmUO_p0uA14r9hL6_A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=39b8c1&_nc_sid=58080a&oh=00_Af6-OQUcLyLU6RebTIZaBQSaK7iAbsidMTTeU9ddjuPGag&oe=6A129684",
       "spend": 40510.82,
       "purchases": 478,
       "revenue": 141562.82,
@@ -4593,7 +6621,7 @@
       "copy_level": "No Copy",
       "creative_title": "30% Off The New Fiore Styles",
       "creative_body": "New Fiore has entered the chat.\n\nNew styles of our bestselling sandal, now available with 30% off pre-order.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/699515417_1948940859074989_3519753113229422468_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=2xRxhhfu8zwQ7kNvwHMA9ps&_nc_oc=Adox0L3yJX_n0RT68Z4K57JVRcYYqAHFOgdWa9L10u7ReP9uxf2DksUnnlB9vsD6yp4&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFGeuZD2iHRHCIcwV1GaXp_3Teo8sraP60OfTDIjReFE9mdMNMK2LxICC6Jf3jSuy2KjY5yM6silA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4-oze4ksCtvjG7OKmvnT1Z2E649X6UgfYGc2-zO46m0g&oe=6A128259",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/699515417_1948940859074989_3519753113229422468_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=2xRxhhfu8zwQ7kNvwFAPpwU&_nc_oc=AdoiYXhApAxSKg6oqp40cWutiC1UVXIlmVb7iQDq202QdF5wjB_H3cM0EO-qa7XhghM&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQHHFPNlG3Cjf3EvMk0Whl24M3z41UQEWw9Eccpqh9EjF3YvDcJuNiQf1qvRUHfzgwLsP-6YP8yg-g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4MCON310tO9f5UaraP_s9uwQiV-29Y1O2DycBXroH-aA&oe=6A128259",
       "spend": 12332.76,
       "purchases": 121,
       "revenue": 37059.07,
@@ -4606,8 +6634,8 @@
       "copy_level": "No Copy",
       "creative_title": "30% Off Right Now | Larroudé",
       "creative_body": "Looks like a heel. Feels like a flat.\nEasy wear, no effort needed — and 30% off pre-order styles.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/691558507_1958926911395426_3663680840369306357_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=TpC-udaKy64Q7kNvwGdW43Y&_nc_oc=AdrL5XcfTkR--MsCYNCoVQ-AWWInfnlo7iBu5mf30_UP6PkZAbvielA-hxizoTJBmEo&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQGtnzblgkglZ8zATeBBZGb1o7Y23UXcv7lUYloHmoZQYW_tQjTOGNnA2ar3oNXh41WdJR1-6pY0YQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6FJkDTYyWN4Lidpaw48Mlr9-yor8YeLTI7Ah72tAngfA&oe=6A12798B",
-      "spend": 17133.3,
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/691558507_1958926911395426_3663680840369306357_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=TpC-udaKy64Q7kNvwHdMcC-&_nc_oc=AdqtRqc7I1c2IpyrtEkAO5ia8cYKg8ZjquB5zByHMPEkDOZs8AGHkA09fcjghW_eFXg&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGGphMGCmxm_LMUspPatb3MebubMumO9gQlGGwnqdUtjl5mDsL0MRiV3briZy-yi816HA4oVLIDrQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4Wm-kR9m7152g6jpuZrPgWsMybijQbhoKfP5uplDjswg&oe=6A12798B",
+      "spend": 17133.43,
       "purchases": 146,
       "revenue": 40590.83,
       "roas": 2.37,
@@ -4619,7 +6647,7 @@
       "copy_level": "No Copy",
       "creative_title": "Larroude",
       "creative_body": "First in line. First to wear it. Pre-order now — 30% off.",
-      "thumbnail_url": "https://external-sjc6-1.xx.fbcdn.net/emg1/v/t13/10595538178002285351?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIw8X7a8SkmRJ4G_5P04KGHRkMb5oJxZl7wJ8Qeu_FkZyfSpWhuVQs3CCIi34qR98J6bj7alMhQbeFteVSFAnfJMEMEcdStifAi-rya6YnHcV0Mav0wshm0IVmwxkEizeeAqVr9Qk6eNgCSg-Pwwkny&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_oc=Adox2H5x8m28wfbVHvuMpI3HzmiUhaAF3YsitH6-zj8qy0eehJcemQqxkejdIhUZ6ck&ccb=13-1&oh=06_Q3-_AYbvLSN0Qm3PBXrLw4jFSR_oYjEtQ8Yu86j_TFHdQSIt&oe=6A0E8C91&_nc_sid=58080a",
+      "thumbnail_url": "https://external-fra3-1.xx.fbcdn.net/emg1/v/t13/10595538178002285351?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIw8X7a8SkmRJ4G_5P04KGHRkMb5oJxZl7wJ8Qeu_FkZyfSpWhuVQs3CCIi34qR98J6bj7alMhQbeFteVSFAnfJMEMEcdStifAi-rya6YnHcV0Mav0wshm0IVmwxkEizeeAqVr9Qk6eNgCSg-Pwwkny&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_oc=AdpYzMPeggvUCb2392pZ0jdwWo9UmOnwhV3bWpizzJ0wcL8FRs8oOLspInyYshSnebM&ccb=13-1&oh=06_Q3-_AWaEgYmZWLmCH58qZNmS3vI8Xo_mrZ9y-bmS97oADXMf&oe=6A0E8C91&_nc_sid=58080a",
       "spend": 4184.55,
       "purchases": 61,
       "revenue": 21062.12,
@@ -4632,7 +6660,7 @@
       "copy_level": "No Copy",
       "creative_title": "{{product.name}}",
       "creative_body": "The shoes everyone’s talking about, from viral heels to all-day flats that look good and feel even better.",
-      "thumbnail_url": "https://external-sjc6-1.xx.fbcdn.net/emg1/v/t13/14321323928549118083?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL3Ax_DWpaUXg_LGjmJuXI-rrnpTNZym2_QeuMhqY2P41SJt2yXPwBDWtYtWto8ZBic3c6rlR4VU_49_21-WRpkoU3qMHwCefOWWV6wFGir4o-xCDBJFDcHqneGRCuPLj0U9rDRqarRYJrJi8g_zBeq&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_oc=AdrgzdUQSNoYv3uyevjiTyYLnCkOsxuZ9_NLU3TE5MDhSLN5lgzKsSCld1vrrdSScTg&ccb=13-1&oh=06_Q3-_Ab3kTvPQywqw7JRvgB6ywN-LWJHjhajS4rwdUUVGTuVI&oe=6A0EAC05&_nc_sid=58080a",
+      "thumbnail_url": "https://external-fra3-1.xx.fbcdn.net/emg1/v/t13/14321323928549118083?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL3Ax_DWpaUXg_LGjmJuXI-rrnpTNZym2_QeuMhqY2P41SJt2yXPwBDWtYtWto8ZBic3c6rlR4VU_49_21-WRpkoU3qMHwCefOWWV6wFGir4o-xCDBJFDcHqneGRCuPLj0U9rDRqarRYJrJi8g_zBeq&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_oc=Adq5Cc2z0HYcU1wvki9JT8WO_hAMnZ4B_9rKbOc_4M_DJljrqUxvJqf1HS3VdtMUBzg&ccb=13-1&oh=06_Q3-_ARuK51C7ETEm4lUz4Q61pyTltPl5POZx9tXtv8V5D8fi&oe=6A0EAC05&_nc_sid=58080a",
       "spend": 5979.19,
       "purchases": 47,
       "revenue": 15507.69,
@@ -4645,7 +6673,7 @@
       "copy_level": "No Copy",
       "creative_title": "Larroude",
       "creative_body": "From timeless classics to bold new silhouettes, we have a design that effortlessly complements every look.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/699110913_1556220889433880_4438166100028362489_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=jXrHR1vNbYcQ7kNvwGFV1jp&_nc_oc=AdpguFy6s3ojPr3f6lBDtwx9RW4jpkIpyDVAbpgkHKIWYuI_MT0SbjH3KitlEZPAd_I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQELjkTDBThjfaorfy-4Sv8HDROblLqcy8BnaP3Sh6Zi5ZjPvwV--ifNnDq7ZpHQ9DT8kO9NsfaRQg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a86139&_nc_sid=58080a&oh=00_Af6SHfkb8gZJFv_xNa2_iexrztuas-wdK0UGb0hM-Gentw&oe=6A1290B4",
+      "thumbnail_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t15.5256-10/699110913_1556220889433880_4438166100028362489_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=jXrHR1vNbYcQ7kNvwGlBPqn&_nc_oc=AdoZmIboaLB8Q665BV6ticzJZi7UXC_R9Z61pJhQL8E53eoxhAU5IChLPD3q7KvMJKU&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH_q1DmqS6XeRqHjgQ4H6JmwOy3GHfb7FvpzxTDXEfPKBQKHjhXgbjYiVq94854GvooXSLtgqU1XQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=a86139&_nc_sid=58080a&oh=00_Af5bycfvNpxguJ5HEIRKh-G7JNLKcXhUDAmbfQ9yowQfDg&oe=6A1290B4",
       "spend": 141.45,
       "purchases": 7,
       "revenue": 1925.1,
@@ -4658,7 +6686,7 @@
       "copy_level": "No Copy",
       "creative_title": "30% Off Fiore | Larroudé",
       "creative_body": "Wear it all day, love it every time. Fiore is the one you’ll keep reaching for — now 30% off.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/689042507_947176764756889_8286223775503571514_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=hX8onPEnTvUQ7kNvwFYXOrw&_nc_oc=AdrqLuKiEsOsvU9et9-xLEHMBCY_IZ3VO9EIu7otddU0EEaMEcPEMhVG2-xB5ejFvJg&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFsROozwUOx_m55kPBDbGT_qjWoTEGXqkN6clqWAe4u4MokPVu2UK6bIWE8wGoIX2caTIYdHNc9dw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6J2YpM0A4UFw20L2ItO0LqqPj7xxhSNukrOFTwapIOhQ&oe=6A129C37",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t45.1600-4/689042507_947176764756889_8286223775503571514_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=hX8onPEnTvUQ7kNvwFSo5QK&_nc_oc=AdpY2x_bZ_xawjrd-3Le8YMnC0GPSQNmisQoise6lGFSDFBXXoFMWuvzrqW7pYF202U&_nc_zt=1&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQE7iXb-wX0qz6EQHq8RdaGr4zr5ni56kMZGpD6ZBioNztPLz2EUYE61Fbw486F-DvTGui5Xlqamag&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6ljTJ92E3ecsyxmmKLhOqxVqsGTzbRbg17qhrJ0QFfyA&oe=6A129C37",
       "spend": 330.26,
       "purchases": 8,
       "revenue": 3418.34,
@@ -4671,7 +6699,7 @@
       "copy_level": "No Copy",
       "creative_title": "First Look",
       "creative_body": "Unbox your next summer staple. The one you’ll reach for every single day.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/685644397_995884893448434_8900097440424031138_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=o753hlLuTagQ7kNvwEyiVDA&_nc_oc=Adr1oT61ixgi1HUor3mXkoOJ8PowIlsLk0wT0nq8iYvG1aN9uaEu_1Tq_RECD1CHobo&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHOLk_NxQ7fc5bHTRrcPzljAtEwOCKRmHZ6a4gRzZ4Deldg5XEZwh4LO7pHszaydbbBT5vaDGl3hg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4qEvZwrb2zzIWsTh5EwL9eVvISE7zPMicMd85xHSFcWw&oe=6A1290AE",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t15.5256-10/685644397_995884893448434_8900097440424031138_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=o753hlLuTagQ7kNvwEzR31V&_nc_oc=AdpUZEel0gEhS2H9-WbKXDjIJdOchoR6hgLHq4vy7HO2ulVVLuFgvvv5SIbErLQmWZo&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGh4l-yS5IrJpPq7LCdSlQnfbt8GICpDeEoym6umPTn3sM1EFSAOMnS8QoZEzYIfe1TGoMuHUvbLA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af7M8hQDaykSQ8nEKZjPE1OVXCsDiWUn7mxsuq6RUiaQ_A&oe=6A1290AE",
       "spend": 2676.66,
       "purchases": 20,
       "revenue": 7336.35,
@@ -4684,7 +6712,7 @@
       "copy_level": "No Copy",
       "creative_title": "The Shoe That Goes With Everything",
       "creative_body": "Clear goes with everything — that's not a coincidence. \n\nThe Vivi Lucite Clear Mule is hand-crafted for the woman who wants one shoe that does it all. Pre-order now and save 30%.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/690966278_947876851353547_333206645899559167_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vqxyz1mn26YQ7kNvwGwAyTo&_nc_oc=AdqKp02bGBKajDbVuFc9nglN4Wmdkw1nD6hhYc5dE3IOm0yUG-3AcEbNaQEmrQKcOI8&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFOYVi2e-xR4Ie3hCCVgrQOIu0V7glk7Fhsc0Wx6zrRnw3VjM2EjXdjYmvPCUbDRZzecdFKyLRqIg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4CYxsmOawhYvp34D0F7510l41Hqhd9msQpZ7tkapHZQw&oe=6A12820E",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t45.1600-4/690966278_947876851353547_333206645899559167_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vqxyz1mn26YQ7kNvwF-6icA&_nc_oc=AdqbUx5B-JkRuCUYqFFdjEJyEOPF4TSgoKBtf8oFCjopSKQdRoA35GvzrIqodQZvbFs&_nc_zt=1&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF-9E5B4BgsOkr_f_13KmNBHZWZsr15XfIzxp6qAKZ5_DEvqa9bBBZLvOEpQpj6kU2eJZ1Yq_FK0w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af7o6iaa9YzjTCEOgAuBJ_UQ1if9wDp2A4jtcd2SM19Hbg&oe=6A12820E",
       "spend": 2421.13,
       "purchases": 22,
       "revenue": 5576.57,
@@ -4697,7 +6725,7 @@
       "copy_level": "No Copy",
       "creative_title": "The New Larroudé x Nicolò B.",
       "creative_body": "For the girls who dress like every night has plans.\n\nIntroducing Larroudé x Nicolò B. — bold shapes, glossy finishes, and after-hours energy.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/692249076_947941084680457_6602014924822248431_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=H_bc1PP88joQ7kNvwFuLgfQ&_nc_oc=AdobhnkLHWiPgMKIpZlZv3_k2ez9B4vNUA_BHoyPcvZuDfjMxahcs2Ip_XN4WP7ynuk&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEqf2YxDZ6P5ry8IIF00cOooiqpNIlFfxbN5Xtx2ZHuyzZ1LeC-5ouKxUDr2cHlQ0xR1Gn-Gdj-Nw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5rlTTD4ypE0HZRhbZFAQplLkFrKMlNDe8ta3mzl0FRsA&oe=6A1294F1",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t45.1600-4/692249076_947941084680457_6602014924822248431_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=H_bc1PP88joQ7kNvwFBryjD&_nc_oc=AdrgpCofaDAEmVqoYIsFYuH2juH67tkGrUfHyjapyAs9JXdHQm4SC5xTLsnCeN7tRds&_nc_zt=1&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQEnXVk_LNd6IaxVoKU5fYL_eQOpzR_xLNQkswdroTea3Vz1PDEzbGVYZ5vlDug9RDMi5OTjjxo1jA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4YpaXFzgCU2zmgpGgn-Ibt3asRL5RUAiJIfTpfYdBD2A&oe=6A1294F1",
       "spend": 2792.88,
       "purchases": 19,
       "revenue": 5906.3,
@@ -4710,7 +6738,7 @@
       "copy_level": "No Copy",
       "creative_title": "Always the Right Choice",
       "creative_body": "The pair you don’t think twice about. \n\nThe Dolly Low Mule makes getting dressed feel easy, no matter what’s on your calendar.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/684207713_941419221999310_375184059833171435_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=gAFBu_enCgUQ7kNvwF1DTgB&_nc_oc=Adrk4AtHY1_JsQ8c8VboFhw9ftQlJu0x5ZP2QMlmHNGR3jL4c47F6mkLZT6YWmr4UrU&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQGdoyl2jlHlGkmI9nVCzMXvi7yWrlYwtPL2W78Q5SVAYMTyyg9Bx6XnbOTAd8T02XESs4HsTUMizw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af66BanjroGz0SsTix0bw5FtypZ3PWsPbMZbR4VvHSsAoA&oe=6A1290F6",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t45.1600-4/684207713_941419221999310_375184059833171435_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=gAFBu_enCgUQ7kNvwFKOqVz&_nc_oc=Ado7nlUS_X_Ho1TXZjBY_AITDlI94pDjLi_38sARyAP_dRutqbo34jfT_5oMLHq6nug&_nc_zt=1&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFmKQnOUqm9j6YqQL-2X3Cjh5sLiVXcNWN2hZSEldIw86YorkROD5-d0wJwsLa1L9okZg0ZqwOk1g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af72RNEqlQqqw8rCUH50ul-UjujDnJNsp919dawMf1x7xQ&oe=6A1290F6",
       "spend": 851.37,
       "purchases": 10,
       "revenue": 3353.14,
@@ -4723,7 +6751,7 @@
       "copy_level": "No Copy",
       "creative_title": "New Fiore Styles | 30% Off Pre-Order",
       "creative_body": "The Fiore collection just expanded.\n\nDiscover new styles for spring and summer, now 30% off during pre-order.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/699800595_951856387622260_3031259750746719860_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=u_TbLWU0RegQ7kNvwEJR3kp&_nc_oc=AdoI4ct_g6kuShvuDubDzNBJKZhwHpmqXTzcq-v2rg1-3Vs54KEv52azisEc0OHxfl8&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQElx0LI9dVBwz-OF5hzdEYdH6sznjGCYFeP6VrGe8HijgZ87rozgUIefMFy5gpvQJJw9uWiqIJIDw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4bRq4YVq5urk2uXFCxKIsYYdEQtiTRrF7HA7ZdCOzJaA&oe=6A12710A",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t45.1600-4/699800595_951856387622260_3031259750746719860_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=u_TbLWU0RegQ7kNvwEM4VQQ&_nc_oc=AdopFR_N75FDLtS5wlrf4faHWw3nV4vny6796xp3C0jXMoKyWg2_-J9P-AGcshqmBLU&_nc_zt=1&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH5c8jFTaY8V0LVVoVk5aT-mVYZ3fERI00i7b3LQC4DCMQeK8ainySHGn4zct2T_fbYY_qjl-mTpw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4Ik2LeoDpMb4olBhMesGT36wzec5qioERdojpdtv1f8Q&oe=6A12710A",
       "spend": 568.81,
       "purchases": 6,
       "revenue": 2827.28,
@@ -4736,7 +6764,7 @@
       "copy_level": "No Copy",
       "creative_title": "Meet the New Larroudé x Ciao Lucia",
       "creative_body": "Sun-soaked colors, playful details, and the kind of shoes that make the outfit.\n\nThe Larroudé x Ciao Lucia collaboration is officially here.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/700460427_953622860778946_4003091242876100794_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=x7HlePzzW7wQ7kNvwH_-VxP&_nc_oc=AdpXKNaCQf_8a9Z-JdRXSGEQDmypjevTsQqf2DMagbMx7fb1YB6MkymZwmcENCBeGdQ&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQH_lTdNuGS3l3DkcuLXAs082a4gNiD9XTiMSD7C1T_UaDC9Pwgh0KM_Xf1QTVFWSZ8vj4h_OCac9g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4DiOZv_vt_nws7SOTtgUO41FDG23bfshXAXrcqLTWfcA&oe=6A126D38",
+      "thumbnail_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t45.1600-4/700460427_953622860778946_4003091242876100794_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=x7HlePzzW7wQ7kNvwHhod7S&_nc_oc=AdqSyRqQPsC-WmW81xBrx3m2wS5dGwhl2V8oidZaD8YI3MIDJ8eBBZMsKNnURbSDlgI&_nc_zt=1&_nc_ht=scontent-fra5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGePyi288qYIlipWMPK9HzscG5EGB-5SYp4aGqV4jTFupyF-uFiWJUKW_UJkUIbur79bQozokSdqA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5lb-zyacsi0I0-WBJKO2U7hujiYbyKI01pspSDw0oo2w&oe=6A12A578",
       "spend": 448.28,
       "purchases": 4,
       "revenue": 1886.11,
@@ -4749,7 +6777,7 @@
       "copy_level": "No Copy",
       "creative_title": "Meet Your New Everyday",
       "creative_body": "The shoe that makes every outfit look intentional. \n\nThe Milan Dolly Low — structured where it counts, effortless the moment you put it on.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/690667168_1022112013808874_3562191228308897015_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=L5n2QdSV-ssQ7kNvwHrlZt_&_nc_oc=AdoQCEjWVZy1tP2mTuCItLUk2dXy2-aDaT6SPiHQQ5zZsjU9AhziJtZoqX4XiUFz0pw&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHwQrjYs4XXTbNS8LRXZDB-iNhloTo7hFHjzLzmIdri5B2OAtIOnZZalGZ2YHeIsMgqss4NhJoN2A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af4Yqrk4UvE1WciTIOyaBiJ3OSHk1JB-oIWzW0nJArvz2g&oe=6A128BC0",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t15.5256-10/690667168_1022112013808874_3562191228308897015_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=L5n2QdSV-ssQ7kNvwFd-oQZ&_nc_oc=AdowSZs2svogYTNILmCeVmhBPViByXwEOKgeAbPUQmslSdOe9gcwaDtp1ESblzZW3Eg&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFerBLow_EoB7F2QbZU0u6CDn4Izl0SWA6GQUnfeGP0p0XXxZy-V1lawEd1I9DQ600MdAQaWr4vmA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5VwT6bnbJcY2wO416H5Vz3K7Np4-FNMuJB9vAhrv7zEg&oe=6A128BC0",
       "spend": 243.47,
       "purchases": 2,
       "revenue": 946.76,
@@ -4762,7 +6790,7 @@
       "copy_level": "No Copy",
       "creative_title": "The New Larroudé x Nicolò B. Collaboration",
       "creative_body": "The kind of shoes that change the whole outfit.\n\nIntroducing Larroudé x Nicolò B. — sculptural, polished, and unapologetically bold.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwE-hs2E&_nc_oc=AdpdcxAThB-r9ziUswDjZYmzGbe8V0tgtQph-T04Y0rOal1B7lRmzrASlQJC8yxNss4&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHI7cEznB4HExQcIJc4luvnh96-FgLXKov6pavKEiT9-Rl1NKn8JUVW7mDHbiuBHDx_3eojyGY76g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6pBJ0z2FE8Qgu2x3V1p6Z7mrCP2uXmTlN1VgSrAGREpQ&oe=6A1278AA",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/690624749_1303753751086574_3623605395082892258_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=mips1x_13hIQ7kNvwHXSVrn&_nc_oc=Adq7rMAgbv4rGVjR6eJyGs3x8FII1rrIADxKQb7v4UmKTPCxv5cgYUfZSDevRlKvIOU&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQF6QYOvAkv-IAthh7CFtw41Un_DfwUwZrrReFaluxUj2jM2aYrBdrswruqKlsgHFtR3-cEEI9MKqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_Af6CQUhxqP1sp04YZecB0wuG4q2YwqlNIooyZ1eVy_SFKg&oe=6A1278AA",
       "spend": 1032.3,
       "purchases": 4,
       "revenue": 1204.96,
@@ -4788,7 +6816,7 @@
       "copy_level": "No Copy",
       "creative_title": "Your Statement Sandal Is Here",
       "creative_body": "She’s flirty. She’s elevated. She’s Fiore.\n\nYour warm-weather outfits just found their finishing touch.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/692785068_2151237578987823_8769250379851304963_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=FQpOEi50p5QQ7kNvwF2yWJ7&_nc_oc=AdpZZSIL2YhsodEH0CP9i2Ox_9s5ycSSAWyF3ANUGS-UciQSede7omInKEx0OXYgmWI&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEx-xNckDAL0cZTiHgRaTs_9Zbiw4HrcOmdY9kpXbuJdo4nwmyygSO48OzSB6SMhlZ6wH_wTMSYmw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6ysoowms_t8LfRXDvrmzWuUfbsqfM9ln-H4A8Py8ZrHw&oe=6A127372",
+      "thumbnail_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t15.5256-10/692785068_2151237578987823_8769250379851304963_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=FQpOEi50p5QQ7kNvwH6286c&_nc_oc=AdoZC_LLTmHGSypfTu5fgp2QxvR_wIz1kyCWc6duqlL_K4IeqKQNxCP_ZR6k9hdV3BM&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQHaCRmEI31ulCCFbGG3gISJGw8yEqSAXhyIdr5lYiD8S8KMuoGSsswq5T4GDPTUrEV1NEBqPry-QA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5TzQY8-wNOE081ARD-qUOflRBG6hWhh8z-4GnGf77R1Q&oe=6A127372",
       "spend": 93.76,
       "purchases": 1,
       "revenue": 254.21,
@@ -4801,7 +6829,7 @@
       "copy_level": "No Copy",
       "creative_title": "30% Off Now on Pre-Order",
       "creative_body": "Meet the Fiore Sandal. The statement pair that gets attention every time.\n\nGet yours at 30% off now.",
-      "thumbnail_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwFzd9hX&_nc_oc=AdrIjDH6i_xWV4X62dmL2eK6YwqWLvlUvUp5qvRMHB9SUx5JGxnQwql84z9R5WlJ8Ag&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEUDx9VnwTjfL5GXZ2Sm-B_IcJF6TuTkM2nMaOde8-czbRaQx-e0RQLvTO7uciUfZgoT229VnvT0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af5rlmACL-2aDCHsZkAYypZDu3P0Sk0DNvT-62ZavTd_uQ&oe=6A12A3C1",
+      "thumbnail_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t15.5256-10/693259488_1249667780580003_4559565911326220625_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=2UPAk2NmmvkQ7kNvwGfRpLW&_nc_oc=Ado9EpibBy-1E5aycdGkFwTV8bXuBVal0xVeAMVj1atm31-btUxoC1xs8eNZxHFi1Ng&_nc_zt=23&_nc_ht=scontent-fra3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQH_M_wL4rYfmQDrhow09DwR7CYVKy2YOfK9QGukDd7XlHYx4YVAuC191vL0i92MPyS7YfoOmsOliA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af48dPaL-ciMOzwEfzRv2466tES0BlwqyH7QkNR3Xl5-Xw&oe=6A12A3C1",
       "spend": 114.01,
       "purchases": 0,
       "revenue": 0.0,
@@ -4814,7 +6842,7 @@
       "copy_level": "No Copy",
       "creative_title": "Unboxing the Milan Sandal",
       "creative_body": "POV: your Larroudé order just arrived.\n\nThe Milan Sandal is even better out of the box.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/697990377_1285772200403208_6816388210443161632_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=YvJjPYrThKUQ7kNvwGMuvYO&_nc_oc=AdpVYVr05QvQHJvzIUwX26RNW0s9YsR7A9QFH2f3vY_euo0mRcbm_e1J-4hnVMT0OBM&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQFpM_QMPPFx7Sr0EYPmIvqdZ328OI2ujyA-6kdGpr-h8UTUknx6pjRzkZNUvdyF6_LzTVuL-2YW_w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6rl_XTtGEcvUHs_o5r7Um7pLlN2sWrSyX1MP7I9t2cUQ&oe=6A12766F",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t15.5256-10/697990377_1285772200403208_6816388210443161632_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=YvJjPYrThKUQ7kNvwG1rBN5&_nc_oc=Ado1k2L2swUtQ9Fcs3J7t5YPfcd38WRo4rAX_5ceRdD-cuBhecOs7zpz2qAENOZ-KX8&_nc_zt=23&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGZ2I4hn5n8okUe8mUkJqxaqj_jFu7rN4uE1HCpYYR-nqv68eXC_e7Mq-rH_rdGK79KRq82FGwGpg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=b696e2&_nc_sid=58080a&oh=00_Af6uSNpS4k8H-DDzIqKLi_l9ym-JkVdzzlZly-0KE2i_FQ&oe=6A12766F",
       "spend": 38.42,
       "purchases": 0,
       "revenue": 0.0,
@@ -4827,7 +6855,7 @@
       "copy_level": "No Copy",
       "creative_title": "The Sandal for Every Summer Plan",
       "creative_body": "Beach, brunch, errands, repeat. \n\nThe Milan Sport Sandal was made for the woman with places to be — all the comfort of a sport sandal, all the style of Larroudé.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/696477377_947898894684676_2951157664235574115_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=V1p-ES0zEEwQ7kNvwHseB7M&_nc_oc=AdofCzpCfIIsoZAljU_xnk_5a2AfZhELEaD7_ZXPoqESLQeOZSmXPXAhCiPkA62mJnc&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQEn74_glUhWAdZ8v9bm2X9_tEmOI8FMZFJyqRqareOdnfClMPmAIfWJz7Jbu2cQEsQhtt0PJ5d7aQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af6kxhmfPgSHH1g33WduO1xRodrzc-7GF7BQgbOUYzUnLw&oe=6A1279C6",
+      "thumbnail_url": "https://scontent-fra5-1.xx.fbcdn.net/v/t45.1600-4/696477377_947898894684676_2951157664235574115_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=V1p-ES0zEEwQ7kNvwH7rsNK&_nc_oc=AdqFexjqfGRYCxRnesPCNncjSZTeuK9XN3BWmHU9y-Y9wbGb_E0v1Nd9GI1pcK4Ruf8&_nc_zt=1&_nc_ht=scontent-fra5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQGQy6EijmnS01ZrVzI-ZTVzHyJgKEagSrOooO6jB9l0WThm78Z8eJl_irgON-Ge9cdy-8mM_d2SkQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af42IvgCu_pgt4fkFNCn6CcUyu4L6ix3hSnwGcxxg1PrSg&oe=6A1279C6",
       "spend": 35.15,
       "purchases": 0,
       "revenue": 0.0,
@@ -4840,7 +6868,7 @@
       "copy_level": "No Copy",
       "creative_title": "The Fiore Sandal | 30% Off Pre-Order",
       "creative_body": "Secure your pair before anybody else.\n\nGet your Fiore Sandal — 30% off.",
-      "thumbnail_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.1600-4/691783319_947091558098743_8154768414002365433_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=EAd4xpgTNf4Q7kNvwHY3uxO&_nc_oc=AdrJk49kA6GjKauofZdEQSbKyoPiO_dNvdcPrcYRBT4dHMpvJbXIFlNJj1UmlnkjJaI&_nc_zt=1&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=59crxKMYoCd7A5rodTI-rA&_nc_tpa=Q5bMBQHeAaLYOIW1wQTVTvn07xOYxqklCya-rvR-c0FU6s2INnchdnTSoH6kI5g1WV6E5uEu5kdjIjuXTQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af4n8hT4xrWVo0tM78rv319HQLY2KeO7qfySmamjVaqUXg&oe=6A128F28",
+      "thumbnail_url": "https://scontent-fra5-2.xx.fbcdn.net/v/t45.1600-4/691783319_947091558098743_8154768414002365433_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=EAd4xpgTNf4Q7kNvwFd59F-&_nc_oc=AdqRwoe58pJJ9ungoreG3-c5KqFaWrS7c4fj1v228Mk8dHJDjfbB3jkOCg1GtAUcY-A&_nc_zt=1&_nc_ht=scontent-fra5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=HPYrd0S7qjepmYJFp90-1w&_nc_tpa=Q5bMBQFhgrxIGIEEhT7kjsjl0HBqTGNrqQIVv1d_hHo0i9Je-J-1uDPZauf2VpP3YsPoMz-qHRWhwoKpqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af5LL4FfMGtyDF5eVTypkLDjbIWBbLNlmWFAxD-lwO0l8A&oe=6A128F28",
       "spend": 9.06,
       "purchases": 0,
       "revenue": 0.0,
