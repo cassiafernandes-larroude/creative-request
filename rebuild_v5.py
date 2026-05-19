@@ -366,13 +366,19 @@ products = shp.get("products", [])
 products.sort(key=lambda p: p.get("total_sales",0), reverse=True)
 
 # ─── ad name parsing + product matching ──
+# Per parametrization sheet, ad names follow:
+#   <SKU_or_CollectionID>_<Format>_<Destination>_<CopyLevel>_<Angle>_<Variation>
+# Ex: L277-FIOR-IVOR-2723_Video_ProductPage_No-Copy_Product-focused_V01
+#     686997569702_Video_Collection_No-Copy_Product-Mix_V01
 def parse_name(name):
     parts = (name or "").split("_")
-    return {"product_seg": parts[1] if len(parts)>1 else None,
-            "asset_seg":   parts[2].upper() if len(parts)>2 else None,
-            "page_type":   parts[3] if len(parts)>3 else None,
-            "copy_level":  parts[4] if len(parts)>4 else None,
-            "angle":       parts[5] if len(parts)>5 else None}
+    return {"sku":         parts[0] if len(parts)>0 else None,
+            "product_seg": parts[0] if len(parts)>0 else None,  # alias kept for backwards compat
+            "asset_seg":   parts[1].upper() if len(parts)>1 else None,   # Format
+            "page_type":   parts[2] if len(parts)>2 else None,           # Destination
+            "copy_level":  parts[3] if len(parts)>3 else None,           # Copy Level
+            "angle":       parts[4] if len(parts)>4 else None,           # Creative Angle
+            "variation":   parts[5] if len(parts)>5 else None}           # V01, V02, ...
 
 products_by_handle = {slug(p.get("title","")): p for p in products}
 def match_ad(ad):
@@ -390,15 +396,18 @@ for a in ads:
     a["matched_product_title"] = matched["title"] if matched else None
     a["matched_product_image"] = matched["image_url"] if matched else ""
     a["score"] = round(a["roas"] * math.log(a["purchases"] + 1), 3)
+    # Format per parametrization sheet: Video | Static | Carousel | Catalog | Gif
     asset_seg = (a["parsed_name"].get("asset_seg") or "").upper()
-    if "VIDEO" in asset_seg: a["asset_format"] = "VIDEO"
-    elif "STATIC" in asset_seg or "IMAGE" in asset_seg: a["asset_format"] = "STATIC"
-    elif "GIF" in asset_seg or "CAROUSEL" in asset_seg: a["asset_format"] = "GIF/CAROUSEL"
+    if "VIDEO" in asset_seg: a["asset_format"] = "Video"
+    elif "STATIC" in asset_seg or "IMAGE" in asset_seg: a["asset_format"] = "Static"
+    elif "CAROUSEL" in asset_seg: a["asset_format"] = "Carousel"
+    elif "CATALOG" in asset_seg: a["asset_format"] = "Catalog"
+    elif "GIF" in asset_seg: a["asset_format"] = "Gif"
     else:
         cot = (a.get("creative_object_type") or "").upper()
-        if "VIDEO" in cot: a["asset_format"] = "VIDEO"
-        elif "PHOTO" in cot or "IMAGE" in cot: a["asset_format"] = "STATIC"
-        else: a["asset_format"] = "OTHER"
+        if "VIDEO" in cot: a["asset_format"] = "Video"
+        elif "PHOTO" in cot or "IMAGE" in cot: a["asset_format"] = "Static"
+        else: a["asset_format"] = "Other"
 
 # Aggregations
 total_spend = sum(a["spend"] for a in ads)
