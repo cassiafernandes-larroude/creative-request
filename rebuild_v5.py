@@ -170,38 +170,67 @@ def detect_destination(ad_name):
 DESTINATIONS = ["ProductPage","ProductPage_Catalog","Collection","Collection_Catalog","HomePage","Home_Catalog","Catalog","Other"]
 
 
+import re as _re_sku
+_SIZE_TOKEN = _re_sku.compile(r"^\d{1,2}(?:\.\d)?$")
+
+def _normalize_sku(sku):
+    """Remove size-like tokens (5.0, 5.5, 10) from a SKU. Shopify variants include size in the SKU
+    (e.g. L532-GEOR-5.0-INDI-2563), but ad names use the size-less SKU (L532-GEOR-INDI-2563)."""
+    if not sku:
+        return ""
+    parts = [p for p in str(sku).split("-") if p and not _SIZE_TOKEN.match(p)]
+    return "-".join(parts).upper()
+
 def _stock_with_has_ad(stock_list, ads_list):
-    """Mark each stock product with has_ad=True if any of its variant SKUs appears as the first
-    underscore-separated token of any active ad name. Per parametrization sheet, ad names follow
-    pattern: <SKU>_<format>_<destination>_<copylevel>_<angle>_<variation>."""
-    # Collect first-token SKUs from ad names (uppercased)
-    ad_skus = set()
+    """Mark each product with has_ad=True if any normalized SKU matches the first
+    underscore-separated token of any active ad name. Pattern (per parametrization sheet):
+    Ad name = <SKU>_<format>_<destination>_<copy>_<angle>_<variation>
+    Shopify variant SKU may include size: L532-GEOR-5.0-INDI-2563 → normalized to L532-GEOR-INDI-2563."""
+    # First-token of each ad name (this is the SKU per parametrization)
+    ad_first_tokens = set()
+    ad_names_upper = []
     for a in ads_list:
         nm = (a.get("ad_name") or "").strip()
         if not nm:
             continue
+        ad_names_upper.append(nm.upper())
         first = nm.split("_", 1)[0].strip().upper()
         if first:
-            ad_skus.add(first)
-    # Also keep ad names raw for substring match (handles edge cases like SKU in middle)
-    ad_names_upper = [(a.get("ad_name") or "").upper() for a in ads_list]
+            ad_first_tokens.add(first)
+    # Also collect Catalog ad product_ids (numeric first-tokens, ~10-15 digits)
+    ad_product_ids = {t for t in ad_first_tokens if t.isdigit() and len(t) >= 8}
     out = []
     for p in stock_list:
-        skus = [(s or "").strip().upper() for s in (p.get("skus") or []) if s]
+        raw_skus = [(s or "").strip() for s in (p.get("skus") or []) if s]
+        # Generate normalized SKU variants
+        normalized = set()
+        for s in raw_skus:
+            normalized.add(s.upper())
+            n = _normalize_sku(s)
+            if n:
+                normalized.add(n)
+        # Also try matching by product_id (Catalog ads use numeric ids)
+        pid = str(p.get("product_id") or "")
         matched_sku = None
-        for s in skus:
-            if not s:
-                continue
-            if s in ad_skus:
+        # 1) Exact first-token match
+        for s in normalized:
+            if s in ad_first_tokens:
                 matched_sku = s
                 break
-            # fallback: substring search inside any ad name
-            for nm in ad_names_upper:
-                if s in nm:
-                    matched_sku = s
+        # 2) Product ID match (Catalog ads)
+        if not matched_sku and pid in ad_product_ids:
+            matched_sku = pid
+        # 3) Substring match as last fallback (SKU appears anywhere in ad name)
+        if not matched_sku:
+            for s in normalized:
+                if len(s) < 6:
+                    continue
+                for nm in ad_names_upper:
+                    if s in nm:
+                        matched_sku = s
+                        break
+                if matched_sku:
                     break
-            if matched_sku:
-                break
         out.append({**p, "has_ad": bool(matched_sku), "matched_sku": matched_sku or ""})
     return out
 
