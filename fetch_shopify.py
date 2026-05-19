@@ -76,8 +76,14 @@ def aggregate_sales(products, orders):
         a = agg.get(pid, {"gross_sales": 0.0, "units_sold": 0, "n_orders": set()})
         if a["units_sold"] == 0:
             continue
-        first_variant = (p.get("variants") or [{}])[0]
+        variants = p.get("variants") or [{}]
+        first_variant = variants[0]
         first_image = (p.get("images") or [{}])[0]
+        skus = []
+        for v in variants:
+            s = (v.get("sku") or "").strip()
+            if s and s not in skus:
+                skus.append(s)
         output.append({
             "product_id": pid,
             "title": p.get("title", ""),
@@ -93,6 +99,7 @@ def aggregate_sales(products, orders):
             "units_sold":  a["units_sold"],
             "n_orders":    len(a["n_orders"]),
             "gross_profit": 0.0,
+            "skus": skus,
         })
     output.sort(key=lambda p: p["total_sales"], reverse=True)
     return output
