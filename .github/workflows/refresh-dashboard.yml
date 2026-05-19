@@ -1,0 +1,74 @@
+name: Refresh Larroudé Creative Dashboard
+# Runs daily at 8 AM Brasília (11:00 UTC); also manual via "Run workflow" button.
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC = 08:00 America/Sao_Paulo
+  workflow_dispatch: {}    # manual trigger
+
+permissions:
+  contents: write          # allow committing dashboard.html back to repo
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run pipeline (fetch Meta + Shopify, rebuild analysis + dashboard)
+        env:
+          # Meta
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_APP_ID:       ${{ secrets.META_APP_ID }}
+          META_APP_SECRET:   ${{ secrets.META_APP_SECRET }}
+          META_AD_ACCOUNTS:  ${{ secrets.META_AD_ACCOUNTS }}
+          # Shopify
+          SHOPIFY_US_STORE_DOMAIN:    ${{ secrets.SHOPIFY_US_STORE_DOMAIN }}
+          SHOPIFY_US_ADMIN_API_TOKEN: ${{ secrets.SHOPIFY_US_ADMIN_API_TOKEN }}
+          SHOPIFY_API_VERSION:        "2025-01"
+          # Output config
+          OUTPUT_DIR: ${{ github.workspace }}
+        run: |
+          set -e
+          python run_pipeline.py
+
+      - name: Commit dashboard.html + analysis.json if changed
+        run: |
+          set -e
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+          git add dashboard.html analysis.json
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "chore: daily dashboard refresh ($(date -u +%Y-%m-%d))"
+          git push
+
+      - name: Refresh Meta token monthly (extend before 60-day expiry)
+        # Only run on the 1st of the month to keep token fresh
+        if: ${{ github.event.schedule != '' }}
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_APP_ID:       ${{ secrets.META_APP_ID }}
+          META_APP_SECRET:   ${{ secrets.META_APP_SECRET }}
+          GH_TOKEN:          ${{ secrets.GH_PAT_FOR_SECRETS || github.token }}
+        run: |
+          set -e
+          DAY=$(date -u +%d)
+          if [ "$DAY" = "01" ]; then
+            echo "First of month — refreshing Meta long-lived token"
+            NEW=$(python refresh_meta_token.py)
+            if [ -n "$NEW" ]; then
+              echo "Updating META_ACCESS_TOKEN secret via gh CLI"
+              echo "$NEW" | gh secret set META_ACCESS_TOKEN --repo ${{ github.repository }}
+            fi
+          else
+            echo "Not the 1st — skipping token refresh"
+          fi
