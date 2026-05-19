@@ -778,7 +778,7 @@ analysis = {
     "advertised_product_ids": list(advertised),
     "best_conversion_campaign": best_conv and {k:v for k,v in best_conv.items() if k!="ads"},
     "top_sales_campaigns": [{k:v for k,v in c.items() if k!="ads"} for c in sorted(campaigns,key=lambda c:c["score"],reverse=True)[:5] if c["spend"]>=500 and c["purchases"]>=5],
-    "products_top20": products[:20],
+    "products_top20": _stock_with_has_ad(products[:20], ads),
     "products_by_stock": _stock_with_has_ad(shp.get("products_by_stock", []), ads),
     "recommendations": recommendations, "pause_recommendations": pause_recs,
     "n_total_products": len(products), "n_total_ads": len(ads),

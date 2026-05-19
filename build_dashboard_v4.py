@@ -376,13 +376,14 @@ try {
   const prodT = document.querySelector("#tbl-products tbody");
   const paretoIds = new Set((par.pareto_products||[]).map(p => p.product_id));
   prodT.innerHTML = DATA.products_top20.slice(0,15).map(p => {
-    const adv = DATA.advertised_product_ids.includes(p.product_id);
+    const hasAd = !!p.has_ad;
+    const matched = p.matched_sku || "";
     const isP = paretoIds.has(p.product_id);
     return `<tr>
-      <td><div class="flex">${prodImg(p)}<div class="tiny">${esc(p.title)}<div class="muted" style="font-size:10px">${esc(p.type||"")}${isP?' · <span class="pill pill-pareto">Pareto 50%</span>':''}</div></div></div></td>
+      <td><div class="flex">${prodImg(p)}<div class="tiny">${esc(p.title)}<div class="muted" style="font-size:10px">${esc(p.type||"")}${isP?' · <span class="pill pill-pareto">Pareto 50%</span>':''}${matched?' · SKU <span class="pill" style="background:#eef;color:#334">'+esc(matched)+'</span>':''}</div></div></div></td>
       <td class="num">${fmtUSD(p.total_sales)}</td>
       <td class="num">${p.units_sold}</td>
-      <td>${adv?'<span class="pill pill-good">✓ has ad</span>':'<span class="pill pill-bad">no ad</span>'}</td>
+      <td>${hasAd?'<span class="pill pill-good">✓ has ad</span>':'<span class="pill pill-bad">no ad</span>'}</td>
     </tr>`;
   }).join("");
 
