@@ -162,6 +162,12 @@ HTML = """<!doctype html>
 </section>
 
 <section class="section card">
+  <h2>📦 Top 10 products by stock (Shopify)</h2>
+  <p class="muted" style="margin-bottom:14px">Produtos ativos com maior inventário disponível (soma das variantes). Útil para priorizar criativos em produtos com mais estoque para vender.</p>
+  <table id="tbl-stock"><thead><tr><th>#</th><th>Product</th><th class="num">Stock</th><th class="num">Variants</th><th>Status</th></tr></thead><tbody></tbody></table>
+</section>
+
+<section class="section card">
   <h2>Performance by Destination</h2>
   <p class="muted" style="margin-bottom:14px">Ads grouped by landing-page type detected from ad names (ProductPage, Collection, HomePage and Catalog variants). Useful to compare which destination converts better.</p>
   <table id="tbl-dest"><thead><tr>
@@ -379,6 +385,23 @@ try {
       <td>${adv?'<span class="pill pill-good">✓ has ad</span>':'<span class="pill pill-bad">no ad</span>'}</td>
     </tr>`;
   }).join("");
+
+  // Top products by stock — has_ad based on SKU match in ad name (per parametrization sheet)
+  const stockT = document.querySelector("#tbl-stock tbody");
+  if (stockT) {
+    const byStock = DATA.products_by_stock || [];
+    stockT.innerHTML = byStock.map((p, idx) => {
+      const hasAd = !!p.has_ad;
+      const matched = p.matched_sku || "";
+      return `<tr>
+        <td class="num"><b>#${idx+1}</b></td>
+        <td><div class="flex">${prodImg(p)}<div class="tiny">${esc(p.title)}<div class="muted" style="font-size:10px">${esc(p.type||"")}${matched?' · SKU <span class="pill" style="background:#eef;color:#334">'+esc(matched)+'</span>':''}</div></div></div></td>
+        <td class="num"><b>${fmtNum(p.total_stock)}</b></td>
+        <td class="num">${p.n_variants}</td>
+        <td>${hasAd?'<span class="pill pill-good">✓ has ad</span>':'<span class="pill pill-bad">no ad</span>'}</td>
+      </tr>`;
+    }).join("") || `<tr><td colspan="5" class="empty-msg">No stock data</td></tr>`;
+  }
 
   // Per-campaign optimization
   const campOpt = document.getElementById("campOpt");

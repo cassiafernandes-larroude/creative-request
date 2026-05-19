@@ -170,6 +170,42 @@ def detect_destination(ad_name):
 DESTINATIONS = ["ProductPage","ProductPage_Catalog","Collection","Collection_Catalog","HomePage","Home_Catalog","Catalog","Other"]
 
 
+def _stock_with_has_ad(stock_list, ads_list):
+    """Mark each stock product with has_ad=True if any of its variant SKUs appears as the first
+    underscore-separated token of any active ad name. Per parametrization sheet, ad names follow
+    pattern: <SKU>_<format>_<destination>_<copylevel>_<angle>_<variation>."""
+    # Collect first-token SKUs from ad names (uppercased)
+    ad_skus = set()
+    for a in ads_list:
+        nm = (a.get("ad_name") or "").strip()
+        if not nm:
+            continue
+        first = nm.split("_", 1)[0].strip().upper()
+        if first:
+            ad_skus.add(first)
+    # Also keep ad names raw for substring match (handles edge cases like SKU in middle)
+    ad_names_upper = [(a.get("ad_name") or "").upper() for a in ads_list]
+    out = []
+    for p in stock_list:
+        skus = [(s or "").strip().upper() for s in (p.get("skus") or []) if s]
+        matched_sku = None
+        for s in skus:
+            if not s:
+                continue
+            if s in ad_skus:
+                matched_sku = s
+                break
+            # fallback: substring search inside any ad name
+            for nm in ad_names_upper:
+                if s in nm:
+                    matched_sku = s
+                    break
+            if matched_sku:
+                break
+        out.append({**p, "has_ad": bool(matched_sku), "matched_sku": matched_sku or ""})
+    return out
+
+
 def extract_destination_url(creative):
     """Extract Meta ad's destination URL from creative metadata.
     Tries link_data.link, video_data CTA link, and asset_feed_spec.link_urls."""
@@ -743,6 +779,7 @@ analysis = {
     "best_conversion_campaign": best_conv and {k:v for k,v in best_conv.items() if k!="ads"},
     "top_sales_campaigns": [{k:v for k,v in c.items() if k!="ads"} for c in sorted(campaigns,key=lambda c:c["score"],reverse=True)[:5] if c["spend"]>=500 and c["purchases"]>=5],
     "products_top20": products[:20],
+    "products_by_stock": _stock_with_has_ad(shp.get("products_by_stock", []), ads),
     "recommendations": recommendations, "pause_recommendations": pause_recs,
     "n_total_products": len(products), "n_total_ads": len(ads),
     "n_advertised_products": len(advertised),
