@@ -114,6 +114,7 @@ HTML = """<!doctype html>
     <p class="muted">Market: <b>US</b> · Filter: Sales (OUTCOME_SALES) + Active campaigns only · Period: <b id="period">last 7 days</b></p>
   </div>
   <div class="flex">
+    <button class="btn btn-secondary" onclick="refreshDashboard(this)" id="refreshBtn" title="Atualizar dados do Meta + Shopify (1-2 min)">🔄 Refresh data</button>
     <button class="btn btn-secondary" onclick="document.getElementById('jsonViewer').classList.toggle('hidden')">📋 Raw data</button>
     <button class="btn btn-primary" onclick="generateAllApproved()">🚀 Generate Approved Requests</button>
   </div>
@@ -620,6 +621,45 @@ try {
       "", r.campaign_target||"", ""];
   }
   const escTSV = v => String(v??"").replace(/\\t/g," ").replace(/\\r?\\n/g," | ");
+
+  // Refresh data button — opens GitHub Actions in new tab and auto-reloads when done
+  window.refreshDashboard = function(btn) {
+    const actionsUrl = "https://github.com/cassiafernandes-larroude/creative-request/actions/workflows/refresh-dashboard.yml";
+    const ok = confirm(
+      "Vou abrir o GitHub Actions em uma nova aba.\\n\\n" +
+      "Lá voce clica em 'Run workflow' (botao cinza no topo direito) -> 'Run workflow' (botao verde).\\n\\n" +
+      "Volte aqui depois e este painel vai recarregar automaticamente quando os dados estiverem prontos (1-2 min).\\n\\n" +
+      "Continuar?"
+    );
+    if (!ok) return;
+    window.open(actionsUrl, "_blank");
+    if (btn) { btn.disabled = true; btn.textContent = "Aguardando refresh..."; btn.style.opacity = "0.6"; }
+    const startedAt = DATA.generated_at;
+    let attempts = 0;
+    const maxAttempts = 60; // 60 * 10s = 10 min max
+    const poll = setInterval(async () => {
+      attempts++;
+      try {
+        const r = await fetch("/analysis.json?_t=" + Date.now(), { cache: "no-store" });
+        const j = await r.json();
+        if (j.generated_at && j.generated_at !== startedAt) {
+          clearInterval(poll);
+          if (btn) btn.textContent = "Refreshed! Reloading...";
+          setTimeout(() => location.reload(), 800);
+          return;
+        }
+      } catch (e) { /* ignore */ }
+      if (attempts >= maxAttempts) {
+        clearInterval(poll);
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = "Refresh data";
+          btn.style.opacity = "1";
+        }
+        alert("Tempo limite. O workflow pode ainda estar rodando — recarregue a pagina manualmente em alguns minutos.");
+      }
+    }, 10000);
+  };
 
   window.generateAllApproved = function() {
     // Filter to ADD + REFRESH (PAUSE doesn't go to spreadsheet)
